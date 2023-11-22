@@ -34,7 +34,7 @@ export const Register = () => {
                         </div>
                     </button>
                     <div className="overlap-group-wrapper">
-                        <button className="overlap-group">
+                        <button className="overlap-group"onClick={handleLoginRedirect}>
                             <img className="login" alt="Login" src={login} />
                             <div className="text-wrapper-4">Login</div>
                         </button>
