@@ -20,13 +20,18 @@ export const Register = () => {
         console.log("Redirect to login");
     };
 
+    const handleAboutUsRedirect = () => {
+        navigate('/aboutus');
+        console.log("About Us button clicked");
+    };
+
     return (
         <div className="register">
             <div className="div">
                 <div className="overlap">
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                     <button className="text-wrapper" onClick={handleHomeClick}>Home</button>
-                    <button className="text-wrapper-2">About Us</button>
+                    <button className="text-wrapper-2"onClick={handleAboutUsRedirect}>About Us</button>
                     <button className="group">
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>

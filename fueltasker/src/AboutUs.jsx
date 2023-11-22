@@ -20,6 +20,16 @@ export const AboutUs = () => {
         console.log("Home button clicked");
     };
 
+    const handleLoginClick = () => {
+        navigate('/login');
+        console.log("Login button clicked");
+    };
+
+    const handleRegisterClick = () => {
+        navigate('/register');
+        console.log("Register button clicked");
+    };
+
     return (
         <div className="about-us">
             <div className="div">
@@ -65,14 +75,14 @@ export const AboutUs = () => {
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                     <button className="text-wrapper-6"onClick={handleHomeClick}>Home</button>
                     <button className="text-wrapper-7">About Us</button>
-                    <button className="group-wrapper">
+                    <button className="group-wrapper"onClick={handleRegisterClick}>
                         <div className="group-2">
                             <div className="text-wrapper-8">Register</div>
                             <img className="register" alt="Register" src={registerImage} />
                         </div>
                     </button>
                     <div className="group-3">
-                        <button className="overlap-group-2">
+                        <button className="overlap-group-2"onClick={handleLoginClick}>
                             <img className="login" alt="Login" src={login} />
                             <div className="text-wrapper-9">Login</div>
                         </button>

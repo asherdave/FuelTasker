@@ -19,12 +19,17 @@ export const Homepage = () => {
         console.log("Register button clicked");
     };
 
+    const handleAboutUsRedirect = () => {
+        navigate('/aboutus');
+        console.log("About Us button clicked");
+    };
+
     return (
         <div className="homepage">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">Home</div>
-                    <div className="text-wrapper-2">About Us</div>
+                    <button className="text-wrapper-2" onClick={handleAboutUsRedirect}>About Us</button>
                      <button className="group" onClick={handleRegisterClick}>
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>
