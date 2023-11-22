@@ -1,0 +1,333 @@
+.about-us {
+    background-color: #e80029;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-us .div {
+    background-color: #e80029;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.about-us .overlap {
+    background-image: url(./images/rect90.png);
+    background-size: 100% 100%;
+    height: 859px;
+    left: 46px;
+    position: absolute;
+    top: 186px;
+    width: 1828px;
+}
+
+.about-us .group {
+    height: 347px;
+    left: 101px;
+    position: absolute;
+    top: 193px;
+    width: 347px;
+}
+
+.about-us .overlap-group {
+    height: 347px;
+    position: relative;
+}
+
+.about-us .element {
+    height: 313px;
+    left: 30px;
+    position: absolute;
+    top: 17px;
+    width: 288px;
+}
+
+.about-us .fuelframe {
+    height: 347px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 347px;
+}
+
+.about-us .overlap-wrapper {
+    height: 347px;
+    left: 955px;
+    position: absolute;
+    top: 193px;
+    width: 347px;
+}
+
+.about-us .img {
+    height: 270px;
+    left: 29px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 288px;
+}
+
+.about-us .overlap-group-wrapper {
+    height: 347px;
+    left: 1382px;
+    position: absolute;
+    top: 193px;
+    width: 347px;
+}
+
+.about-us .element-2 {
+    height: 268px;
+    left: 44px;
+    position: absolute;
+    top: 39px;
+    width: 258px;
+}
+
+.about-us .div-wrapper {
+    height: 347px;
+    left: 528px;
+    position: absolute;
+    top: 193px;
+    width: 347px;
+}
+
+.about-us .element-3 {
+    height: 303px;
+    left: 44px;
+    position: absolute;
+    top: 22px;
+    width: 268px;
+}
+
+.about-us .fb {
+    height: 62px;
+    left: 240px;
+    object-fit: cover;
+    position: absolute;
+    top: 590px;
+    width: 62px;
+}
+
+.about-us .fb-2 {
+    height: 62px;
+    left: 667px;
+    object-fit: cover;
+    position: absolute;
+    top: 590px;
+    width: 62px;
+}
+
+.about-us .fb-3 {
+    height: 62px;
+    left: 1094px;
+    object-fit: cover;
+    position: absolute;
+    top: 590px;
+    width: 62px;
+}
+
+.about-us .fb-4 {
+    height: 62px;
+    left: 1521px;
+    object-fit: cover;
+    position: absolute;
+    top: 590px;
+    width: 62px;
+}
+
+.about-us .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 701px;
+    white-space: nowrap;
+}
+
+.about-us .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 551px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 701px;
+    white-space: nowrap;
+}
+
+.about-us .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 1034px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 701px;
+    white-space: nowrap;
+}
+
+.about-us .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 1447px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 701px;
+    white-space: nowrap;
+}
+
+.about-us .meet-the-DEVELOPERS {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 45px;
+}
+
+.about-us .span {
+    color: #000000;
+}
+
+.about-us .text-wrapper-5 {
+    color: #890000;
+}
+
+.about-us .overlap-2 {
+    background-color: #ffffff;
+    height: 141px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+}
+
+.about-us .landscape {
+    height: 92px;
+    left: 69px;
+    object-fit: cover;
+    position: absolute;
+    top: 26px;
+    width: 314px;
+}
+
+.about-us .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 523px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+    white-space: nowrap;
+}
+
+.about-us .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 721px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+    white-space: nowrap;
+}
+
+.about-us .group-wrapper {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 65px;
+    left: 1598px;
+    position: absolute;
+    top: 38px;
+    width: 264px;
+}
+
+.about-us .group-2 {
+    height: 38px;
+    left: 46px;
+    position: relative;
+    top: 13px;
+    width: 174px;
+}
+
+.about-us .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 124px;
+}
+
+.about-us .register {
+    height: 38px;
+    left: 133px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 39px;
+}
+
+.about-us .group-3 {
+    height: 65px;
+    left: 1303px;
+    position: absolute;
+    top: 38px;
+    width: 266px;
+}
+
+.about-us .overlap-group-2 {
+    background-color: #e80029;
+    border-radius: 40px;
+    height: 65px;
+    position: relative;
+    width: 264px;
+}
+
+.about-us .login {
+    height: 38px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 38px;
+}
+
+.about-us .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    width: 82px;
+}
