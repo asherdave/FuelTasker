@@ -8,17 +8,24 @@ import { useNavigate } from 'react-router-dom';
 
 export const Homepage = () => {
     const navigate = useNavigate();
+
     const handleLoginClick = () => {
         navigate('/login');
         console.log("Login button clicked");
     };
+
+    const handleRegisterClick = () => {
+        navigate('/register');
+        console.log("Register button clicked");
+    };
+
     return (
         <div className="homepage">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">Home</div>
                     <div className="text-wrapper-2">About Us</div>
-                    <button className="group">
+                     <button className="group" onClick={handleRegisterClick}>
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>
                             <img className="register" alt="Register" src={registerImage} />

@@ -41,9 +41,20 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
     transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.login .text-wrapper:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .login .text-wrapper-2 {
@@ -55,9 +66,20 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
     transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.login .text-wrapper-2:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .login .group {
