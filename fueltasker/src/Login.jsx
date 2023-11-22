@@ -14,12 +14,12 @@ export const Login = () => {
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                     <div className="text-wrapper">Home</div>
                     <div className="text-wrapper-2">About Us</div>
-                    <div className="group">
+                    <button className="group">
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>
                             <img className="register" alt="Register" src={registerImage} />
                         </div>
-                    </div>
+                    </button>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-group">
                             <img className="img" alt="Login" src={login} />
@@ -37,17 +37,17 @@ export const Login = () => {
                         <div className="rectangle" />
                         <div className="rectangle-2" />
                         <div className="overlap-wrapper">
-                            <div className="div-wrapper">
+                            <button className="div-wrapper">
                                 <div className="text-wrapper-5">Login</div>
-                            </div>
+                            </button>
                         </div>
                         <input type="email" className="rectangle-3" placeholder="Email" />
                         <input type="password" className="rectangle-4" placeholder="Password" />
                         <div className="group-3">
-                            <div className="overlap-4">
+                            <button className="overlap-4">
                                 <div className="rectangle-5" />
                                 <div className="text-wrapper-6">Register</div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <p className="LOG-IN">

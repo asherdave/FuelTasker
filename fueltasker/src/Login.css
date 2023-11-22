@@ -100,9 +100,8 @@
 
 .login .group-2 {
     height: 38px;
-    left: 55px;
+    left: 46px;
     position: relative;
-    top: 14px;
     width: 174px;
 }
 
@@ -120,11 +119,10 @@
 }
 
 .login .register {
-    height: 35px;
+    height: 38px;
     left: 133px;
     object-fit: cover;
     position: absolute;
-    top: 2px;
     width: 39px;
 }
 
@@ -142,6 +140,7 @@
     height: 65px;
     position: relative;
     width: 264px;
+    border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
@@ -236,6 +235,14 @@
     height: 75px;
     position: relative;
     width: 353px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.login .div-wrapper:hover {
+    background-color: #ff0033; /* Change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .login .text-wrapper-5 {
@@ -247,7 +254,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 14px;
+    top: 17px;
     width: 101px;
 }
 
@@ -292,6 +299,13 @@
     height: 75px;
     position: relative;
     width: 353px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.login .overlap-4:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .login .rectangle-5 {
@@ -313,7 +327,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 15px;
+    top: 17px;
     width: 149px;
 }
 
@@ -360,7 +374,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 99px;
+    top: 40px;
 }
 
 .login .span {
