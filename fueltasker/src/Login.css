@@ -1,0 +1,337 @@
+.login {
+    background-color: #e80029;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.login .div {
+    background-color: #e80029;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+}
+
+.login .overlap {
+    background-color: #ffffff;
+    height: 141px;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 1922px;
+}
+
+.login .landscape {
+    height: 92px;
+    left: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 26px;
+    width: 314px;
+}
+
+.login .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 525px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+    transition: all 0.5s ease-in-out;
+    white-space: nowrap;
+}
+
+.login .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 723px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+    transition: all 0.5s ease-in-out;
+    white-space: nowrap;
+}
+
+.login .group {
+    background-color: #000000;
+    border-radius: 40px;
+    height: 65px;
+    left: 1600px;
+    position: absolute;
+    top: 38px;
+    width: 264px;
+}
+
+.login .group-2 {
+    height: 38px;
+    left: 46px;
+    position: relative;
+    top: 13px;
+    width: 174px;
+}
+
+.login .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 124px;
+}
+
+.login .register {
+    height: 38px;
+    left: 133px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 39px;
+}
+
+.login .overlap-group-wrapper {
+    height: 65px;
+    left: 1305px;
+    position: absolute;
+    top: 38px;
+    width: 266px;
+}
+
+.login .overlap-group {
+    background-color: #e80029;
+    border-radius: 40px;
+    height: 65px;
+    position: relative;
+    width: 264px;
+}
+
+.login .img {
+    height: 38px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 38px;
+}
+
+.login .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    width: 82px;
+}
+
+.login .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: 859px;
+    left: 46px;
+    position: absolute;
+    top: 186px;
+    width: 1828px;
+}
+
+.login .black-red-modern-car {
+    height: 482px;
+    left: 118px;
+    object-fit: cover;
+    position: absolute;
+    top: 188px;
+    width: 594px;
+}
+
+.login .overlap-3 {
+    border-radius: 50px;
+    height: 448px;
+    left: 824px;
+    position: absolute;
+    top: 278px;
+    width: 871px;
+}
+
+.login .rectangle {
+    background-color: #000000;
+    border-radius: 50px;
+    height: 448px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 871px;
+}
+
+.login .rectangle-2 {
+    background-color: #e80029;
+    border-radius: 50px;
+    height: 75px;
+    left: 69px;
+    position: absolute;
+    top: 303px;
+    width: 353px;
+}
+
+.login .overlap-wrapper {
+    height: 75px;
+    left: 69px;
+    position: absolute;
+    top: 303px;
+    width: 355px;
+}
+
+.login .div-wrapper {
+    background-color: #e80029;
+    border-radius: 50px;
+    height: 75px;
+    position: relative;
+    width: 353px;
+}
+
+.login .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 122px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 101px;
+}
+
+.login .rectangle-3 {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 82px; /* Adjust height as needed */
+    width: 695px; /* Adjust width as needed */
+    border: none; /* Remove default border */
+    padding: 0 20px; /* Add padding for text inside input */
+    font-size: 30px; /* Adjust font size as needed */
+    position: absolute; /* If positioning is needed */
+    left: 69px; /* Adjust left position as needed */
+    top: 63px; /* Adjust top position as needed */
+    padding-left: 40px;
+}
+
+.login .rectangle-4 {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 82px; /* Adjust height as needed */
+    width: 695px; /* Adjust width as needed */
+    border: none; /* Remove default border */
+    padding: 0 20px; /* Add padding for text inside input */
+    font-size: 30px; /* Adjust font size as needed */
+    position: absolute; /* If positioning is needed */
+    left: 69px; /* Adjust left position as needed */
+    top: 183px; /* Adjust top position as needed */
+    padding-left: 40px;
+}
+
+.login .group-3 {
+    height: 75px;
+    left: 450px;
+    position: absolute;
+    top: 303px;
+    width: 355px;
+}
+
+.login .overlap-4 {
+    border-radius: 50px;
+    height: 75px;
+    position: relative;
+    width: 353px;
+}
+
+.login .rectangle-5 {
+    background-color: #040404;
+    border-radius: 50px;
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 353px;
+}
+
+.login .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 149px;
+}
+
+.login .email {
+    background-color: transparent;
+    border: 0;
+    color: #838383;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    height: 48px;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    top: 79px;
+    width: 662px;
+}
+
+.login .password {
+    background-color: transparent;
+    border: 0;
+    color: #838383;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    height: 48px;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    top: 199px;
+    width: 662px;
+}
+
+.login .LOG-IN {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 1141px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+}
+
+.login .span {
+    color: #000000;
+}
+
+.login .text-wrapper-7 {
+    color: #7a0202;
+}
