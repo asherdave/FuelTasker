@@ -266,7 +266,7 @@
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 82px; /* Adjust height as needed */
-    width: 695px; /* Adjust width as needed */
+    width: 675px; /* Adjust width as needed */
     border: none; /* Remove default border */
     padding: 0 20px; /* Add padding for text inside input */
     font-size: 30px; /* Adjust font size as needed */
@@ -274,13 +274,21 @@
     left: 69px; /* Adjust left position as needed */
     top: 63px; /* Adjust top position as needed */
     padding-left: 40px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.login .rectangle-3:hover{
+    background-color: #bfbfbf; /* Slightly darker shade on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
+    border: 2px solid #e80029; /* New border color on hover */
 }
 
 .login .rectangle-4 {
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 82px; /* Adjust height as needed */
-    width: 695px; /* Adjust width as needed */
+    width: 675px; /* Adjust width as needed */
     border: none; /* Remove default border */
     padding: 0 20px; /* Add padding for text inside input */
     font-size: 30px; /* Adjust font size as needed */
@@ -288,6 +296,14 @@
     left: 69px; /* Adjust left position as needed */
     top: 183px; /* Adjust top position as needed */
     padding-left: 40px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.login .rectangle-4:hover{
+    background-color: #bfbfbf; /* Slightly darker shade on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
+    border: 2px solid #e80029; /* New border color on hover */
 }
 
 .login .group-3 {

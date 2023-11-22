@@ -243,6 +243,7 @@
 }
 
 .register .div-wrapper {
+    /* Existing styles */
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 72px;
@@ -252,7 +253,16 @@
     border: none;
     left: 15px;
     padding-left: 40px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
+
+.register .div-wrapper:hover {
+    background-color: #bfbfbf; /* Slightly darker shade on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
+    border: 2px solid #e80029; /* New border color on hover */
+}
+
 
 .register .text-wrapper-6 {
     color: #000000;
