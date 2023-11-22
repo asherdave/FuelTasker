@@ -1,9 +1,5 @@
 import React from "react";
 import "./Register.css";
-import registerImage from './images/register.png';
-import login from './images/login1.png';
-import sidelogo from './images/sidelogo.png';
-import fulllogo from './images/fulllogo.png';
 
 export const Register = () => {
     return (
