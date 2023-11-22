@@ -80,13 +80,19 @@
     position: absolute;
     top: 38px;
     width: 264px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.homepage .group:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .homepage .group-2 {
     height: 38px;
     left: 46px;
     position: relative;
-    top: 13px;
+    top: 1px;
     width: 174px;
 }
 

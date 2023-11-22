@@ -18,12 +18,12 @@ export const Homepage = () => {
                 <div className="overlap">
                     <div className="text-wrapper">Home</div>
                     <div className="text-wrapper-2">About Us</div>
-                    <div className="group">
+                    <button className="group">
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>
                             <img className="register" alt="Register" src={registerImage} />
                         </div>
-                    </div>
+                    </button>
                     <div className="overlap-group-wrapper">
                     <button className="overlap-group" onClick={handleLoginClick}>
                             <img className="login" alt="Login" src={login} />
