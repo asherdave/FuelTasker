@@ -1,4 +1,5 @@
 .register {
+    background-color: #e80029;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,19 +66,13 @@
     position: absolute;
     top: 38px;
     width: 264px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-
-.register .group:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-    transform: scale(1.05); /* Slightly increase size */
 }
 
 .register .group-2 {
     height: 38px;
-    left: 55px;
+    left: 46px;
     position: relative;
-    top: 14px;
+    top: 13px;
     width: 174px;
 }
 
@@ -117,13 +112,6 @@
     height: 65px;
     position: relative;
     width: 264px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-
-.register .overlap-group:hover {
-    background-color: #ff0033; /* Change background color on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-    transform: scale(1.05); /* Slightly increase size */
 }
 
 .register .login {
@@ -176,6 +164,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
+    top: 52px;
 }
 
 .register .span {
@@ -206,53 +195,19 @@
     width: 895px;
 }
 
-.register .rectangle-2 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
+.register .overlap-wrapper {
     height: 72px;
     left: 74px;
     position: absolute;
     top: 40px;
-    width: 747px;
+    width: 749px;
 }
 
-.register .rectangle-3 {
+.register .div-wrapper {
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 72px;
-    left: 74px;
-    position: absolute;
-    top: 127px;
-    width: 747px;
-}
-
-.register .rectangle-4 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 72px;
-    left: 74px;
-    position: absolute;
-    top: 214px;
-    width: 747px;
-}
-
-.register .rectangle-5 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 72px;
-    left: 74px;
-    position: absolute;
-    top: 299px;
-    width: 747px;
-}
-
-.register .rectangle-6 {
-    background-color: #d9d9d9;
-    border-radius: 50px;
-    height: 72px;
-    left: 74px;
-    position: absolute;
-    top: 387px;
+    position: relative;
     width: 747px;
 }
 
@@ -261,14 +216,22 @@
     font-family: "Inter-Light", Helvetica;
     font-size: 36px;
     font-weight: 300;
-    left: 107px;
+    left: 33px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 55px;
+    top: 16px;
     white-space: nowrap;
     width: 230px;
+}
+
+.register .group-3 {
+    height: 72px;
+    left: 74px;
+    position: absolute;
+    top: 127px;
+    width: 749px;
 }
 
 .register .text-wrapper-7 {
@@ -276,14 +239,22 @@
     font-family: "Inter-Light", Helvetica;
     font-size: 36px;
     font-weight: 300;
-    left: 107px;
+    left: 33px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 142px;
+    top: 16px;
     white-space: nowrap;
     width: 218px;
+}
+
+.register .group-4 {
+    height: 72px;
+    left: 74px;
+    position: absolute;
+    top: 214px;
+    width: 749px;
 }
 
 .register .text-wrapper-8 {
@@ -291,14 +262,22 @@
     font-family: "Inter-Light", Helvetica;
     font-size: 36px;
     font-weight: 300;
-    left: 107px;
+    left: 33px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 230px;
+    top: 18px;
     white-space: nowrap;
     width: 127px;
+}
+
+.register .group-5 {
+    height: 72px;
+    left: 74px;
+    position: absolute;
+    top: 299px;
+    width: 749px;
 }
 
 .register .text-wrapper-9 {
@@ -306,14 +285,22 @@
     font-family: "Inter-Light", Helvetica;
     font-size: 36px;
     font-weight: 300;
-    left: 107px;
+    left: 33px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 316px;
+    top: 18px;
     white-space: nowrap;
     width: 204px;
+}
+
+.register .group-6 {
+    height: 72px;
+    left: 74px;
+    position: absolute;
+    top: 387px;
+    width: 749px;
 }
 
 .register .text-wrapper-10 {
@@ -321,43 +308,19 @@
     font-family: "Inter-Light", Helvetica;
     font-size: 36px;
     font-weight: 300;
-    left: 107px;
+    left: 33px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 403px;
+    top: 17px;
     white-space: nowrap;
     width: 385px;
 }
 
-.register .rectangle-7 {
-    background-color: #000000;
-    border-radius: 50px;
+.register .group-7 {
     height: 66px;
     left: 462px;
-    position: absolute;
-    top: 509px;
-    width: 359px;
-}
-
-.register .text-wrapper-11 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 36px;
-    font-weight: 700;
-    left: 580px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 520px;
-    white-space: nowrap;
-    width: 125px;
-}
-
-.register .overlap-wrapper {
-    height: 66px;
-    left: 88px;
     position: absolute;
     top: 509px;
     width: 361px;
@@ -370,7 +333,39 @@
     width: 359px;
 }
 
-.register .rectangle-8 {
+.register .rectangle-2 {
+    background-color: #000000;
+    border-radius: 50px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 359px;
+}
+
+.register .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+    width: 125px;
+}
+
+.register .group-8 {
+    height: 66px;
+    left: 88px;
+    position: absolute;
+    top: 509px;
+    width: 361px;
+}
+
+.register .rectangle-3 {
     background-color: #e80029;
     border-radius: 50px;
     height: 66px;

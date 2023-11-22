@@ -1,5 +1,9 @@
 import React from "react";
 import "./Register.css";
+import registerImage from './images/register.png';
+import login from './images/login1.png';
+import sidelogo from './images/sidelogo.png';
+import fulllogo from './images/fulllogo.png';
 
 export const Register = () => {
     return (
@@ -34,21 +38,40 @@ export const Register = () => {
                     </p>
                     <div className="overlap-3">
                         <div className="rectangle" />
-                        <div className="rectangle-2" />
-                        <div className="rectangle-3" />
-                        <div className="rectangle-4" />
-                        <div className="rectangle-5" />
-                        <div className="rectangle-6" />
-                        <div className="text-wrapper-6">FIRST NAME</div>
-                        <div className="text-wrapper-7">LAST NAME</div>
-                        <div className="text-wrapper-8">E-MAIL</div>
-                        <div className="text-wrapper-9">PASSWORD</div>
-                        <div className="text-wrapper-10">CONFIRM PASSWORD</div>
-                        <div className="rectangle-7" />
-                        <div className="text-wrapper-11">Cancel</div>
                         <div className="overlap-wrapper">
+                            <div className="div-wrapper">
+                                <div className="text-wrapper-6">FIRST NAME</div>
+                            </div>
+                        </div>
+                        <div className="group-3">
+                            <div className="div-wrapper">
+                                <div className="text-wrapper-7">LAST NAME</div>
+                            </div>
+                        </div>
+                        <div className="group-4">
+                            <div className="div-wrapper">
+                                <div className="text-wrapper-8">E-MAIL</div>
+                            </div>
+                        </div>
+                        <div className="group-5">
+                            <div className="div-wrapper">
+                                <div className="text-wrapper-9">PASSWORD</div>
+                            </div>
+                        </div>
+                        <div className="group-6">
+                            <div className="div-wrapper">
+                                <div className="text-wrapper-10">CONFIRM PASSWORD</div>
+                            </div>
+                        </div>
+                        <div className="group-7">
                             <div className="overlap-4">
-                                <div className="rectangle-8" />
+                                <div className="rectangle-2" />
+                                <div className="text-wrapper-11">Cancel</div>
+                            </div>
+                        </div>
+                        <div className="group-8">
+                            <div className="overlap-4">
+                                <div className="rectangle-3" />
                                 <div className="text-wrapper-12">Register</div>
                             </div>
                         </div>
