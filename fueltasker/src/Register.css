@@ -1,5 +1,4 @@
 .register {
-    background-color: #e80029;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,6 +32,7 @@
 }
 
 .register .text-wrapper {
+    background-color: transparent;
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -41,11 +41,25 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.register .text-wrapper:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .register .text-wrapper-2 {
+    background-color: transparent;
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -54,8 +68,21 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.register .text-wrapper-2:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .register .group {
@@ -66,13 +93,18 @@
     position: absolute;
     top: 38px;
     width: 264px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.register .group:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .register .group-2 {
     height: 38px;
     left: 46px;
     position: relative;
-    top: 13px;
     width: 174px;
 }
 
@@ -112,6 +144,14 @@
     height: 65px;
     position: relative;
     width: 264px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.register .overlap-group:hover {
+    background-color: #ff0033; /* Change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .register .login {
@@ -164,7 +204,6 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 52px;
 }
 
 .register .span {
@@ -207,8 +246,12 @@
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 72px;
-    position: relative;
-    width: 747px;
+    font-size: 30px;
+    position: absolute;
+    width: 692px;
+    border: none;
+    left: 15px;
+    padding-left: 40px;
 }
 
 .register .text-wrapper-6 {
@@ -331,6 +374,13 @@
     height: 66px;
     position: relative;
     width: 359px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.register .overlap-4:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .register .rectangle-2 {

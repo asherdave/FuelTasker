@@ -4,8 +4,16 @@ import registerImage from './images/register.png';
 import login from './images/login1.png';
 import sidelogo from './images/sidelogo.png';
 import fulllogo from './images/fulllogo.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
+
+    const navigate = useNavigate();
+
+    const handleRegisterRedirect = () => {
+        navigate('/register');
+        console.log("Redirect to register");
+    };
 
     return (
         <div className="login">
@@ -44,7 +52,7 @@ export const Login = () => {
                         <input type="email" className="rectangle-3" placeholder="Email" />
                         <input type="password" className="rectangle-4" placeholder="Password" />
                         <div className="group-3">
-                            <button className="overlap-4">
+                            <button className="overlap-4" onClick={handleRegisterRedirect}>
                                 <div className="rectangle-5" />
                                 <div className="text-wrapper-6">Register</div>
                             </button>

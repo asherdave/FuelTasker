@@ -4,26 +4,40 @@ import registerImage from './images/register.png';
 import login from './images/login1.png';
 import sidelogo from './images/sidelogo.png';
 import fulllogo from './images/fulllogo.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Register = () => {
+
+    const navigate = useNavigate();
+
+    const handleHomeClick = () => {
+        navigate('/');
+        console.log("Home button clicked");
+    };
+
+    const handleLoginRedirect = () => {
+        navigate('/login');
+        console.log("Redirect to login");
+    };
+
     return (
         <div className="register">
             <div className="div">
                 <div className="overlap">
                     <img className="landscape" alt="Landscape" src={sidelogo} />
-                    <div className="text-wrapper">Home</div>
-                    <div className="text-wrapper-2">About Us</div>
-                    <div className="group">
+                    <button className="text-wrapper" onClick={handleHomeClick}>Home</button>
+                    <button className="text-wrapper-2">About Us</button>
+                    <button className="group">
                         <div className="group-2">
                             <div className="text-wrapper-3">Register</div>
                             <img className="img" alt="Register" src={registerImage} />
                         </div>
-                    </div>
+                    </button>
                     <div className="overlap-group-wrapper">
-                        <div className="overlap-group">
+                        <button className="overlap-group">
                             <img className="login" alt="Login" src={login} />
                             <div className="text-wrapper-4">Login</div>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div className="overlap-2">
@@ -39,41 +53,32 @@ export const Register = () => {
                     <div className="overlap-3">
                         <div className="rectangle" />
                         <div className="overlap-wrapper">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-6">FIRST NAME</div>
-                            </div>
+                        <input type="text" className="div-wrapper" placeholder="First Name" />
+
                         </div>
                         <div className="group-3">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-7">LAST NAME</div>
-                            </div>
+                        <input type="text" className="div-wrapper" placeholder="Last Name" />
                         </div>
                         <div className="group-4">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-8">E-MAIL</div>
-                            </div>
+                        <input type="text" className="div-wrapper" placeholder="E-Mail" />
                         </div>
                         <div className="group-5">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-9">PASSWORD</div>
-                            </div>
+                        <input type="text" className="div-wrapper" placeholder="Password" />
                         </div>
                         <div className="group-6">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper-10">CONFIRM PASSWORD</div>
-                            </div>
+                        <input type="text" className="div-wrapper" placeholder="Confirm Password" />
                         </div>
                         <div className="group-7">
-                            <div className="overlap-4">
+                            <button className="overlap-4" onClick={handleLoginRedirect}>
                                 <div className="rectangle-2" />
                                 <div className="text-wrapper-11">Cancel</div>
-                            </div>
+                            </button>
                         </div>
                         <div className="group-8">
-                            <div className="overlap-4">
+                            <button className="overlap-4" onClick={handleLoginRedirect}>
                                 <div className="rectangle-3" />
                                 <div className="text-wrapper-12">Register</div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
