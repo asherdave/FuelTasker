@@ -9,9 +9,17 @@ import asher from './images/asher.png';
 import kade from './images/kade.png';
 import vincent from './images/vincent.png';
 import emmarson from './images/emmarson.png';
-
+import { useNavigate } from 'react-router-dom';
 
 export const AboutUs = () => {
+
+    const navigate = useNavigate();
+
+    const handleHomeClick = () => {
+        navigate('/');
+        console.log("Home button clicked");
+    };
+
     return (
         <div className="about-us">
             <div className="div">
@@ -55,19 +63,19 @@ export const AboutUs = () => {
                 </div>
                 <div className="overlap-2">
                     <img className="landscape" alt="Landscape" src={sidelogo} />
-                    <div className="text-wrapper-6">Home</div>
-                    <div className="text-wrapper-7">About Us</div>
-                    <div className="group-wrapper">
+                    <button className="text-wrapper-6"onClick={handleHomeClick}>Home</button>
+                    <button className="text-wrapper-7">About Us</button>
+                    <button className="group-wrapper">
                         <div className="group-2">
                             <div className="text-wrapper-8">Register</div>
                             <img className="register" alt="Register" src={registerImage} />
                         </div>
-                    </div>
+                    </button>
                     <div className="group-3">
-                        <div className="overlap-group-2">
+                        <button className="overlap-group-2">
                             <img className="login" alt="Login" src={login} />
                             <div className="text-wrapper-9">Login</div>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>

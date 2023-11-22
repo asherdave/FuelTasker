@@ -199,7 +199,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 45px;
+    bottom: 635px;
 }
 
 .about-us .span {
@@ -229,6 +229,8 @@
 }
 
 .about-us .text-wrapper-6 {
+    background: transparent;
+    border: none;
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -237,11 +239,26 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.about-us .text-wrapper-6:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .about-us .text-wrapper-7 {
+    background: transparent;
+    border: none;
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -250,8 +267,21 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 51px;
+    top: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
     white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    padding: 15px 35px; /* Padding to provide space for background */
+    border-radius: 40px; /* Optional: Rounded corners for the background */
+    box-shadow: none; /* Initial state without shadow */
+}
+
+.about-us .text-wrapper-7:hover {
+    background-color: #e80029; /* Red background color on hover */
+    color: #ffffff; /* Change text color for better visibility */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .about-us .group-wrapper {
@@ -262,13 +292,18 @@
     position: absolute;
     top: 38px;
     width: 264px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.about-us .group-wrapper:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .about-us .group-2 {
     height: 38px;
     left: 46px;
     position: relative;
-    top: 13px;
     width: 174px;
 }
 
@@ -308,6 +343,14 @@
     height: 65px;
     position: relative;
     width: 264px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.about-us .overlap-group-2:hover {
+    background-color: #ff0033; /* Change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transform: scale(1.05); /* Slightly increase size */
 }
 
 .about-us .login {
