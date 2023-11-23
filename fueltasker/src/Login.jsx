@@ -27,7 +27,7 @@ export const Login = () => {
 
     const handleDashboardRedirect = () => {
         navigate('/dashboard');
-        console.log("Dashboard button clicked");
+        console.log("Main login button clicked");
     };
 
     return (
