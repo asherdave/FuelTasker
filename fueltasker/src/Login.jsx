@@ -25,6 +25,11 @@ export const Login = () => {
         console.log("About Us button clicked");
     };
 
+    const handleDashboardRedirect = () => {
+        navigate('/dashboard');
+        console.log("Dashboard button clicked");
+    };
+
     return (
         <div className="login">
             <div className="div">
@@ -55,7 +60,7 @@ export const Login = () => {
                         <div className="rectangle" />
                         <div className="rectangle-2" />
                         <div className="overlap-wrapper">
-                            <button className="div-wrapper">
+                            <button className="div-wrapper"onClick={handleDashboardRedirect}>
                                 <div className="text-wrapper-5">Login</div>
                             </button>
                         </div>
