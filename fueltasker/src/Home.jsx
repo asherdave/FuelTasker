@@ -52,9 +52,9 @@ export const Homepage = () => {
                     </p>
                     <img className="creative-abstract" alt="Creative abstract" src={logo} />
                     <p className="p">
-                        Fuel Tasker allows drivers track fuel consumption, expenses, vehicle maintenance, fuel pricing, and more.
-                        The program can be used by any driver to track fuel and other maintenance costs. Ultimately, a Fuel Tasker
-                        App can help drivers to make better driving decisions.
+                        FUEL TASKER allows drivers track fuel consumption, expenses, vehicle maintenance, fuel pricing, and more.
+                        The program can be used by any driver to track fuel and other maintenance costs. Overall, the
+                        App can help drivers make better driving decisions.
                     </p>
                     <div className="overlap-wrapper">
                         <div className="div-wrapper" onClick={handleLoginClick}>
