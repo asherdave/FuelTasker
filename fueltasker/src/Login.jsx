@@ -74,7 +74,7 @@ export const Login = () => {
                         </div>
                     </div>
                     <p className="LOG-IN">
-                        <span className="span">LOG-</span>
+                        <span className="span">LOG </span>
                         <span className="text-wrapper-7">IN</span>
                     </p>
                 </div>
