@@ -2,7 +2,7 @@ import React from 'react'
 
 const gasprices = () => {
   return (
-    <div>gasprices</div>
+    <div>gaspricesj</div>
   )
 }
 
