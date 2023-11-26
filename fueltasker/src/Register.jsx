@@ -53,7 +53,7 @@ export const Register = () => {
                     />
                     <p className="REGISTER-ACCOUNT">
                         <span className="span">REGISTER</span>
-                        <span className="text-wrapper-5">ACCOUNT</span>
+                        <span className="text-wrapper-5"> ACCOUNT</span>
                     </p>
                     <div className="overlap-3">
                         <div className="rectangle" />
