@@ -1,0 +1,38 @@
+/*
+.homepage {
+    background-color: #e80029;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.homepage .div {
+    background-color: #e80029;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+}
+
+.homepage .overlap {
+    background-color: #ffffff;
+    height: 141px;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 1922px;
+}
+
+.homepage .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 525px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 35px;
+    white-space: nowrap;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
