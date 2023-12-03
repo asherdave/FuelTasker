@@ -47,10 +47,10 @@ export const Dashboard = () => {
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
                     </button>
-                    <div className="group-7">
+                    <button className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
-                        <img className="img-2" alt="Gascon" src={gascon} />
-                    </div>
+                        <img className="img-1" alt="Gascon" src={gascon} />
+                    </button>
                     <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder} />

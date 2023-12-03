@@ -211,14 +211,14 @@
 }
 
 .dashboard .group-6 {
-    left: 47px;
+    left: 23px;
     position: absolute;
     top: 527px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
-    border-radius: 20px;
-    padding: 32px 160px; /* Padding to provide space for background */
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .dashboard .group-6:hover {
@@ -231,50 +231,57 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 120px;
+    left: 153px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 14px;
+    top: 17px;
     white-space: nowrap;
 }
 
 .dashboard .todolist {
     height: 56px;
-    left: 31px;
+    left: 45px;
     object-fit: cover;
     position: absolute;
-    top: 3px;
+    top: 5px;
     width: 56px;
 }
 
 .dashboard .group-7 {
-    height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 624px;
-    width: 302px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
+.dashboard .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
 .dashboard .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 81px;
+    left: 125px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 9px;
+    top: 19px;
     white-space: nowrap;
 }
 
-.dashboard .img-2 {
+.dashboard .img-1 {
     height: 49px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 49px;
 }
 
