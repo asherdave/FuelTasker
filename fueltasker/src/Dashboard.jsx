@@ -158,7 +158,7 @@ export const Dashboard = () => {
                     </div>
                 </div>
                 <p className="hi-welcome-john-doe">
-                    <span className="span">Hello!, Welcome </span>
+                    <span className="span">Hello, Welcome </span>
                     <span className="text-wrapper-10">John Doe</span>
                     <span className="span">!</span>
                 </p>
