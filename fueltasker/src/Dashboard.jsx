@@ -27,10 +27,10 @@ export const Dashboard = () => {
                         </div>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
-                    </div>
+                        <img className="img-logout" alt="Logout" src={logout} />
+                    </button>
                     <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
@@ -51,14 +51,14 @@ export const Dashboard = () => {
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-1" alt="Gascon" src={gascon} />
                     </button>
-                    <div className="group-8">
-                        <div className="text-wrapper-5">Reminder</div>
+                    <button className="group-8">
+                        <div className="text-wrapper-reminder">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder} />
-                    </div>
-                    <div className="group-9">
+                    </button>
+                    <button className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
-                    </div>
+                    </button>
                 </div>
                 <div className="overlap-2">
                     <img className="dash-2" alt="Dash" src={dashboard} />
