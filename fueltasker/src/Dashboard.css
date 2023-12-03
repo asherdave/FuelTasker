@@ -105,14 +105,14 @@
 }
 
 .dashboard .group-3 {
-    left: 47px;
+    left: 23px;
     position: absolute;
     top: 256px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
-    border-radius: 20px;
-    padding: 32px 160px; /* Padding to provide space for background */
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .dashboard .group-3:hover {

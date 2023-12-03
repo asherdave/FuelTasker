@@ -35,18 +35,18 @@ export const Dashboard = () => {
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <div className="group-4">
+                    <button className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice} />
-                    </div>
-                    <div className="group-5">
+                    </button>
+                    <button className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
-                    </div>
-                    <div className="group-6">
+                    </button>
+                    <button className="group-6">
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
-                    </div>
+                    </button>
                     <div className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
