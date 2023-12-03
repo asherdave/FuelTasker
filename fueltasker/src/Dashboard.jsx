@@ -14,8 +14,17 @@ import trash from './images/trash.png';
 import circle from './images/circle.png';
 import uprem from './images/upcomingreminder.png';
 import react131 from './images/rect131.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Dashboard = () => {
+
+    const navigate = useNavigate();
+
+    const handleLogoutClick = () => {
+        navigate('/login'); // Replace '/login' with your login route path
+        console.log("Logout button clicked, redirecting to login");
+    };
+
     return (
         <div className="dashboard">
             <div className="div">
@@ -27,7 +36,7 @@ export const Dashboard = () => {
                         </div>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLogoutClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
