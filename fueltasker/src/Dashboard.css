@@ -97,10 +97,10 @@
 
 .dashboard .img {
     height: 50px;
-    left: 13px;
+    left: 46px;
     object-fit: cover;
     position: absolute;
-    top: 5px;
+    top: 8px;
     width: 50px;
 }
 
@@ -126,32 +126,32 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 120px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 14px;
+    top: 16px;
     white-space: nowrap;
 }
 
 .dashboard .dash {
     height: 40px;
-    left: 35px;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 12px;
+    top: 14px;
     width: 50px;
 }
 
 .dashboard .group-4 {
-    left: 47px;
+    left: 23px;
     position: absolute;
     top: 345px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
-    border-radius: 20px;
-    padding: 32px 160px; /* Padding to provide space for background */
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .dashboard .group-4:hover {
@@ -164,32 +164,32 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 120px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 14px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .dashboard .gaspr {
     height: 48px;
-    left: 35px;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 7px;
+    top: 10px;
     width: 48px;
 }
 
 .dashboard .group-5 {
-    left: 47px;
+    left: 23px;
     position: absolute;
     top: 437px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
-    border-radius: 20px;
-    padding: 32px 160px; /* Padding to provide space for background */
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .dashboard .group-5:hover {
@@ -202,11 +202,11 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 80px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 17px;
+    top: 20px;
     white-space: nowrap;
 }
 
