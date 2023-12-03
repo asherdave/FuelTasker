@@ -31,10 +31,10 @@ export const Dashboard = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img" alt="Logout" src={logout} />
                     </div>
-                    <div className="group-3">
+                    <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
-                    </div>
+                    </button>
                     <div className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice} />

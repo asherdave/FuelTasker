@@ -105,32 +105,41 @@
 }
 
 .dashboard .group-3 {
-    height: 40px;
-    left: 63px;
+    left: 47px;
     position: absolute;
     top: 256px;
-    width: 245px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    padding: 32px 160px; /* Padding to provide space for background */
 }
+
+.dashboard .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
 
 .dashboard .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 14px;
     white-space: nowrap;
 }
 
 .dashboard .dash {
     height: 40px;
-    left: 0;
+    left: 35px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 12px;
     width: 50px;
 }
 
