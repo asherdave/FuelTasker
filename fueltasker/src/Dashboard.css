@@ -97,10 +97,10 @@
 
 .dashboard .img {
     height: 50px;
-    left: 0;
+    left: 13px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 50px;
 }
 
@@ -182,11 +182,19 @@
 }
 
 .dashboard .group-5 {
-    height: 50px;
-    left: 59px;
+    left: 47px;
     position: absolute;
     top: 437px;
-    width: 310px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    padding: 32px 160px; /* Padding to provide space for background */
+}
+
+.dashboard .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .dashboard .text-wrapper-6 {
@@ -194,11 +202,11 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 82px;
+    left: 80px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 17px;
     white-space: nowrap;
 }
 
