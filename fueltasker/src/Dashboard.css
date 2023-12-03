@@ -144,11 +144,19 @@
 }
 
 .dashboard .group-4 {
-    height: 48px;
-    left: 59px;
+    left: 47px;
     position: absolute;
     top: 345px;
-    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    padding: 32px 160px; /* Padding to provide space for background */
+}
+
+.dashboard .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .dashboard .text-wrapper-5 {
@@ -156,20 +164,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 14px;
     white-space: nowrap;
 }
 
 .dashboard .gaspr {
     height: 48px;
-    left: 0;
+    left: 35px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 7px;
     width: 48px;
 }
 
