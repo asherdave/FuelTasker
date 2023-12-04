@@ -15,37 +15,46 @@ export const Register = () => {
         eMail: '',
         pWord: ''
     });
-    const [confirmPWord, setConfirmPWord] = useState(''); // State for confirm password
+    const [confirmPWord, setConfirmPWord] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (event) => {
         setUserData({ ...userData, [event.target.name]: event.target.value });
-        if (errorMessage) setErrorMessage(''); // Clear error message when user starts typing
+        if (errorMessage) setErrorMessage('');
     };
 
     const handleConfirmPWordChange = (event) => {
         setConfirmPWord(event.target.value);
-        if (errorMessage) setErrorMessage(''); // Clear error message when user starts typing
+        if (errorMessage) setErrorMessage('');
     };
+
+    const isPasswordValid = (password) => {
+        const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
+        return regex.test(password);
+    }
 
     const handleRegister = async (event) => {
         event.preventDefault();
-        // Check if any field is blank or passwords do not match
         if (!userData.fName || !userData.lName || !userData.eMail || !userData.pWord || !confirmPWord) {
             setErrorMessage('All fields must be filled');
-            return; // Prevent further execution
+            return;
+        }
+
+        if (!isPasswordValid(userData.pWord)) {
+            setErrorMessage('Password must be at least 8 characters long, include upper and lower case letters, and contain at least one special character');
+            return;
         }
 
         if (userData.pWord !== confirmPWord) {
             setErrorMessage('Passwords do not match');
-            return; // Prevent further execution
+            return;
         }
 
         console.log("Submitting user data:", userData);
         try {
             const response = await axios.post('http://localhost:8080/user/insertUser', userData);
             console.log("Response received:", response.data);
-            navigate('/login'); // Redirect to login page after successful registration
+            navigate('/login');
         } catch (error) {
             console.error('Registration error:', error);
         }
