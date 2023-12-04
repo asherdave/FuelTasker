@@ -1,34 +1,68 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./Login.css";
+
+// Assuming these images are correctly imported
 import registerImage from './images/register.png';
 import login from './images/login1.png';
 import sidelogo from './images/sidelogo.png';
 import fulllogo from './images/fulllogo.png';
-import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
-
     const navigate = useNavigate();
 
-    const handleRegisterRedirect = () => {
-        navigate('/register');
-        console.log("Redirect to register");
+    // State for user input fields
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+    // State for error message
+    const [errorMessage, setErrorMessage] = useState("");
+
+    // Function to handle user login
+    const handleLogin = async (event) => {
+        event.preventDefault(); // Prevent the default form submission behavior
+
+        // Check for empty fields
+        if (!email.trim() || !password.trim()) {
+            setErrorMessage("Please enter both email and password.");
+            return;
+        }
+
+        try {
+            // Fetch all users from the API
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const users = await response.json();
+
+            // Check if entered credentials match any user
+            const user = users.find(user => {
+                const userEmail = user.eMail.trim().toLowerCase();
+                const userPassword = user.pWord.trim();
+                console.log(`Comparing: ${userEmail} with ${email.trim().toLowerCase()} and ${userPassword} with ${password.trim()}`);
+                return userEmail === email.trim().toLowerCase() && userPassword === password.trim();
+            });
+
+            if (user) {
+                // Credentials are correct
+                navigate('/dashboard');
+            } else {
+                // Credentials are incorrect
+                setErrorMessage("Incorrect email or password.");
+            }
+        } catch (error) {
+            console.error("Error during login:", error);
+            setErrorMessage("An error occurred while logging in.");
+        }
     };
 
-    const handleHomeClick = () => {
-        navigate('/');
-        console.log("Home button clicked");
-    };
+    // Redirect functions
+    const handleRegisterRedirect = () => navigate('/register');
+    const handleHomeClick = () => navigate('/');
+    const handleAboutUsRedirect = () => navigate('/aboutus');
 
-    const handleAboutUsRedirect = () => {
-        navigate('/aboutus');
-        console.log("About Us button clicked");
-    };
 
-    const handleDashboardRedirect = () => {
-        navigate('/dashboard');
-        console.log("Main login button clicked");
-    };
 
     return (
         <div className="login">
@@ -60,18 +94,33 @@ export const Login = () => {
                         <div className="rectangle" />
                         <div className="rectangle-2" />
                         <div className="overlap-wrapper">
-                            <button className="div-wrapper"onClick={handleDashboardRedirect}>
+                            <button type = "submit" className="div-wrapper"onClick={handleLogin}>
                                 <div className="text-wrapper-5">Login</div>
                             </button>
+                            {errorMessage && <div className="error-message">{errorMessage}</div>}
                         </div>
-                        <input type="email" className="rectangle-3" placeholder="Email" />
-                        <input type="password" className="rectangle-4" placeholder="Password" />
+                        <form onSubmit={handleLogin}>
+                        <input
+                            type="email"
+                            className="rectangle-3"
+                            placeholder="Email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <input
+                            type="password"
+                            className="rectangle-4"
+                            placeholder="Password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
                         <div className="group-3">
-                            <button className="overlap-4" onClick={handleRegisterRedirect}>
-                                <div className="rectangle-5" />
-                                <div className="text-wrapper-6">Register</div>
-                            </button>
-                        </div>
+                        <button className="overlap-4" onClick={handleRegisterRedirect}>
+                            <div className="rectangle-5" />
+                            <div className="text-wrapper-6">Register</div>
+                        </button>   
+                    </div>
+                        </form>
                     </div>
                     <p className="LOG-IN">
                         <span className="span">LOG </span>
