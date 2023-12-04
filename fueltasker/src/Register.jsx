@@ -15,13 +15,32 @@ export const Register = () => {
         eMail: '',
         pWord: ''
     });
+    const [confirmPWord, setConfirmPWord] = useState(''); // State for confirm password
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (event) => {
         setUserData({ ...userData, [event.target.name]: event.target.value });
+        if (errorMessage) setErrorMessage(''); // Clear error message when user starts typing
+    };
+
+    const handleConfirmPWordChange = (event) => {
+        setConfirmPWord(event.target.value);
+        if (errorMessage) setErrorMessage(''); // Clear error message when user starts typing
     };
 
     const handleRegister = async (event) => {
         event.preventDefault();
+        // Check if any field is blank or passwords do not match
+        if (!userData.fName || !userData.lName || !userData.eMail || !userData.pWord || !confirmPWord) {
+            setErrorMessage('All fields must be filled');
+            return; // Prevent further execution
+        }
+
+        if (userData.pWord !== confirmPWord) {
+            setErrorMessage('Passwords do not match');
+            return; // Prevent further execution
+        }
+
         console.log("Submitting user data:", userData);
         try {
             const response = await axios.post('http://localhost:8080/user/insertUser', userData);
@@ -77,6 +96,9 @@ export const Register = () => {
                         <span className="span">REGISTER </span>
                         <span className="text-wrapper-5">ACCOUNT</span>
                     </p>
+
+                    {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Display error message */}
+
                     <form onSubmit={handleRegister} className="overlap-3">
                         <div className="rectangle" />
                         <div className="overlap-wrapper">
@@ -92,7 +114,7 @@ export const Register = () => {
                             <input type="password" name="pWord" className="div-wrapper" placeholder="Password" onChange={handleInputChange}/>
                         </div>
                         <div className="group-6">
-                            <input type="password" className="div-wrapper" placeholder="Confirm Password" />
+                            <input type="password" className="div-wrapper" placeholder="Confirm Password" onChange={handleConfirmPWordChange}/>
                         </div>
                         <div className="group-7">
                             <button className="overlap-4" type="button" onClick={handleLoginRedirect}>
