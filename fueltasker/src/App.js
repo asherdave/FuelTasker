@@ -6,6 +6,7 @@ import { Login } from './Login.jsx'; // Make sure to import the Login component
 import { Register } from './Register.jsx';
 import { AboutUs } from './AboutUs.jsx';
 import { Dashboard } from './Dashboard.jsx';
+import { Viewprofile } from './ViewProfile.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/viewprofile" element={<Viewprofile />} />
         </Routes>
       </div>
     </Router>
