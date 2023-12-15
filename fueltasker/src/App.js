@@ -8,7 +8,6 @@ import { AboutUs } from './AboutUs.jsx';
 import { Dashboard } from './Dashboard.jsx';
 import { ViewProfile } from './viewprofile.jsx';
 import { EditProfile } from './EditProfile.jsx';
-import { Reminder } from './Reminder.jsx';
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/viewprofile" element={<ViewProfile />} />
           <Route path="/editprofile" element={<EditProfile />} />
-          <Route path="/Reminder" element={<Reminder />} />
         </Routes>
       </div>
     </Router>
