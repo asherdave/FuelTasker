@@ -1,4 +1,4 @@
-.view-profile {
+.edit-profile {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.view-profile .div {
+.edit-profile .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.view-profile .overlap {
+.edit-profile .overlap {
     background-color: #ff0000cc;
     height: 1080px;
     left: 0;
@@ -22,7 +22,7 @@
     width: 426px;
 }
 
-.view-profile .text-wrapper {
+.edit-profile .text-wrapper {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -35,7 +35,7 @@
     white-space: nowrap;
 }
 
-.view-profile .group {
+.edit-profile .group {
     height: 50px;
     left: 213px;
     position: absolute;
@@ -43,7 +43,7 @@
     width: 160px;
 }
 
-.view-profile .overlap-group {
+.edit-profile .overlap-group {
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
@@ -52,11 +52,11 @@
     border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
-.view-profile .overlap-group:hover {
+.edit-profile .overlap-group:hover {
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-2 {
+.edit-profile .text-wrapper-2 {
     color: #000000;
     font-family: "Inter-Light", Helvetica;
     font-size: 20px;
@@ -70,7 +70,7 @@
     width: 111px;
 }
 
-.view-profile .ellipse {
+.edit-profile .ellipse {
     height: 157px;
     left: 18px;
     object-fit: cover;
@@ -79,7 +79,7 @@
     width: 157px;
 }
 
-.view-profile .group-2 {
+.edit-profile .group-2 {
     left: 100px;
     position: absolute;
     top: 998px;
@@ -90,12 +90,13 @@
     padding: 35px 100px; /* Padding to provide space for background */
 }
 
-.view-profile .group-2:hover {
+.edit-profile .group-2:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-3 {
+
+.edit-profile .text-wrapper-3 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -108,15 +109,7 @@
     white-space: nowrap;
 }
 
-.view-profile .img-logout {
-    height: 50px;
-    left: 15px;
-    object-fit: cover;
-    position: absolute;
-    top: 9px;
-    width: 50px;
-}
-.view-profile .img {
+.edit-profile .img {
     height: 50px;
     left: 46px;
     object-fit: cover;
@@ -125,7 +118,16 @@
     width: 50px;
 }
 
-.view-profile .group-3 {
+.edit-profile .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
+}
+
+.edit-profile .group-3 {
     left: 23px;
     position: absolute;
     top: 256px;
@@ -136,13 +138,11 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-3:hover {
+.edit-profile .group-3:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
-
-
-.view-profile .text-wrapper-4 {
+.edit-profile .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -155,18 +155,7 @@
     white-space: nowrap;
 }
 
-.view-profile .dash-wrapper {
-    background-image: url(./images/dashboard.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 40px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 50px;
-}
-
-.view-profile .dash {
+.edit-profile .dash {
     height: 40px;
     left: 50px;
     object-fit: cover;
@@ -175,7 +164,7 @@
     width: 50px;
 }
 
-.view-profile .group-4 {
+.edit-profile .group-4 {
     left: 23px;
     position: absolute;
     top: 345px;
@@ -186,12 +175,11 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-4:hover {
+.edit-profile .group-4:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
-
-.view-profile .text-wrapper-5 {
+.edit-profile .text-wrapper-5 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -204,16 +192,16 @@
     white-space: nowrap;
 }
 
-.view-profile .gaspr {
+.edit-profile .img-2 {
     height: 48px;
-    left: 50px;
+    left: 20px;
     object-fit: cover;
     position: absolute;
-    top: 10px;
+    top: 40px;
     width: 48px;
 }
 
-.view-profile .group-5 {
+.edit-profile .group-5 {
     left: 23px;
     position: absolute;
     top: 437px;
@@ -224,12 +212,11 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-5:hover {
+.edit-profile .group-5:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
-
-.view-profile .text-wrapper-6 {
+.edit-profile .text-wrapper-6 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -242,7 +229,7 @@
     white-space: nowrap;
 }
 
-.view-profile .group-6 {
+.edit-profile .group-6 {
     left: 23px;
     position: absolute;
     top: 527px;
@@ -253,12 +240,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-6:hover {
+.edit-profile .group-6:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-7 {
+.edit-profile .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -271,7 +258,7 @@
     white-space: nowrap;
 }
 
-.view-profile .todolist {
+.edit-profile .todolist {
     height: 56px;
     left: 45px;
     object-fit: cover;
@@ -280,7 +267,7 @@
     width: 56px;
 }
 
-.view-profile .group-7 {
+.edit-profile .group-7 {
     left: 23px;
     position: absolute;
     top: 624px;
@@ -291,12 +278,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-7:hover {
+.edit-profile .group-7:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-8 {
+.edit-profile .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -309,7 +296,14 @@
     white-space: nowrap;
 }
 
-.view-profile .img-1 {
+.edit-profile .img-3 {
+    left: 49px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+}
+
+.edit-profile .img-2 {
     height: 49px;
     left: 50px;
     object-fit: cover;
@@ -318,7 +312,7 @@
     width: 49px;
 }
 
-.view-profile .group-8 {
+.edit-profile .group-8 {
     left: 23px;
     position: absolute;
     top: 717px;
@@ -329,19 +323,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-8:hover {
+.edit-profile .group-8:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .img-2 {
-    left: 49px;
-    object-fit: cover;
-    position: absolute;
-    top: 10px;
-}
-
-.view-profile .group-9 {
+.edit-profile .group-9 {
     left: 23px;
     position: absolute;
     top: 811px;
@@ -352,12 +339,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.view-profile .group-9:hover {
+.edit-profile .group-9:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-9 {
+.edit-profile .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -370,15 +357,16 @@
     white-space: nowrap;
 }
 
-.view-profile .timeline {
+.edit-profile .timeline {
     height: 46px;
     left: 52px;
     object-fit: cover;
     position: absolute;
     top: 10px;
-    width: 46px;
+    width: 46px
 }
-.view-profile .overlap-2 {
+
+.edit-profile .overlap-2 {
     background-image: url(./images/rect99.png);
     background-size: 100% 100%;
     height: 141px;
@@ -388,7 +376,7 @@
     width: 1494px;
 }
 
-.view-profile .profile {
+.edit-profile .profile {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
@@ -401,15 +389,15 @@
     width: 478px;
 }
 
-.view-profile .span {
+.edit-profile .span {
     color: #000000;
 }
 
-.view-profile .text-wrapper-10 {
+.edit-profile .text-wrapper-10 {
     color: #7a0202;
 }
 
-.view-profile .landscape {
+.edit-profile .landscape {
     height: 73px;
     left: 1098px;
     object-fit: cover;
@@ -418,7 +406,7 @@
     width: 339px;
 }
 
-.view-profile .use {
+.edit-profile .use {
     height: 86px;
     left: 43px;
     object-fit: cover;
@@ -427,7 +415,7 @@
     width: 86px;
 }
 
-.view-profile .overlap-wrapper {
+.edit-profile .overlap-wrapper {
     height: 352px;
     left: 582px;
     position: absolute;
@@ -435,12 +423,12 @@
     width: 356px;
 }
 
-.view-profile .overlap-3 {
+.edit-profile .overlap-3 {
     height: 352px;
     position: relative;
 }
 
-.view-profile .profile-2 {
+.edit-profile .profile-2 {
     height: 297px;
     left: 30px;
     object-fit: cover;
@@ -449,7 +437,7 @@
     width: 297px;
 }
 
-.view-profile .fuelframe {
+.edit-profile .fuelframe {
     height: 352px;
     left: 0;
     object-fit: cover;
@@ -458,52 +446,52 @@
     width: 356px;
 }
 
-.view-profile .user-profile {
+.edit-profile .p {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
     font-weight: 700;
-    left: 1027px;
+    left: 1036px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 203px;
+    top: 175px;
     white-space: nowrap;
-    width: 292px;
+    width: 275px;
 }
 
-.view-profile .text-wrapper-11 {
+.edit-profile .text-wrapper-11 {
     color: #890000;
 }
 
-.view-profile .overlap-group-wrapper {
+.edit-profile .overlap-group-wrapper {
     height: 63px;
-    left: 767px;
+    left: 612px;
     position: absolute;
-    top: 912px;
-    width: 362px;
+    top: 800px;
+    width: 298px;
 }
 
-.view-profile .div-wrapper {
+.edit-profile .div-wrapper {
     background-color: #890000;
     border-radius: 30px;
     height: 63px;
     position: relative;
-    width: 360px;
+    width: 296px;
     border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
-.view-profile .div-wrapper:hover {
+.edit-profile .div-wrapper:hover {
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.view-profile .text-wrapper-12 {
+.edit-profile .text-wrapper-12 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 59px;
+    left: 49px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -511,28 +499,7 @@
     white-space: nowrap;
 }
 
-.view-profile .group-10 {
-    height: 63px;
-    left: 1217px;
-    position: absolute;
-    top: 912px;
-    width: 362px;
-}
-
-.view-profile .text-wrapper-13 {
-    color: #ffffff;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 30px;
-    font-weight: 700;
-    left: 47px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 13px;
-    white-space: nowrap;
-}
-
-.view-profile .text-wrapper-14 {
+.edit-profile .text-wrapper-13 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -545,7 +512,7 @@
     width: 165px;
 }
 
-.view-profile .text-wrapper-15 {
+.edit-profile .text-wrapper-14 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -558,7 +525,7 @@
     width: 163px;
 }
 
-.view-profile .text-wrapper-16 {
+.edit-profile .text-wrapper-15 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -571,7 +538,7 @@
     width: 191px;
 }
 
-.view-profile .text-wrapper-17 {
+.edit-profile .text-wrapper-16 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -584,7 +551,7 @@
     width: 85px;
 }
 
-.view-profile .text-wrapper-18 {
+.edit-profile .text-wrapper-17 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -597,131 +564,144 @@
     width: 246px;
 }
 
-.view-profile .overlap-4 {
+.edit-profile .rectangle {
     background-color: #d9d9d9;
     border-radius: 20px;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 364px;
-    width: 465px;
-    font-size: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 497px;
 }
 
-.view-profile .text-wrapper-19 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 22px;
-    font-weight: 700;
-    left: 223px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-}
-
-.view-profile .overlap-5 {
+.edit-profile .rectangle-2 {
     background-color: #d9d9d9;
     border-radius: 20px;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 454px;
-    width: 465px;
-    font-size: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 497px;
 }
 
-.view-profile .text-wrapper-20 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 22px;
-    font-weight: 700;
-    left: 229px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-}
-
-.view-profile .overlap-6 {
+.edit-profile .rectangle-3 {
     background-color: #d9d9d9;
     border-radius: 20px;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 544px;
-    width: 465px;
-    font-size: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 497px;
 }
 
-.view-profile .text-wrapper-21 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 22px;
-    font-weight: 700;
-    left: 143px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 18px;
-}
-
-.view-profile .overlap-7 {
+.edit-profile .rectangle-4 {
     background-color: #d9d9d9;
     border-radius: 20px;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 634px;
-    width: 465px;
-    font-size: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.view-profile .text-wrapper-22 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 22px;
-    font-weight: 700;
-    left: 145px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 18px;
+    width: 497px;
 }
 
-.view-profile .overlap-8 {
+.edit-profile .rectangle-5 {
     background-color: #d9d9d9;
     border-radius: 20px;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 724px;
-    width: 465px;
-    font-size: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 497px;
 }
 
-.view-profile .text-wrapper-23 {
-    color: #000000;
+.edit-profile .group-wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 72px;
+    left: 1515px;
+    position: absolute;
+    top: 863px;
+    width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.edit-profile .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.edit-profile .group-10 {
+    height: 47px;
+    left: 45px;
+    position: relative;
+    top: 13px;
+    width: 162px;
+}
+
+.edit-profile .text-wrapper-18 {
+    color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 700;
-    left: 173px;
+    left: 57px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 6px;
+    white-space: nowrap;
+    width: 103px;
+}
+
+.edit-profile .trash {
+    height: 47px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.edit-profile .group-11 {
+    background-color: #890000;
+    border-radius: 20px;
+    height: 72px;
+    left: 1169px;
+    position: absolute;
+    top: 863px;
+    width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.edit-profile .group-11:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.edit-profile .group-12 {
+    height: 48px;
+    left: 55px;
+    position: relative;
+    top: 12px;
+    width: 142px;
+}
+
+.edit-profile .img-save {
+    height: 48px;
+    left: -7px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 48px;
+}
+
+.edit-profile .text-wrapper-19 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 73px;
 }

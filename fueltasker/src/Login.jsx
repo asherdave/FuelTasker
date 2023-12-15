@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Login.css";
-
-// Assuming these images are correctly imported
 import registerImage from './images/register.png';
 import login from './images/login1.png';
 import sidelogo from './images/sidelogo.png';

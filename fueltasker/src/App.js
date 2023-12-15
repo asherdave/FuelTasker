@@ -6,6 +6,8 @@ import { Login } from './Login.jsx'; // Make sure to import the Login component
 import { Register } from './Register.jsx';
 import { AboutUs } from './AboutUs.jsx';
 import { Dashboard } from './Dashboard.jsx';
+import { ViewProfile } from './ViewProfile.jsx';
+import { EditProfile } from './EditProfile.jsx';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/viewprofile" element={<ViewProfile />} />
+          <Route path="/editprofile" element={<EditProfile />} />
         </Routes>
       </div>
     </Router>

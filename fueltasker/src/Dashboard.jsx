@@ -31,9 +31,9 @@ export const Dashboard = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <div className="overlap-group">
+                        <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <button className="group-2"onClick={handleLogoutClick}>

@@ -49,6 +49,11 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+.dashboard .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .dashboard .text-wrapper-2 {
