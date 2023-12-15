@@ -1,5 +1,5 @@
 import React from "react";
-import "./ViewProfile.css";
+import "./viewprofile.css";
 import sidelogo from './images/sidelogo.png';
 import fuelframe from './images/fuelframe.png';
 import profile from './images/profile.png';
