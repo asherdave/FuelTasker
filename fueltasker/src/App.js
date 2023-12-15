@@ -8,6 +8,7 @@ import { AboutUs } from './AboutUs.jsx';
 import { Dashboard } from './Dashboard.jsx';
 import { ViewProfile } from './ViewProfile.jsx';
 import { EditProfile } from './EditProfile.jsx';
+import { ChangePassword } from './ChangePassword.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/viewprofile" element={<ViewProfile />} />
           <Route path="/editprofile" element={<EditProfile />} />
+          <Route path="/changepassword" element={<ChangePassword />} />
         </Routes>
       </div>
     </Router>
