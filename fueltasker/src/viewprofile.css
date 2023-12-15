@@ -220,9 +220,7 @@
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
-  
     padding: 35px 190px; /* Padding to provide space for background */
- 
 }
 
 .view-profile .group-5:hover {
@@ -367,7 +365,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 17px;
+    top: 18px;
     white-space: nowrap;
 }
 

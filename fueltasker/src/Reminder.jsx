@@ -20,20 +20,20 @@ export const Reminder = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <div className="overlap-group">
+                        <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
-                    </div>
+                        <img className="img-logout" alt="Logout" src={logout} />
+                    </button>
                     <div className="group-wrapper">
-                        <div className="group-3">
+                        <button className="group-3">
                             <div className="text-wrapper-4">Reminder</div>
                             <img className="img-2" alt="Reminder" src={reminder} />
-                        </div>
+                        </button>
                     </div>
                     <div className="group-4">
                         <div className="text-wrapper-5">Dashboard</div>
@@ -43,7 +43,7 @@ export const Reminder = () => {
                     </div>
                     <div className="group-5">
                         <div className="text-wrapper-4">Gas Prices</div>
-                        <img className="gaspr" alt="gaspr" src={gasprice} />
+                        <img className="gaspr" alt="Gaspr" src={gasprice} />
                     </div>
                     <div className="group-6">
                         <div className="text-wrapper-6">Monthly Expenses</div>

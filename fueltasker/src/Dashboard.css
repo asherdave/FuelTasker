@@ -109,12 +109,12 @@
 }
 
 .dashboard .img-logout {
-    height: 50px;
-    left: 15px;
+    height: 49px;
+    left: 0px;
     object-fit: cover;
     position: absolute;
-    top: 9px;
-    width: 50px;
+    top: 0px;
+    width: 49px;
 }
 
 .dashboard .img {
@@ -337,10 +337,12 @@
 }
 
 .dashboard .img-2 {
-    left: 49px;
+    height: 50px;
+    left: 50px;
     object-fit: cover;
     position: absolute;
     top: 10px;
+    width: 49px;
 }
 
 
