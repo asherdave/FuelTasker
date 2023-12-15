@@ -97,18 +97,18 @@ export const EditProfile = () => {
                 <input className="rectangle-4" type="text"/>
                 <input className="rectangle-5" type="text"/>
 
-                <div className="group-wrapper">
+                <button className="group-wrapper">
                     <div className="group-10">
                         <div className="text-wrapper-18">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
-                </div>
-                <div className="group-11">
+                </button>
+                <button className="group-11">
                     <div className="group-12">
                         <div className="text-wrapper-19">Save</div>
                         <img className="img-save" alt="Save" src={savew1} />
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     );

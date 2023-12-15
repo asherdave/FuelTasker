@@ -71,18 +71,18 @@ export const ChangePassword = () => {
                     <span className="span">Change </span>
                     <span className="text-wrapper-10">Password</span>
                 </p>
-                <div className="group-wrapper">
+                <button className="group-wrapper">
                     <div className="group-10">
                         <div className="text-wrapper-11">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1}/>
                     </div>
-                </div>
-                <div className="div-wrapper">
+                </button>
+                <button className="div-wrapper">
                     <div className="group-11">
                         <div className="text-wrapper-12">Save</div>
                         <img className="img-save" alt="Save" src={savew1} />
                     </div>
-                </div>
+                </button>
                 <div className="group-12">
                     <div className="text-wrapper-13">Current Password:</div>
                     <div className="text-wrapper-14">New Password:</div>

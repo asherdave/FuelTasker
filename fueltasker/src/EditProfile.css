@@ -642,6 +642,7 @@
     position: absolute;
     top: 863px;
     width: 250px;
+    border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
@@ -651,9 +652,9 @@
 
 .edit-profile .group-10 {
     height: 47px;
-    left: 45px;
+    left: 40px;
     position: relative;
-    top: 13px;
+    top: 0px;
     width: 162px;
 }
 
@@ -688,6 +689,7 @@
     position: absolute;
     top: 863px;
     width: 250px;
+    border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
@@ -697,9 +699,9 @@
 
 .edit-profile .group-12 {
     height: 48px;
-    left: 55px;
+    left: 50px;
     position: relative;
-    top: 12px;
+    top: 0px;
     width: 142px;
 }
 
