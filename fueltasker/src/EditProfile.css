@@ -571,7 +571,11 @@
     left: 1268px;
     position: absolute;
     top: 364px;
-    width: 497px;
+    width: 465px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edit-profile .rectangle-2 {
@@ -581,7 +585,11 @@
     left: 1268px;
     position: absolute;
     top: 454px;
-    width: 497px;
+    width: 465px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edit-profile .rectangle-3 {
@@ -591,7 +599,11 @@
     left: 1268px;
     position: absolute;
     top: 544px;
-    width: 497px;
+    width: 465px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edit-profile .rectangle-4 {
@@ -601,7 +613,11 @@
     left: 1268px;
     position: absolute;
     top: 634px;
-    width: 497px;
+    width: 465px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edit-profile .rectangle-5 {
@@ -611,7 +627,11 @@
     left: 1268px;
     position: absolute;
     top: 724px;
-    width: 497px;
+    width: 465px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edit-profile .group-wrapper {

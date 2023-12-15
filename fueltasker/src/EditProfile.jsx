@@ -24,43 +24,43 @@ export const EditProfile = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <div className="overlap-group">
+                        <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout}/>
-                    </div>
-                    <div className="group-3">
+                    </button>
+                    <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
-                    </div>
-                    <div className="group-4">
+                    </button>
+                    <button className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="img-2" alt="Gaspr" src={gasprice} />
-                    </div>
-                    <div className="group-5">
+                    </button>
+                    <button className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly}/>
-                    </div>
-                    <div className="group-6">
+                    </button>
+                    <button className="group-6">
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
-                    </div>
-                    <div className="group-7">
+                    </button>
+                    <button className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon}/>
-                    </div>
-                    <div className="group-8">
+                    </button>
+                    <button className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-3" alt="Reminder" src={reminder} />
-                    </div>
-                    <div className="group-9">
+                    </button>
+                    <button className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
-                    </div>
+                    </button>
                 </div>
                 <div className="overlap-2">
                     <p className="profile">
@@ -81,20 +81,22 @@ export const EditProfile = () => {
                     <span className="text-wrapper-11">Profile</span>
                 </p>
                 <div className="overlap-group-wrapper">
-                    <div className="div-wrapper">
+                    <button className="div-wrapper">
                         <div className="text-wrapper-12">Upload Photo</div>
-                    </div>
+                    </button>
                 </div>
                 <div className="text-wrapper-13">First Name:</div>
                 <div className="text-wrapper-14">Last Name:</div>
                 <div className="text-wrapper-15">Date of Birth:</div>
                 <div className="text-wrapper-16">Email:</div>
                 <div className="text-wrapper-17">Contact Number:</div>
-                <div className="rectangle" />
-                <div className="rectangle-2" />
-                <div className="rectangle-3" />
-                <div className="rectangle-4" />
-                <div className="rectangle-5" />
+
+                <input className="rectangle" type="text"/>
+                <input className="rectangle-2" type="text"/>
+                <input className="rectangle-3" type="text"/>
+                <input className="rectangle-4" type="text"/>
+                <input className="rectangle-5" type="text"/>
+
                 <div className="group-wrapper">
                     <div className="group-10">
                         <div className="text-wrapper-18">Cancel</div>
