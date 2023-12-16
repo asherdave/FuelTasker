@@ -79,12 +79,12 @@ export const UpcomingView = () => {
                     <span className="text-wrapper-11">Reminder</span>
                 </p>
                 <div className="overlap-3">
-                    <div className="rectangle-3" />
+                    <button className="rectangle-3" />
                     <div className="text-wrapper-12">UPCOMING</div>
                     <div className="overlap-wrapper">
-                        <div className="div-wrapper">
+                        <button className="div-wrapper">
                             <div className="text-wrapper-13">PAST</div>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div className="overlap-group-wrapper">
