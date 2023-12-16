@@ -13,8 +13,17 @@ import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png';
 import savew1 from './images/savew1.png';
 import trashw1 from './images/trashw1.png';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 export const CreateReminder = () => {
+    const navigate = useNavigate(); // Instantiate the navigate function
+    
+    const handleReminderClick = () => {
+        navigate("/reminder"); // Navigate to the upcoming page
+    };
+    
+
     return (
         <div className="create-reminder">
             <div className="div">
@@ -104,7 +113,7 @@ export const CreateReminder = () => {
                     </div>
                 </div>
                 <div className="group-wrapper">
-                    <div className="group-13">
+                    <div className="group-13" onClick={handleReminderClick}>
                         <div className="text-wrapper-13">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1}/>
                     </div>
