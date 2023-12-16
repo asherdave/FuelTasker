@@ -11,7 +11,6 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 
-
 export const CreateReminder = () => {
     return (
         <div className="create-reminder">
@@ -61,6 +60,7 @@ export const CreateReminder = () => {
                 </div>
                 <div className="overlap-2">
                     <img className="reminder" alt="Reminder" src={reminder} />
+                    <img className="rectangle" alt="Rectangle" src="rectangle-99.svg" />
                     <div className="reminder-wrapper">
                         <p className="p">
                             <span className="span">Re</span>
