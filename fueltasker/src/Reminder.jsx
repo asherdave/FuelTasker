@@ -21,7 +21,7 @@ export const Reminder = () => {
     };
 
     const handleUpcomingViewClick = () => {
-        navigate("/upcomingview"); // Navigate to the create reminder page
+        navigate("/upcomingview"); // Navigate to the upcoming page
     };
 
     return (
