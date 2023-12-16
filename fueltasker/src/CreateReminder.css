@@ -122,9 +122,9 @@
 }
 
 .create-reminder .group-3 {
-    left: -1090px;
+    left: -1190px;
     position: absolute;
-    top: 17px;
+    top: -194px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
