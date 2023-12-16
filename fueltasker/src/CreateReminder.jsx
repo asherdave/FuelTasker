@@ -82,7 +82,7 @@ export const CreateReminder = () => {
                     <div className="div-wrapper">
                         <div className="text-wrapper-12">Title</div>
                     </div>
-                </div>
+                </div>                      
                 <div className="overlap-group-wrapper">
                     <div className="div-wrapper">
                         <div className="text-wrapper-12">Description</div>
