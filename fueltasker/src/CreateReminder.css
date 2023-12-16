@@ -469,7 +469,10 @@
     position: absolute;
     top: 34px;
     width: 339px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
+
+
 
 .create-reminder .div-2 {
     color: transparent;
@@ -528,6 +531,7 @@
     width: 658px;
 }
 
+
 .create-reminder .group-10 {
     height: 81px;
     left: 845px;
@@ -560,6 +564,11 @@
     position: absolute;
     top: 907px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .create-reminder .group-13 {
@@ -601,6 +610,11 @@
     position: absolute;
     top: 907px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .group-14:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .create-reminder .group-15 {
