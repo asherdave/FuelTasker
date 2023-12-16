@@ -125,6 +125,18 @@
     white-space: nowrap;
 }
 
+/*
+.create-reminder .dash-wrapper {
+    background-image: url("./images/dash1.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 40px;
+    left: 50px;
+    position: absolute;
+    top: 14px;
+    width: 50px;
+}
+*/
 
 
 .create-reminder .dash {
