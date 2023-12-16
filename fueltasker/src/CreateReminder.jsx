@@ -10,6 +10,7 @@ import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
+import rect99 from './images/rect99.png';
 
 export const CreateReminder = () => {
     return (
@@ -47,11 +48,11 @@ export const CreateReminder = () => {
                     </div>
                     <div className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
-                        <img className="img-3" alt="Gascon" src={gascon} />
+                        <img className="img-2" alt="Gascon" src={gascon} />
                     </div>
                     <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
-                        <img className="img-3" alt="Reminder" src={reminder} />
+                        <img className="img-2" alt="Reminder" src={reminder} />
                     </div>
                     <div className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
@@ -60,7 +61,7 @@ export const CreateReminder = () => {
                 </div>
                 <div className="overlap-2">
                     <img className="reminder" alt="Reminder" src={reminder} />
-                    <img className="rectangle" alt="Rectangle" src="rectangle-99.svg" />
+                    <img className="rectangle" alt="Rectangle" src={rect99} />
                     <div className="reminder-wrapper">
                         <p className="p">
                             <span className="span">Re</span>
