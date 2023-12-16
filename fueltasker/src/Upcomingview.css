@@ -320,25 +320,35 @@
     width: 1494px;
 }
 
+.reminder .reminder {
+    height: 86px;
+    left: 43px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 86px;
+}
+
 .upcoming-view .reminder-wrapper {
     height: 100px;
     left: 193px;
     position: absolute;
-    top: 20px;
+    top: -60px;
     width: 381px;
 }
+
 
 .upcoming-view .p {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
     font-weight: 700;
-    left: 0;
+    left: -55px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: 0;
-    width: 379px;
+    width: 431px;
 }
 
 .upcoming-view .span {
@@ -351,10 +361,10 @@
 
 .upcoming-view .landscape {
     height: 73px;
-    left: 1079px;
+    left: 1098px;
     object-fit: cover;
     position: absolute;
-    top: 33px;
+    top: 34px;
     width: 339px;
 }
 
