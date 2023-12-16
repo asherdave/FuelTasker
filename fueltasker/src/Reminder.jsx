@@ -17,7 +17,11 @@ export const Reminder = () => {
     const navigate = useNavigate(); // Instantiate the navigate function
 
     const handleCreateReminderClick = () => {
-        navigate("/CreateReminder"); // Navigate to the edit profile page
+        navigate("/CreateReminder"); // Navigate to the create reminder page
+    };
+
+    const handleUpcomingViewClick = () => {
+        navigate("/upcomingview"); // Navigate to the create reminder page
     };
 
     return (
@@ -85,7 +89,7 @@ export const Reminder = () => {
                     </button>
                 </div>
                 <div className="overlap-wrapper">
-                    <button className="overlap-3">
+                    <button className="overlap-3" onClick={handleUpcomingViewClick}>
                         <div className="group-12" />
                         <div className="text-wrapper-12">VIEW REMINDER</div>
                     </button>
