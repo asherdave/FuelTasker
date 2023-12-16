@@ -146,6 +146,25 @@
     width: 50px;
 }
 
+.create-reminder .save {
+    height: 50px;
+    left: -1px;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 50px;
+}
+
+.create-reminder .trashw1 {
+    color: #f0f0f0;
+    height: 50px;
+    left: -1px;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 50px;
+}
+
 .create-reminder .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;

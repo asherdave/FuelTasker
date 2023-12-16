@@ -11,6 +11,8 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png';
+import savew1 from './images/savew1.png';
+import trashw1 from './images/trashw1.png';
 
 export const CreateReminder = () => {
     return (
@@ -104,13 +106,13 @@ export const CreateReminder = () => {
                 <div className="group-wrapper">
                     <div className="group-13">
                         <div className="text-wrapper-13">Cancel</div>
-                        <img className="trash" alt="Trash" src="trash-1.png" />
+                        <img className="trash" alt="Trash" src={trashw1}/>
                     </div>
                 </div>
                 <div className="group-14">
                     <div className="group-15">
                         <div className="text-wrapper-14">Save</div>
-                        <img className="img-2" alt="Save" src="save-1.png" />
+                        <img className="save" alt="Save" src={savew1} />
                     </div>
                 </div>
             </div>
