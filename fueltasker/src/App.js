@@ -11,6 +11,7 @@ import { EditProfile } from './EditProfile.jsx';
 import { ChangePassword } from './ChangePassword.jsx';
 import { Reminder } from './Reminder.jsx';
 import { ToDoList } from './Todolist.jsx';
+import { CreateReminder } from './CreateReminder.jsx';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/changepassword" element={<ChangePassword />} />
           <Route path="/reminder" element={<Reminder />} />
           <Route path="/todolist" element={<ToDoList />} />
+          <Route path="/createreminder" element={<CreateReminder />} />
         </Routes>
       </div>
     </Router>

@@ -66,8 +66,8 @@ export const Reminder = () => {
                     <img className="img-3" alt="Reminder" src={reminder} />
                     <div className="reminder-wrapper">
                         <p className="p">
-                            <span className="span">Remi</span>
-                            <span className="text-wrapper-10">nder</span>
+                            <span className="span">Re</span>
+                            <span className="text-wrapper-10">minder</span>
                         </p>
                     </div>
                     <img className="landscape" alt="Landscape" src={landscape} />
