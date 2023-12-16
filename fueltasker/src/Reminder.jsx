@@ -10,9 +10,15 @@ import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 
 export const Reminder = () => {
+    const navigate = useNavigate(); // Instantiate the navigate function
+
+    const handleCreateReminderClick = () => {
+        navigate("/CreateReminder"); // Navigate to the edit profile page
+    };
 
     return (
         <div className="reminder">
@@ -73,7 +79,7 @@ export const Reminder = () => {
                     <img className="landscape" alt="Landscape" src={landscape} />
                 </div>
                 <div className="div-wrapper">
-                    <button className="group-10">
+                    <button className="group-10" onClick={handleCreateReminderClick}>
                         <div className="group-11" />
                         <div className="text-wrapper-11">CREATE REMINDER</div>
                     </button>
