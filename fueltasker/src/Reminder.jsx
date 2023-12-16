@@ -73,16 +73,16 @@ export const Reminder = () => {
                     <img className="landscape" alt="Landscape" src={landscape} />
                 </div>
                 <div className="div-wrapper">
-                    <div className="group-10">
+                    <button className="group-10">
                         <div className="group-11" />
                         <div className="text-wrapper-11">CREATE REMINDER</div>
-                    </div>
+                    </button>
                 </div>
                 <div className="overlap-wrapper">
-                    <div className="overlap-3">
+                    <button className="overlap-3">
                         <div className="group-12" />
                         <div className="text-wrapper-12">VIEW REMINDER</div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

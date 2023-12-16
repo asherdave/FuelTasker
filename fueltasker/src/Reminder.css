@@ -462,7 +462,7 @@
     border-color: #ff0000cc;
     border-radius: 20px;
     height: 380px;
-    left: 561px;
+    left: 5px;
     position: absolute;
     top: 422px;
     width: 520px;
@@ -500,10 +500,12 @@
 }
 
 .reminder .group-10 {
+    background-color: #ffd2d2;
+    border: none;
     height: 261px;
-    left: 66px;
+    left: 10px;
     position: relative;
-    top: 71px;
+    top: 80px;
     width: 391px;
 }
 
@@ -550,11 +552,12 @@
 }
 
 .reminder .div-wrapper{
+    left: 600px;
     background-color: #ffd2d2;
     border-radius: 30px;
     height: 400px;
     position: relative;
-    width: 500px;
+    width: 520px;
     border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
