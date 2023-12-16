@@ -58,6 +58,12 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .create-reminder .text-wrapper-2 {
