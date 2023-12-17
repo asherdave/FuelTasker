@@ -20,7 +20,7 @@ export const PastView = () => {
     const navigate = useNavigate(); // Instantiate the navigate function
 
     const handleUpcomingViewClick = () => {
-        navigate("/UpcomingView"); // Navigate to the create reminder page
+        navigate("/UpcomingView"); // Navigate to the upcoming reminder page
     };
 
     return (
