@@ -22,6 +22,10 @@ export const CreateReminder = () => {
     const handleReminderClick = () => {
         navigate("/reminder"); // Navigate to the upcoming page
     };
+
+    const handleUpcomingViewClick = () => {
+        navigate("/upcomingview"); // Navigate to the upcoming page
+    };
     
 
     return (
@@ -119,7 +123,7 @@ export const CreateReminder = () => {
                     </div>
                 </div>
                 <div className="group-14">
-                    <div className="group-15">
+                    <div className="group-15" onClick={handleUpcomingViewClick}>
                         <div className="text-wrapper-14">Save</div>
                         <img className="save" alt="Save" src={savew1} />
                     </div>
