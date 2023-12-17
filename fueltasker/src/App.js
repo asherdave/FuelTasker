@@ -13,6 +13,7 @@ import { Reminder } from './Reminder.jsx';
 import { ToDoList } from './Todolist.jsx';
 import { CreateReminder } from './CreateReminder.jsx';
 import { UpcomingView } from './Upcomingview.jsx';
+import { PastView } from './Pastview.jsx';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/todolist" element={<ToDoList />} />
           <Route path="/createreminder" element={<CreateReminder />} />
           <Route path="/upcomingview" element={<UpcomingView />} />
+          <Route path="/Pastview" element={<PastView />} />
         </Routes>
       </div>
     </Router>
