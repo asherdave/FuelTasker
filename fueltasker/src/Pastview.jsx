@@ -24,7 +24,7 @@ export const PastView = () => {
     };
 
     return (
-        <div className="upcoming-view">
+        <div className="past-view">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
@@ -113,7 +113,7 @@ export const PastView = () => {
                             <img className="check3" alt="check3" src={check3} />
                         </div>
                         <div className="text-wrapper-18">2:00 PM 12/01/2023</div>
-                        <div className="text-wrapper-19">CHANGE OIL</div>
+                        <div className="text-wrapper-19">WASH CAR</div>
                     </div>
                 </div>
                 <div className="group-12">
