@@ -33,7 +33,7 @@ function App() {
           <Route path="/todolist" element={<ToDoList />} />
           <Route path="/createreminder" element={<CreateReminder />} />
           <Route path="/upcomingview" element={<UpcomingView />} />
-          <Route path="/Pastview" element={<PastView />} />
+          <Route path="/pastview" element={<PastView />} />
         </Routes>
       </div>
     </Router>
