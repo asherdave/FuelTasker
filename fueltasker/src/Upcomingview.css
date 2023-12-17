@@ -381,6 +381,7 @@
 }
 
 .upcoming-view .timeline {
+    background-color: #FF0000CC;
     height: 46px;
     left: 55px;
     object-fit: cover;
