@@ -12,6 +12,8 @@ import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png'
 import timeline2 from './images/timeline2.png'
+import rectangle3 from './images/Rectangle3.png'
+import gaswhite from './images/gaswhite.png'
 
 export const Timeline = () => {
     return (
@@ -75,7 +77,7 @@ export const Timeline = () => {
                 <div className="overlap-wrapper">
                     <div className="overlap-3">
                         <div className="rectangle-wrapper">
-                            <img className="rectangle-3" alt="Rectangle" src="rectangle-128.png" />
+                            <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140.png" />
                         <img className="line" alt="Line" src="line-12.png" />
@@ -98,14 +100,14 @@ export const Timeline = () => {
                             <span className="text-wrapper-17">&nbsp;</span>
                         </p>
                         <img className="element" alt="Element" src="3-2.png" />
-                        <img className="rectangle-4" alt="Rectangle" src="rectangle-196.svg" />
-                        <img className="gaswhite" alt="Gaswhite" src="gaswhite.png" />
+                        <img className="rectangle-3" alt="Rectangle" src="rectangle-196.svg" />
+                        <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
                 </div>
                 <div className="overlap-group-wrapper">
                     <div className="overlap-3">
                         <div className="rectangle-wrapper">
-                            <img className="rectangle-3" alt="Rectangle" src="image.png" />
+                            <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140-2.png" />
                         <img className="line" alt="Line" src="line-12-2.png" />
@@ -129,13 +131,13 @@ export const Timeline = () => {
                         </p>
                         <img className="element" alt="Element" src="3-2-2.png" />
                         <img className="rectangle-4" alt="Rectangle" src="image.svg" />
-                        <img className="gaswhite" alt="Gaswhite" src="gaswhite-2.png" />
+                        <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
                 </div>
                 <div className="div-wrapper">
                     <div className="overlap-3">
                         <div className="rectangle-wrapper">
-                            <img className="rectangle-3" alt="Rectangle" src="rectangle-128-2.png" />
+                            <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140-3.png" />
                         <img className="line" alt="Line" src="line-12-3.png" />
@@ -159,14 +161,14 @@ export const Timeline = () => {
                         </p>
                         <img className="element" alt="Element" src="3-2-3.png" />
                         <img className="rectangle-4" alt="Rectangle" src="rectangle-196-2.svg" />
-                        <img className="gaswhite" alt="Gaswhite" src="gaswhite-3.png" />
+                        <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
                 </div>
                 <div className="overlap-4">
                     <div className="group-11">
                         <div className="overlap-3">
                             <div className="rectangle-wrapper">
-                                <img className="rectangle-3" alt="Rectangle" src="rectangle-128-3.png" />
+                                <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                             </div>
                             <img className="group-10" alt="Group" src="group-140-4.png" />
                             <img className="line" alt="Line" src="line-12-4.png" />
@@ -190,7 +192,7 @@ export const Timeline = () => {
                             </p>
                             <img className="element" alt="Element" src="3-2-4.png" />
                             <img className="rectangle-4" alt="Rectangle" src="rectangle-196-3.svg" />
-                            <img className="gaswhite" alt="Gaswhite" src="gaswhite-4.png" />
+                            <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                         </div>
                     </div>
                     <div className="text-wrapper-19">Start</div>

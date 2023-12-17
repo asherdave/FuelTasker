@@ -390,6 +390,8 @@
 }
 
 .timeline .rectangle-3 {
+    background-color: #b5b5b5;
+    border-radius: 30px;
     height: 178px;
     left: -4px;
     mix-blend-mode: multiply;
@@ -546,6 +548,7 @@
 }
 
 .timeline .gaswhite {
+    color: #7a0202;
     height: 51px;
     left: 13px;
     object-fit: cover;
