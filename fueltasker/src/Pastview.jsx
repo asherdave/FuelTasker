@@ -14,7 +14,7 @@ import rect99 from './images/rect99.png';
 import bell1 from './images/bell1.png';
 import bell2 from './images/bell2.png';
 import bell3 from './images/bell3.png';
-import bell4 from './images/bell4.png';
+
 
 export const PastView = () => {
     return (
@@ -111,12 +111,7 @@ export const PastView = () => {
                     </div>
                 </div>
                 <div className="group-12">
-                    <div className="overlap-5">
-                        <div className="ASDASF-wrapper">
-                            <img className="bell4" alt="bell4" src={bell4} />
-                        </div>
-                        <div className="text-wrapper-20">9:20 PM 12/01/2023</div>
-                        <div className="text-wrapper-21">CHECK TIRE PRESSURE</div>
+                    <div className="overlap-5">    
                     </div>
                 </div>
             </div>

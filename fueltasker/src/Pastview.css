@@ -1,4 +1,4 @@
-.upcoming-view {
+.past-view {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.upcoming-view .div {
+.past-view .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.upcoming-view .overlap {
+.past-view .overlap {
     background-color: #ff0000cc;
     height: 1080px;
     left: 0;
@@ -22,7 +22,7 @@
     width: 426px;
 }
 
-.upcoming-view .text-wrapper {
+.past-view .text-wrapper {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -35,7 +35,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .group {
+.past-view .group {
     height: 50px;
     left: 213px;
     position: absolute;
@@ -43,7 +43,7 @@
     width: 160px;
 }
 
-.upcoming-view .overlap-group {
+.past-view .overlap-group {
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
@@ -53,11 +53,11 @@
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
-.upcoming-view .overlap-group:hover {
+.past-view .overlap-group:hover {
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-2 {
+.past-view .text-wrapper-2 {
     color: #000000;
     font-family: "Inter-Light", Helvetica;
     font-size: 20px;
@@ -71,7 +71,7 @@
     width: 111px;
 }
 
-.upcoming-view .ellipse {
+.past-view .ellipse {
     height: 157px;
     left: 18px;
     object-fit: cover;
@@ -80,7 +80,7 @@
     width: 157px;
 }
 
-.upcoming-view .group-2 {
+.past-view .group-2 {
     height: 50px;
     left: 100px;
     position: absolute;
@@ -93,12 +93,12 @@
     padding: 35px 100px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-2:hover {
+.past-view .group-2:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-3 {
+.past-view .text-wrapper-3 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -111,7 +111,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .img-logout {
+.past-view .img-logout {
     height: 50px;
     left: 15px;
     object-fit: cover;
@@ -120,7 +120,7 @@
     width: 50px;
 }
 
-.upcoming-view .img {
+.past-view .img {
     height: 49px;
     left: 46px;
     object-fit: cover;
@@ -129,7 +129,7 @@
     width: 49px;
 }
 
-.upcoming-view .group-3 {
+.past-view .group-3 {
     height: 40px;
     left: 20px;
     position: absolute;
@@ -142,12 +142,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-3:hover {
+.past-view .group-3:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-4 {
+.past-view .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -160,7 +160,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .dash-wrapper {
+.past-view .dash-wrapper {
     background-image: url(./images/dash1.png);
     background-position: 50% 50%;
     background-size: cover;
@@ -171,7 +171,7 @@
     width: 50px;
 }
 
-.upcoming-view .dash {
+.past-view .dash {
     height: 40px;
     left: 0;
     object-fit: cover;
@@ -180,7 +180,7 @@
     width: 50px;
 }
 
-.upcoming-view .group-4 {
+.past-view .group-4 {
     height: 48px;
     left: 20px;
     position: absolute;
@@ -193,12 +193,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-4:hover {
+.past-view .group-4:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-5 {
+.past-view .text-wrapper-5 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -211,7 +211,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .gaspr {
+.past-view .gaspr {
     height: 48px;
     left: 60px;
     object-fit: cover;
@@ -220,7 +220,7 @@
     width: 48px;
 }
 
-.upcoming-view .group-5 {
+.past-view .group-5 {
     height: 50px;
     left: 20px;
     position: absolute;
@@ -233,12 +233,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-5:hover {
+.past-view .group-5:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-6 {
+.past-view .text-wrapper-6 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -251,7 +251,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .group-6 {
+.past-view .group-6 {
     height: 56px;
     left: 20px;
     position: absolute;
@@ -264,12 +264,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-6:hover {
+.past-view .group-6:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-7 {
+.past-view .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -282,7 +282,7 @@
     white-space: nowrap
 }
 
-.upcoming-view .todolist {
+.past-view .todolist {
     height: 56px;
     left: 55px;
     object-fit: cover;
@@ -291,7 +291,7 @@
     width: 56px;
 }
 
-.upcoming-view .group-7 {
+.past-view .group-7 {
     height: 49px;
     left: 20px;
     position: absolute;
@@ -304,12 +304,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-7:hover {
+.past-view .group-7:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-8 {
+.past-view .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -322,7 +322,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .img-2 {
+.past-view .img-2 {
     height: 49px;
     left: 55px;
     object-fit: cover;
@@ -331,7 +331,7 @@
     width: 49px;
 }
 
-.upcoming-view .group-8 {
+.past-view .group-8 {
     height: 49px;
     left: 20px;
     position: absolute;
@@ -344,12 +344,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-8:hover {
+.past-view .group-8:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .group-9 {
+.past-view .group-9 {
     height: 46px;
     left: 20px;
     position: absolute;
@@ -362,12 +362,12 @@
     padding: 35px 190px; /* Padding to provide space for background */
 }
 
-.upcoming-view .group-9:hover {
+.past-view .group-9:hover {
     background-color: #f0f0f0; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.upcoming-view .text-wrapper-9 {
+.past-view .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -380,7 +380,7 @@
     white-space: nowrap;
 }
 
-.upcoming-view .timeline {
+.past-view .timeline {
     height: 46px;
     left: 55px;
     object-fit: cover;
@@ -389,7 +389,7 @@
     width: 46px;
 }
 
-.upcoming-view .overlap-2 {
+.past-view .overlap-2 {
     height: 140px;
     left: 426px;
     position: absolute;
@@ -397,7 +397,7 @@
     width: 1494px;
 }
 
-.upcoming-view .reminder {
+.past-view .reminder {
     height: 90px;
     left: 69px;
     object-fit: cover;
@@ -406,7 +406,7 @@
     width: 90px;
 }
 
-.upcoming-view .rectangle {
+.past-view .rectangle {
     height: 140px;
     left: 0;
     mix-blend-mode: multiply;
@@ -415,7 +415,7 @@
     width: 1494px;
 }
 
-.upcoming-view .reminder {
+.past-view .reminder {
     height: 86px;
     left: 43px;
     object-fit: cover;
@@ -424,7 +424,7 @@
     width: 86px;
 }
 
-.upcoming-view .reminder-wrapper {
+.past-view .reminder-wrapper {
     height: 100px;
     left: 193px;
     position: absolute;
@@ -433,7 +433,7 @@
 }
 
 
-.upcoming-view .p {
+.past-view .p {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
@@ -446,15 +446,15 @@
     width: 431px;
 }
 
-.upcoming-view .span {
+.past-view .span {
     color: #000000;
 }
 
-.upcoming-view .text-wrapper-10 {
+.past-view .text-wrapper-10 {
     color: #890000;
 }
 
-.upcoming-view .landscape {
+.past-view .landscape {
     height: 73px;
     left: 1098px;
     object-fit: cover;
@@ -463,7 +463,7 @@
     width: 339px;
 }
 
-.upcoming-view .view-reminder {
+.past-view .view-reminder {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
@@ -477,11 +477,11 @@
     width: 372px;
 }
 
-.upcoming-view .text-wrapper-11 {
+.past-view .text-wrapper-11 {
     color: #7a0202;
 }
 
-.upcoming-view .overlap-3 {
+.past-view .overlap-3 {
     height: 90px;
     left: 955px;
     position: absolute;
@@ -489,7 +489,7 @@
     width: 438px;
 }
 
-.upcoming-view .rectangle-2 {
+.past-view .rectangle-2 {
     height: 90px;
     left: 0;
     mix-blend-mode: multiply;
@@ -498,7 +498,7 @@
     width: 436px;
 }
 
-.upcoming-view .rectangle-3 {
+.past-view .rectangle-3 {
     background-color: #d9d9d9;
     border-radius: 25px;
     height: 90px;
@@ -509,7 +509,7 @@
     width: 218px;
 }
 
-.upcoming-view .text-wrapper-12 {
+.past-view .text-wrapper-12 {
     color: #ffffff;
     font-family: "Inter-Regular", Helvetica;
     font-size: 25px;
@@ -523,7 +523,7 @@
     width: 139px;
 }
 
-.upcoming-view .overlap-wrapper {
+.past-view .overlap-wrapper {
     height: 90px;
     left: 218px;
     position: absolute;
@@ -531,7 +531,7 @@
     width: 220px;
 }
 
-.upcoming-view .div-wrapper {
+.past-view .div-wrapper {
     background-color: #00FF0A80;
     border-radius: 25px;
     height: 90px;
@@ -539,7 +539,7 @@
     width: 218px;
 }
 
-.upcoming-view .text-wrapper-13 {
+.past-view .text-wrapper-13 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 25px;
@@ -553,7 +553,7 @@
     width: 64px;
 }
 
-.upcoming-view .overlap-group-wrapper {
+.past-view .overlap-group-wrapper {
     height: 120px;
     left: 797px;
     position: absolute;
@@ -561,7 +561,7 @@
     width: 754px;
 }
 
-.upcoming-view .overlap-4 {
+.past-view .overlap-4 {
     background-color: #00FF0A80;
     border-radius: 30px;
     height: 120px;
@@ -569,7 +569,7 @@
     width: 750px;
 }
 
-.upcoming-view .bell1 {
+.past-view .bell1 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -578,7 +578,7 @@
     width: 80px;
 }
 
-.upcoming-view .bell2 {
+.past-view .bell2 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -587,7 +587,7 @@
     width: 80px;
 }
 
-.upcoming-view .bell3 {
+.past-view .bell3 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -596,7 +596,7 @@
     width: 80px;
 }
 
-.upcoming-view .bell4 {
+.past-view .bell4 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -605,7 +605,7 @@
     width: 80px;
 }
 
-.upcoming-view .text-wrapper-14 {
+.past-view .text-wrapper-14 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -619,7 +619,7 @@
     width: 289px;
 }
 
-.upcoming-view .text-wrapper-15 {
+.past-view .text-wrapper-15 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -633,7 +633,7 @@
     width: 185px;
 }
 
-.upcoming-view .group-10 {
+.past-view .group-10 {
     height: 120px;
     left: 797px;
     position: absolute;
@@ -641,7 +641,7 @@
     width: 754px;
 }
 
-.upcoming-view .ASDASF-2 {
+.past-view .ASDASF-2 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -650,7 +650,7 @@
     width: 80px;
 }
 
-.upcoming-view .text-wrapper-16 {
+.past-view .text-wrapper-16 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -664,7 +664,7 @@
     width: 288px;
 }
 
-.upcoming-view .text-wrapper-17 {
+.past-view .text-wrapper-17 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -678,7 +678,7 @@
     width: 113px;
 }
 
-.upcoming-view .group-11 {
+.past-view .group-11 {
     height: 120px;
     left: 798px;
     position: absolute;
@@ -686,14 +686,14 @@
     width: 754px;
 }
 
-.upcoming-view .overlap-5 {
+.past-view .overlap-5 {
     border-radius: 30px;
     height: 120px;
     position: relative;
     width: 750px;
 }
 
-.upcoming-view .ASDASF-wrapper {
+.past-view .ASDASF-wrapper {
     background-color: #00FF0A80;
     border-radius: 30px;
     height: 120px;
@@ -703,7 +703,7 @@
     width: 750px;
 }
 
-.upcoming-view .ASDASF-3 {
+.past-view .ASDASF-3 {
     height: 80px;
     left: 30px;
     object-fit: cover;
@@ -712,7 +712,7 @@
     width: 80px;
 }
 
-.upcoming-view .text-wrapper-18 {
+.past-view .text-wrapper-18 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -725,7 +725,7 @@
     width: 287px;
 }
 
-.upcoming-view .text-wrapper-19 {
+.past-view .text-wrapper-19 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -738,7 +738,7 @@
     width: 155px;
 }
 
-.upcoming-view .group-12 {
+.past-view .group-12 {
     height: 120px;
     left: 798px;
     position: absolute;
@@ -746,7 +746,7 @@
     width: 754px;
 }
 
-.upcoming-view .text-wrapper-20 {
+.past-view .text-wrapper-20 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -760,7 +760,7 @@
     width: 287px;
 }
 
-.upcoming-view .text-wrapper-21 {
+.past-view .text-wrapper-21 {
     color: #000000cc;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
