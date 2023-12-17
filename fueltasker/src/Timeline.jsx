@@ -10,6 +10,8 @@ import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
+import rect99 from './images/rect99.png'
+import timeline2 from './images/timeline2.png'
 
 export const Timeline = () => {
     return (
@@ -60,8 +62,8 @@ export const Timeline = () => {
                 </div>
                 <img className="rectangle" alt="Rectangle" src="rectangle-98.svg" />
                 <div className="overlap-2">
-                    <img className="img-4" alt="Timeline" src="timeline-2.png" />
-                    <img className="rectangle-2" alt="Rectangle" src="rectangle-99.svg" />
+                    <img className="img-4" alt="Timeline" src={timeline2} />
+                    <img className="rectangle-2" alt="Rectangle" src={rect99} />
                     <div className="timeline-wrapper">
                         <p className="p">
                             <span className="span">Time</span>
