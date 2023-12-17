@@ -569,7 +569,7 @@
     width: 750px;
 }
 
-.past-view .bell1 {
+.past-view .check1 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -578,7 +578,7 @@
     width: 80px;
 }
 
-.past-view .bell2 {
+.past-view .check2 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -587,7 +587,7 @@
     width: 80px;
 }
 
-.past-view .bell3 {
+.past-view .check3 {
     height: 80px;
     left: 31px;
     object-fit: cover;
@@ -596,14 +596,6 @@
     width: 80px;
 }
 
-.past-view .bell4 {
-    height: 80px;
-    left: 31px;
-    object-fit: cover;
-    position: absolute;
-    top: 20px;
-    width: 80px;
-}
 
 .past-view .text-wrapper-14 {
     color: #000000cc;

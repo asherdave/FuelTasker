@@ -15,8 +15,15 @@ import bell1 from './images/bell1.png';
 import bell2 from './images/bell2.png';
 import bell3 from './images/bell3.png';
 import bell4 from './images/bell4.png';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export const UpcomingView = () => {
+    const navigate = useNavigate(); // Instantiate the navigate function
+
+    const handlePastViewClick = () => {
+        navigate("/PastView"); // Navigate to the create reminder page
+    };
+
     return (
         <div className="upcoming-view">
             <div className="div">
@@ -82,7 +89,7 @@ export const UpcomingView = () => {
                     <button className="rectangle-3" />
                     <div className="text-wrapper-12">UPCOMING</div>
                     <div className="overlap-wrapper">
-                        <button className="div-wrapper">
+                        <button className="div-wrapper" onClick={handlePastViewClick}>
                             <div className="text-wrapper-13">PAST</div>
                         </button>
                     </div>

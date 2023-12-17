@@ -11,9 +11,10 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png';
-import bell1 from './images/bell1.png';
-import bell2 from './images/bell2.png';
-import bell3 from './images/bell3.png';
+import check1 from './images/check1.png';
+import check2 from './images/check2.png';
+import check3 from './images/check3.png';
+
 
 
 export const PastView = () => {
@@ -89,25 +90,25 @@ export const PastView = () => {
                 </div>
                 <div className="overlap-group-wrapper">
                     <div className="overlap-4">
-                        <img className="bell1" alt="bell1" src={bell1} />
+                        <img className="check1" alt="check1" src={check1} />
                         <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                         <div className="text-wrapper-15">CHANGE OIL</div>
                     </div>
                 </div>
                 <div className="group-10">
                     <div className="overlap-4">
-                        <img className="bell2" alt="bell2" src={bell2} />
-                        <div className="text-wrapper-16">3:30 PM 11/28/2023</div>
-                        <div className="text-wrapper-17">REFUEL</div>
+                        <img className="check2" alt="check2" src={check2} />
+                        <div className="text-wrapper-16">2:00 PM 11/28/2023</div>
+                        <div className="text-wrapper-17">CHANGE OIL</div>
                     </div>
                 </div>
                 <div className="group-11">
                     <div className="overlap-5">
                         <div className="ASDASF-wrapper">
-                            <img className="bell3" alt="bell3" src={bell3} />
+                            <img className="check3" alt="check3" src={check3} />
                         </div>
-                        <div className="text-wrapper-18">9:20 PM 12/01/2023</div>
-                        <div className="text-wrapper-19">ADD TIRE PRESSURE</div>
+                        <div className="text-wrapper-18">2:00 PM 12/01/2023</div>
+                        <div className="text-wrapper-19">CHANGE OIL</div>
                     </div>
                 </div>
                 <div className="group-12">
