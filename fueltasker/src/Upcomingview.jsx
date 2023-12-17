@@ -24,6 +24,10 @@ export const UpcomingView = () => {
         navigate("/PastView"); // Navigate to the create reminder page
     };
 
+    const handleReminderClick = () => {
+        navigate("/Reminder"); // Navigate to the create reminder page
+    };
+
     return (
         <div className="upcoming-view">
             <div className="div">
@@ -61,7 +65,7 @@ export const UpcomingView = () => {
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8" onClick={handleReminderClick}>
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder} />
                     </button>
