@@ -1,9 +1,10 @@
 .gas-prices {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    height: 250px;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 204px;
 }
 
 .gas-prices .div {
@@ -23,7 +24,7 @@
 }
 
 .gas-prices .overlap {
-    background-image: url("./images/dash1.png");
+    
     background-size: 100% 100%;
     height: 139px;
     left: 426px;
@@ -183,7 +184,7 @@
 }
 
 .gas-prices .dash-wrapper {
-    background-image: url("./images/dashboard.png");
+    background-image: url("./images/gasprices2.png");
     background-position: 50% 50%;
     background-size: cover;
     height: 40px;

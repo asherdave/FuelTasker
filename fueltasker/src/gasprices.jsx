@@ -8,8 +8,8 @@ import monthly from './images/monthlyexpenses.png';
 import todolist from './images/todolist.png';
 import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
-import timeline from './images/timeline.png';
-import landscape from './images/landscape.png';
+import timeline from './images/timeline1.png';
+import landscape from './images/landscape3.png';
 import seaoil from './images/seaoil.png';   
 import shell from './images/shell.png';
 import petron from './images/petron.png';
@@ -17,14 +17,14 @@ import petron from './images/petron.png';
 export const GasPrices = () => {
     return (
         <div className="gas-prices">
-            <div className="div">
-                <img className="img" alt="Petron" src={petron} />
+            <div className="div">     
+                <img className="petron" alt="Petron" src={petron} />
                 <div className="overlap">
-                    <img className="gaspr" alt="Gaspr" src={gas} />
                     <p className="p">
                         <span className="text-wrapper">Gas </span>
                         <span className="span">Prices</span>
                     </p>
+                    <img className="gaspr" alt="Gaspr" src={gas} />
                     <img className="landscape" alt="Landscape" src={landscape} />
                 </div>
                 <div className="overlap-group">
