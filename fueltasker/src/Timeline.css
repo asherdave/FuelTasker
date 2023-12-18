@@ -87,6 +87,16 @@
     position: absolute;
     top: 998px;
     width: 188px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-3 {
@@ -104,10 +114,10 @@
 
 .timeline .img {
     height: 50px;
-    left: 0;
+    left: 15px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 50px;
 }
 
@@ -147,9 +157,9 @@
     background-position: 50% 50%;
     background-size: cover;
     height: 40px;
-    left: 0;
+    left: 20px;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 50px;
 }
 
@@ -168,6 +178,16 @@
     position: absolute;
     top: 345px;
     width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-5 {
@@ -175,20 +195,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 90px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 15px;
     white-space: nowrap;
 }
 
 .timeline .gaspr {
     height: 48px;
-    left: 0;
+    left: 15px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 48px;
 }
 
@@ -197,7 +217,17 @@
     left: 59px;
     position: absolute;
     top: 437px;
-    width: 310px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-6 {
@@ -209,7 +239,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 20px;
     white-space: nowrap;
 }
 
@@ -218,7 +248,17 @@
     left: 59px;
     position: absolute;
     top: 527px;
-    width: 246px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-7 {
@@ -230,16 +270,16 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .timeline .todolist {
     height: 56px;
-    left: 0;
+    left: 15px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 56px;
 }
 
@@ -248,7 +288,17 @@
     left: 63px;
     position: absolute;
     top: 624px;
-    width: 302px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-8 {
@@ -260,16 +310,16 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 9px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .timeline .img-2 {
     height: 49px;
-    left: 0;
+    left: 15px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 49px;
 }
 
@@ -278,7 +328,17 @@
     left: 63px;
     position: absolute;
     top: 717px;
-    width: 224px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .group-9 {
@@ -286,7 +346,17 @@
     left: 63px;
     position: absolute;
     top: 811px;
-    width: 209px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 50px; /* Padding to provide space for background */
+}
+
+.timeline .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-9 {
@@ -294,20 +364,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 80px;
+    left: 90px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 15px;
     white-space: nowrap;
 }
 
 .timeline .img-3 {
     height: 46px;
-    left: 0;
+    left: 20px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 46px;
 }
 
