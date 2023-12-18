@@ -59,20 +59,12 @@
     top: 0;
 }
 
-.gas-prices .p {
-    color: #000000;
-}
-
-.gas-prices .p {
+.gas-prices .span {
     color: #7a0202;
 }
 
 .gas-prices .text-wrapper {
     color: #000000;
-}
-
-.gas-prices .span {
-    color: #7a0202;
 }
 
 .gas-prices .landscape {
