@@ -16,6 +16,7 @@ import rectangle3 from './images/Rectangle3.png'
 import gaswhite from './images/gaswhite.png'
 import line from './images/line.png'
 import line2 from './images/line2.png'
+import element from './images/element.png'
 
 export const Timeline = () => {
     return (
@@ -101,7 +102,7 @@ export const Timeline = () => {
                             <span className="text-wrapper-13">PHP</span>
                             <span className="text-wrapper-17">&nbsp;</span>
                         </p>
-                        <img className="element" alt="Element" src="3-2.png" />
+                        <img className="element" alt="Element" src={element} />
                         <img className="rectangle-3" alt="Rectangle" src="rectangle-196.svg" />
                         <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
@@ -131,7 +132,7 @@ export const Timeline = () => {
                             <span className="text-wrapper-13">PHP</span>
                             <span className="text-wrapper-17">&nbsp;</span>
                         </p>
-                        <img className="element" alt="Element" src="3-2-2.png" />
+                        <img className="element" alt="Element" src={element} />
                         <img className="rectangle-4" alt="Rectangle" src="image.svg" />
                         <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
@@ -161,7 +162,7 @@ export const Timeline = () => {
                             <span className="text-wrapper-13">PHP</span>
                             <span className="text-wrapper-17">&nbsp;</span>
                         </p>
-                        <img className="element" alt="Element" src="3-2-3.png" />
+                        <img className="element" alt="Element" src={element} />
                         <img className="rectangle-4" alt="Rectangle" src="rectangle-196-2.svg" />
                         <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                     </div>
@@ -192,7 +193,7 @@ export const Timeline = () => {
                                 <span className="text-wrapper-13">PHP</span>
                                 <span className="text-wrapper-17">&nbsp;</span>
                             </p>
-                            <img className="element" alt="Element" src="3-2-4.png" />
+                            <img className="element" alt="Element" src={element} />
                             <img className="rectangle-4" alt="Rectangle" src="rectangle-196-3.svg" />
                             <img className="gaswhite" alt="Gaswhite" src={gaswhite} />
                         </div>
