@@ -1,0 +1,775 @@
+.upcoming-view {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.upcoming-view .div {
+    background-color: #ffffff;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.upcoming-view .overlap {
+    background-color: #ff0000cc;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 426px;
+}
+
+.upcoming-view .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
+}
+
+.upcoming-view .group {
+    height: 50px;
+    left: 213px;
+    position: absolute;
+    top: 135px;
+    width: 160px;
+}
+
+.upcoming-view .overlap-group {
+    background-color: #ffffff;
+    border-radius: 80px;
+    height: 50px;
+    position: relative;
+    width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.upcoming-view .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.upcoming-view .ellipse {
+    height: 157px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 157px;
+}
+
+.upcoming-view .group-2 {
+    height: 50px;
+    left: 100px;
+    position: absolute;
+    top: 998px;
+    width: 188px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.upcoming-view .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
+}
+
+.upcoming-view .img {
+    height: 49px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 49px;
+}
+
+.upcoming-view .group-3 {
+    height: 40px;
+    left: 20px;
+    position: absolute;
+    top: 256px;
+    width: 245px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.upcoming-view .dash-wrapper {
+    background-image: url(./images/dash1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 40px;
+    left: 60px;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+}
+
+.upcoming-view .dash {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.upcoming-view .group-4 {
+    height: 48px;
+    left: 20px;
+    position: absolute;
+    top: 345px;
+    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.upcoming-view .gaspr {
+    height: 48px;
+    left: 60px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 48px;
+}
+
+.upcoming-view .group-5 {
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    top: 437px;
+    width: 310px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.upcoming-view .group-6 {
+    height: 56px;
+    left: 20px;
+    position: absolute;
+    top: 527px;
+    width: 246px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 153px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap
+}
+
+.upcoming-view .todolist {
+    height: 56px;
+    left: 55px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 56px;
+}
+
+.upcoming-view .group-7 {
+    height: 49px;
+    left: 20px;
+    position: absolute;
+    top: 624px;
+    width: 302px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+}
+
+.upcoming-view .img-2 {
+    height: 49px;
+    left: 55px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 49px;
+}
+
+.upcoming-view .group-8 {
+    height: 49px;
+    left: 20px;
+    position: absolute;
+    top: 717px;
+    width: 224px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .group-9 {
+    height: 46px;
+    left: 20px;
+    position: absolute;
+    top: 811px;
+    width: 209px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.upcoming-view .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 160px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.upcoming-view .timeline {
+    background-color: #FF0000CC;
+    height: 46px;
+    left: 55px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 46px;
+}
+
+.upcoming-view .overlap-2 {
+    height: 140px;
+    left: 426px;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.upcoming-view .reminder {
+    height: 90px;
+    left: 69px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 90px;
+}
+
+.upcoming-view .rectangle {
+    height: 140px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.upcoming-view .reminder {
+    height: 86px;
+    left: 43px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 86px;
+}
+
+.upcoming-view .reminder-wrapper {
+    height: 100px;
+    left: 193px;
+    position: absolute;
+    top: -60px;
+    width: 381px;
+}
+
+
+.upcoming-view .p {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: -55px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 431px;
+}
+
+.upcoming-view .span {
+    color: #000000;
+}
+
+.upcoming-view .text-wrapper-10 {
+    color: #890000;
+}
+
+.upcoming-view .landscape {
+    height: 73px;
+    left: 1098px;
+    object-fit: cover;
+    position: absolute;
+    top: 34px;
+    width: 339px;
+}
+
+.upcoming-view .view-reminder {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 987px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 203px;
+    white-space: nowrap;
+    width: 372px;
+}
+
+.upcoming-view .text-wrapper-11 {
+    color: #7a0202;
+}
+
+.upcoming-view .overlap-3 {
+    height: 90px;
+    left: 955px;
+    position: absolute;
+    top: 324px;
+    width: 438px;
+}
+
+.upcoming-view .rectangle-2 {
+    height: 90px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 436px;
+}
+
+.upcoming-view .rectangle-3 {
+    background-color: #ff0000cc;
+    border-radius: 25px;
+    height: 90px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 218px;
+}
+
+.upcoming-view .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 31px;
+    white-space: nowrap;
+    width: 139px;
+}
+
+.upcoming-view .overlap-wrapper {
+    height: 90px;
+    left: 218px;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+
+.upcoming-view .div-wrapper {
+    background-color: #00FF0A80;
+    border-radius: 25px;
+    height: 90px;
+    position: relative;
+    width: 218px;
+}
+
+.upcoming-view .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 77px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 32px;
+    white-space: nowrap;
+    width: 64px;
+}
+
+.upcoming-view .overlap-group-wrapper {
+    height: 120px;
+    left: 797px;
+    position: absolute;
+    top: 488px;
+    width: 754px;
+}
+
+.upcoming-view .overlap-4 {
+    background-color: #c9000080;
+    border-radius: 30px;
+    height: 120px;
+    position: relative;
+    width: 750px;
+}
+
+.upcoming-view .bell1 {
+    height: 80px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+
+.upcoming-view .bell2 {
+    height: 80px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+
+.upcoming-view .bell3 {
+    height: 80px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+
+.upcoming-view .bell4 {
+    height: 80px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+
+.upcoming-view .text-wrapper-14 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 164px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    white-space: nowrap;
+    width: 289px;
+}
+
+.upcoming-view .text-wrapper-15 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 506px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    white-space: nowrap;
+    width: 185px;
+}
+
+.upcoming-view .group-10 {
+    height: 120px;
+    left: 797px;
+    position: absolute;
+    top: 631px;
+    width: 754px;
+}
+
+.upcoming-view .ASDASF-2 {
+    height: 80px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 22px;
+    width: 80px;
+}
+
+.upcoming-view .text-wrapper-16 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 42px;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.upcoming-view .text-wrapper-17 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 540px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    white-space: nowrap;
+    width: 113px;
+}
+
+.upcoming-view .group-11 {
+    height: 120px;
+    left: 798px;
+    position: absolute;
+    top: 774px;
+    width: 754px;
+}
+
+.upcoming-view .overlap-5 {
+    border-radius: 30px;
+    height: 120px;
+    position: relative;
+    width: 750px;
+}
+
+.upcoming-view .ASDASF-wrapper {
+    background-color: #c9000080;
+    border-radius: 30px;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 750px;
+}
+
+.upcoming-view .ASDASF-3 {
+    height: 80px;
+    left: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+}
+
+.upcoming-view .text-wrapper-18 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 41px;
+    width: 287px;
+}
+
+.upcoming-view .text-wrapper-19 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 505px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    width: 155px;
+}
+
+.upcoming-view .group-12 {
+    height: 120px;
+    left: 798px;
+    position: absolute;
+    top: 917px;
+    width: 754px;
+}
+
+.upcoming-view .text-wrapper-20 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 42px;
+    white-space: nowrap;
+    width: 287px;
+}
+
+.upcoming-view .text-wrapper-21 {
+    color: #000000cc;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 505px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 177px;
+}

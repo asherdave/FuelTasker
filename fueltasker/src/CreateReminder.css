@@ -1,0 +1,647 @@
+.create-reminder {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.create-reminder .div {
+    background-color: #ffffff;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.create-reminder .gaspr {
+    height: 48px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 48px;
+}
+
+.create-reminder .overlap {
+    background-color: #ff0000cc;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 426px;
+}
+
+.create-reminder .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
+}
+
+.create-reminder .group {
+    height: 50px;
+    left: 213px;
+    position: absolute;
+    top: 135px;
+    width: 160px;
+}
+
+.create-reminder .overlap-group {
+    background-color: #ffffff;
+    border-radius: 80px;
+    height: 50px;
+    position: relative;
+    width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.create-reminder .ellipse {
+    height: 157px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 157px;
+}
+
+.create-reminder .group-2 {
+    left: 100px;
+    position: absolute;
+    top: 998px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 77px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.create-reminder .img {
+    height: 49px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 49px;
+}
+
+.create-reminder .group-3 {
+    left: -1190px;
+    position: absolute;
+    top: -194px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
+}
+
+.create-reminder .save {
+    height: 50px;
+    left: -1px;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 50px;
+}
+
+.create-reminder .trashw1 {
+    color: #f0f0f0;
+    height: 50px;
+    left: -1px;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 50px;
+}
+
+.create-reminder .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+    white-space: nowrap;
+}
+
+
+
+/*
+.create-reminder .dash-wrapper {
+    background-image: url("./images/dash1.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 40px;
+    left: 50px;
+    position: absolute;
+    top: 14px;
+    width: 50px;
+}
+*/
+
+
+.create-reminder .dash {
+    height: 40px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 50px;
+}
+
+.create-reminder .group-4 {
+    left: 23px;
+    position: absolute;
+    top: 256px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.create-reminder .img-2 {
+    left: 49px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+}
+
+.create-reminder .img-3 {
+    height: 86px;
+    left: 43px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 86px;
+}
+
+.create-reminder .group-5 {
+    left: 23px;
+    position: absolute;
+    top: 345px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.create-reminder .group-6 {
+    left: 23px;
+    position: absolute;
+    top: 437px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 153px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+}
+
+.create-reminder .todolist {
+    height: 56px;
+    left: 45px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 56px;
+}
+
+.create-reminder .group-7 {
+    left: 23px;
+    position: absolute;
+    top: 527px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+}
+
+.create-reminder .reminder {
+    height: 86px;
+    left: 43px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 86px;
+}
+
+.create-reminder .group-8 {
+    left: 23px;
+    position: absolute;
+    top: 624px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .group-9 {
+    left: 23px;
+    position: absolute;
+    top: 811px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.create-reminder .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 160px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.create-reminder .timeline {
+    background-color: #FF0000CC;
+    height: 46px;
+    left: 52px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 46px;
+}
+
+.create-reminder .overlap-2 {
+    height: 140px;
+    left: 426px;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.create-reminder .reminder {
+    height: 90px;
+    left: 69px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 90px;
+}
+
+.create-reminder .rectangle {
+    height: 140px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.create-reminder .reminder-wrapper {
+    height: 100px;
+    left: 193px;
+    position: absolute;
+    top: -60px;
+    width: 381px;
+}
+
+.create-reminder .p {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: -55px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 431px;
+}
+
+.create-reminder .span {
+    color: #000000;
+}
+
+.create-reminder .text-wrapper-10 {
+    color: #890000;
+}
+
+.create-reminder .landscape {
+    height: 73px;
+    left: 1098px;
+    object-fit: cover;
+    position: absolute;
+    top: 34px;
+    width: 339px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
+
+.create-reminder .div-2 {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 968px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 231px;
+    white-space: nowrap;
+    width: 411px;
+}
+
+.create-reminder .text-wrapper-11 {
+    color: #7a0202;
+}
+
+.create-reminder .overlap-wrapper {
+    height: 81px;
+    left: 845px;
+    position: absolute;
+    top: 357px;
+    width: 658px;
+}
+
+.create-reminder .div-wrapper {
+    background-color: #ececec;
+    border: 1px solid;
+    border-color: #909090;
+    border-radius: 30px;
+    height: 81px;
+    position: relative;
+    width: 656px;
+}
+
+.create-reminder .text-wrapper-12 {
+    color: #838383;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    white-space: nowrap;
+}
+
+.create-reminder .overlap-group-wrapper {
+    height: 81px;
+    left: 845px;
+    position: absolute;
+    top: 458px;
+    width: 658px;
+}
+
+
+.create-reminder .group-10 {
+    height: 81px;
+    left: 845px;
+    position: absolute;
+    top: 559px;
+    width: 658px;
+}
+
+.create-reminder .group-11 {
+    height: 81px;
+    left: 845px;
+    position: absolute;
+    top: 660px;
+    width: 658px;
+}
+
+.create-reminder .group-12 {
+    height: 81px;
+    left: 845px;
+    position: absolute;
+    top: 761px;
+    width: 658px;
+}
+
+.create-reminder .group-wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 72px;
+    left: 1222px;
+    position: absolute;
+    top: 907px;
+    width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .group-13 {
+    height: 47px;
+    left: 45px;
+    position: relative;
+    top: 13px;
+    width: 162px;
+}
+
+.create-reminder .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 57px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+    width: 103px;
+}
+
+.create-reminder .trash {
+    height: 47px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.create-reminder .group-14 {
+    background-color: #890000;
+    border-radius: 20px;
+    height: 72px;
+    left: 875px;
+    position: absolute;
+    top: 907px;
+    width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-reminder .group-14:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
+
+.create-reminder .group-15 {
+    height: 48px;
+    left: 55px;
+    position: relative;
+    top: 12px;
+    width: 142px;
+}
+
+.create-reminder .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 73px;
+}

@@ -12,7 +12,10 @@ import { ChangePassword } from './ChangePassword.jsx';
 import { Reminder } from './Reminder.jsx';
 import { ToDoList } from './Todolist.jsx';
 import { GasPrices } from './GasPrices.jsx';
-
+import { CreateReminder } from './CreateReminder.jsx';
+import { UpcomingView } from './Upcomingview.jsx';
+import { PastView } from './Pastview.jsx';
+import { Timeline } from './Timeline.jsx';
 
 function App() {
   return (
@@ -30,6 +33,12 @@ function App() {
           <Route path="/reminder" element={<Reminder />} />
           <Route path="/todolist" element={<ToDoList />} />
           <Route path="/gasprices" element={<GasPrices />} />
+          <Route path="/gasprices" element={<GasPrices />} />
+          <Route path="/createreminder" element={<CreateReminder />} />
+          <Route path="/upcomingview" element={<UpcomingView />} />
+          <Route path="/pastview" element={<PastView />} />
+          <Route path="/timeline" element={<Timeline />} />
+
         </Routes>
       </div>
     </Router>
