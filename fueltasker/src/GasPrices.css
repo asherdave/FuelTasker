@@ -24,9 +24,9 @@
 }
 
 .gas-prices .overlap {
-    
+    background-image: url(./images/rect99.png);
     background-size: 100% 100%;
-    height: 139px;
+    height: 141px;
     left: 426px;
     position: absolute;
     top: 0;
@@ -344,6 +344,7 @@
 }
 
 .gas-prices .timeline {
+    background-color: #FF0000CC;
     height: 46px;
     left: 0;
     object-fit: cover;
