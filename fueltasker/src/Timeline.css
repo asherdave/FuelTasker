@@ -401,7 +401,7 @@
 }
 
 .timeline .group-10 {
-    background-color: #464646;
+    background-color: #f88080;
     border-radius: 20px;
     height: 73px;
     left: 891px;
@@ -417,7 +417,7 @@
 }
 
 .timeline .group-10:hover {
-    background-color: #464646; /* Change the background color on hover */
+    background-color:#ff3333;/* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
