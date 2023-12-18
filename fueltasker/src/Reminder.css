@@ -148,7 +148,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
+    padding: 25px 150px; /* Padding to provide space for background */
 }
 
 .reminder .group-3:hover {

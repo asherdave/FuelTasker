@@ -29,9 +29,9 @@ export const GasPrices = () => {
                 <div className="overlap-group">
                     <div className="text-wrapper-2">John Doe</div>
                     <div className="group">
-                        <div className="div-wrapper">
+                        <button className="div-wrapper">
                             <div className="text-wrapper-3">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <div className="group-2">
