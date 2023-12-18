@@ -11,7 +11,7 @@ import { EditProfile } from './EditProfile.jsx';
 import { ChangePassword } from './ChangePassword.jsx';
 import { Reminder } from './Reminder.jsx';
 import { ToDoList } from './Todolist.jsx';
-import { GasPrices } from './GasPrices.jsx';
+import { GasPrices } from './gasprices.jsx';
 import { CreateReminder } from './CreateReminder.jsx';
 import { UpcomingView } from './Upcomingview.jsx';
 import { PastView } from './Pastview.jsx';
