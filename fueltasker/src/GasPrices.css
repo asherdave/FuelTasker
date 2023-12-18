@@ -163,7 +163,7 @@
 
 .gas-prices .group-3 {
     height: 40px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 256px;
     width: 225px;
@@ -171,7 +171,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: px 55px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .gas-prices .group-3:hover {
@@ -184,20 +184,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 16px;
     white-space: nowrap;
 }
 
 .gas-prices .dash {
     height: 40px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
