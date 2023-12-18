@@ -166,7 +166,17 @@
     left: 63px;
     position: absolute;
     top: 256px;
-    width: 245px;
+    width: 225px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: px 55px; /* Padding to provide space for background */
+}
+
+.gas-prices .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .gas-prices .text-wrapper-5 {
