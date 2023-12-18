@@ -17,6 +17,7 @@ import gaswhite from './images/gaswhite.png'
 import line from './images/line.png'
 import line2 from './images/line2.png'
 import element from './images/element.png'
+import rectangle169 from './images/rectangle169.png'
 
 export const Timeline = () => {
     return (
@@ -82,7 +83,8 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src="group-140.png" />
+                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
@@ -112,7 +114,8 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src="group-140-2.png" />
+                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
@@ -142,7 +145,8 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src="group-140-3.png" />
+                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
@@ -173,7 +177,8 @@ export const Timeline = () => {
                             <div className="rectangle-wrapper">
                                 <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                             </div>
-                            <img className="group-10" alt="Group" src="group-140-4.png" />
+                            <img className="group-10" alt="Group" src={rectangle169} />
+                            <p className="image-text">Delete</p>
                             <img className="line" alt="Line" src={line} />
                             <img className="line-2" alt="Line" src={line2} />
                             <div className="text-wrapper-11">06.17.2023</div>
