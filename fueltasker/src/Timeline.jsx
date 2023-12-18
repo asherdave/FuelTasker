@@ -17,6 +17,7 @@ import element from './images/element.png';
 import line12 from './images/Line12.png';
 import line14 from './images/Line14.png';
 import group140 from './images/Group140.png';
+import timeline1 from './images/timeline1.png'
 
 export const Timeline = () => {
     return (
@@ -32,7 +33,7 @@ export const Timeline = () => {
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout} />
                     </button>
                     <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
@@ -60,7 +61,7 @@ export const Timeline = () => {
                     </button>
                     <button className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
-                        <img className="img-3" alt="Timeline" src={timeline} />
+                        <img className="timeline1" alt="Timeline" src={timeline1} />
                     </button>
                 </div>
                 <div className="overlap-2">
