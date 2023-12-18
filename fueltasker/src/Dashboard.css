@@ -110,10 +110,10 @@
 
 .dashboard .img-logout {
     height: 49px;
-    left: 0px;
+    left: 15px;
     object-fit: cover;
     position: absolute;
-    top: 0px;
+    top: 9px;
     width: 49px;
 }
 

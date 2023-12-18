@@ -1,30 +1,32 @@
 import React from "react";
 import "./GasPrices.css";
-import logout from './images/logout.png';
+import sidelogo from './images/sidelogo.png';
+import fuelframe from './images/fuelframe.png';
 import profile from './images/profile.png';
+import logout from './images/logout.png';
 import dashboard from './images/dashboard.png';
-import gas from './images/gasprices.png';
+import gasprice from './images/gasprices.png';
 import monthly from './images/monthlyexpenses.png';
 import todolist from './images/todolist.png';
 import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
-import timeline from './images/timeline1.png';
-import landscape from './images/landscape3.png';
-import seaoil from './images/seaoil.png';   
-import shell from './images/shell.png';
+import timeline from './images/timeline.png';
 import petron from './images/petron.png';
+import shell from './images/shell.png';
+import seaoil from './images/seaoil.png';
 
 export const GasPrices = () => {
     return (
         <div className="gas-prices">
-            <div className="div">     
+            <div className="div">
+                <img className="image" alt="Image" src={petron} />
                 <div className="overlap">
+                    <img className="gaspr" alt="Gaspr" src={gasprice} />
                     <p className="p">
                         <span className="text-wrapper">Gas </span>
                         <span className="span">Prices</span>
                     </p>
-                    <img className="gaspr" alt="Gaspr" src={gas} />
-                    <img className="landscape" alt="Landscape" src={landscape} />
+                    <img className="landscape" alt="Landscape" src={sidelogo} />
                 </div>
                 <div className="overlap-group">
                     <div className="text-wrapper-2">John Doe</div>
@@ -40,13 +42,11 @@ export const GasPrices = () => {
                     </div>
                     <div className="group-3">
                         <div className="text-wrapper-5">Dashboard</div>
-                        <div className="dash-wrapper">
-                            <img className="dash" alt="Dash" src={dashboard} />
-                        </div>
+                        <img className="dash" alt="Dash" src={dashboard} />
                     </div>
                     <div className="group-4">
                         <div className="text-wrapper-6">Gas Prices</div>
-                        <img className="gaspr-2" alt="Gaspr" src={gas} />
+                        <img className="gaspr-2" alt="Gaspr" src={gasprice} />
                     </div>
                     <div className="group-5">
                         <div className="text-wrapper-7">Monthly Expenses</div>
@@ -54,7 +54,7 @@ export const GasPrices = () => {
                     </div>
                     <div className="group-6">
                         <div className="text-wrapper-8">To-Do-List</div>
-                        <img className="todolist" alt="Todolist" src={todolist} />
+                        <img className="todolist" alt="Todolist" src={todolist}/>
                     </div>
                     <div className="group-7">
                         <div className="text-wrapper-9">Gas Consumption</div>
@@ -62,7 +62,7 @@ export const GasPrices = () => {
                     </div>
                     <div className="group-8">
                         <div className="text-wrapper-6">Reminder</div>
-                        <img className="img-2" alt="Reminder" src={reminder} />
+                        <img className="img-2" alt="Reminder" src={reminder}/>
                     </div>
                     <div className="group-9">
                         <div className="text-wrapper-10">Timeline</div>
@@ -162,7 +162,6 @@ export const GasPrices = () => {
                         </div>
                     </div>
                 </div>
-                <img className="petron" alt="Petron" src={petron} />
                 <img className="shell-logo-png" alt="Shell logo png" src={shell} />
                 <img className="seaoil-logo-removebg" alt="Seaoil logo removebg" src={seaoil} />
             </div>

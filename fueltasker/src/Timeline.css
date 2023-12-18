@@ -1,5 +1,4 @@
 .timeline {
-    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,12 +49,6 @@
     height: 50px;
     position: relative;
     width: 158px;
-    border: none;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-
-.timeline .overlap-group:hover {
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-2 {
@@ -83,20 +76,10 @@
 
 .timeline .group-2 {
     height: 50px;
-    left: 100px;
+    left: 120px;
     position: absolute;
     top: 998px;
-    width: 120px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-2:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 188px;
 }
 
 .timeline .text-wrapper-3 {
@@ -108,35 +91,25 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 17px;
+    top: 5px;
     white-space: nowrap;
 }
 
 .timeline .img {
     height: 50px;
-    left: 15px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 5px;
+    top: 0;
     width: 50px;
 }
 
 .timeline .group-3 {
     height: 40px;
-    left: 50px;
+    left: 63px;
     position: absolute;
     top: 256px;
     width: 245px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-3:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-4 {
@@ -144,23 +117,12 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 100px;
+    left: 82px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 3px;
     white-space: nowrap;
-}
-
-.timeline .dash-wrapper {
-    background-image: url(./images/dash1.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 40px;
-    left: 20px;
-    position: absolute;
-    top: 10px;
-    width: 50px;
 }
 
 .timeline .dash {
@@ -178,16 +140,6 @@
     position: absolute;
     top: 345px;
     width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-4:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-5 {
@@ -195,20 +147,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 90px;
+    left: 81px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 15px;
+    top: 6px;
     white-space: nowrap;
 }
 
 .timeline .gaspr {
     height: 48px;
-    left: 15px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 10px;
+    top: 0;
     width: 48px;
 }
 
@@ -217,17 +169,7 @@
     left: 59px;
     position: absolute;
     top: 437px;
-    width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-5:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 310px;
 }
 
 .timeline .text-wrapper-6 {
@@ -239,7 +181,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 10px;
     white-space: nowrap;
 }
 
@@ -248,17 +190,7 @@
     left: 59px;
     position: absolute;
     top: 527px;
-    width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-6:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 246px;
 }
 
 .timeline .text-wrapper-7 {
@@ -270,16 +202,16 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 10px;
     white-space: nowrap;
 }
 
 .timeline .todolist {
     height: 56px;
-    left: 15px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 5px;
+    top: 0;
     width: 56px;
 }
 
@@ -288,17 +220,7 @@
     left: 63px;
     position: absolute;
     top: 624px;
-    width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-7:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 302px;
 }
 
 .timeline .text-wrapper-8 {
@@ -310,16 +232,16 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 9px;
     white-space: nowrap;
 }
 
 .timeline .img-2 {
     height: 49px;
-    left: 15px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 10px;
+    top: 0;
     width: 49px;
 }
 
@@ -328,17 +250,7 @@
     left: 63px;
     position: absolute;
     top: 717px;
-    width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-8:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 224px;
 }
 
 .timeline .group-9 {
@@ -346,17 +258,7 @@
     left: 63px;
     position: absolute;
     top: 811px;
-    width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 10px 50px; /* Padding to provide space for background */
-}
-
-.timeline .group-9:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 209px;
 }
 
 .timeline .text-wrapper-9 {
@@ -364,20 +266,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 90px;
+    left: 80px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 15px;
+    top: 5px;
     white-space: nowrap;
 }
 
 .timeline .img-3 {
     height: 46px;
-    left: 20px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 10px;
+    top: 0;
     width: 46px;
 }
 
@@ -428,12 +330,12 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
     font-weight: 700;
-    left: -59px;
+    left: 0;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     top: -75px;
-    width: 431px;
+    width: 341px;
 }
 
 .timeline .span {
@@ -453,74 +355,58 @@
     width: 339px;
 }
 
-.timeline .overlap-wrapper {
-    height: 170px;
+.timeline .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 26px;
+    height: 794px;
     left: 599px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px 0px;
     position: absolute;
     top: 227px;
+}
+
+.timeline .overlap-group-wrapper {
+    height: 170px;
+    margin-right: -12px;
+    position: relative;
     width: 1160px;
 }
 
-.timeline .overlap-3 {
+.timeline .overlap-group-2 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
     height: 170px;
     position: relative;
     width: 1148px;
 }
 
-.timeline .rectangle-wrapper {
-    height: 170px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1148px;
-}
-
-.timeline .rectangle-3 {
-    background-color: #b5b5b5;
-    border-radius: 30px;
-    height: 178px;
-    left: -4px;
-    mix-blend-mode: multiply;
-    position: absolute;
-    top: 0;
-    width: 1156px;
-}
-
 .timeline .group-10 {
-    background-color: #f88080;
-    border-radius: 20px;
-    height: 73px;
-    left: 891px;
+    height: 65px;
+    left: 895px;
     mix-blend-mode: darken;
     position: absolute;
     top: 52px;
-    width: 50px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 20px;
-    padding: 20px 100px; /* Padding to provide space for background */
-}
-
-.timeline .group-10:hover {
-    background-color:#ff3333;/* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
+    width: 200px;
 }
 
 .timeline .line {
-    height: 124px;
-    left: 367px;
+    height: 116px;
+    left: 371px;
     position: absolute;
     top: 27px;
-    width: 12px;
+    width: 1px;
 }
 
 .timeline .line-2 {
-    height: 63px;
-    left: 565px;
+    height: 55px;
+    left: 569px;
     position: absolute;
     top: 85px;
-    width: 12px;
+    width: 1px;
 }
 
 .timeline .text-wrapper-11 {
@@ -546,7 +432,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 21px;
+    top: -12px;
     width: 143px;
 }
 
@@ -598,7 +484,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 92px;
+    top: 70px;
     white-space: nowrap;
     width: 139px;
 }
@@ -620,7 +506,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 91px;
+    top: 70px;
     width: 210px;
 }
 
@@ -637,7 +523,9 @@
     width: 60px;
 }
 
-.timeline .rectangle-4 {
+.timeline .gaswhite-wrapper {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
     height: 169px;
     left: 0;
     position: absolute;
@@ -646,7 +534,6 @@
 }
 
 .timeline .gaswhite {
-    color: #7a0202;
     height: 51px;
     left: 13px;
     object-fit: cover;
@@ -655,12 +542,12 @@
     width: 51px;
 }
 
-.timeline .overlap-group-wrapper {
+.timeline .overlap-3 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
     height: 170px;
-    left: 599px;
-    position: absolute;
-    top: 423px;
-    width: 1160px;
+    position: relative;
+    width: 1148px;
 }
 
 .timeline .element-km-2 {
@@ -672,7 +559,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 21px;
+    top: -12px;
     width: 144px;
 }
 
@@ -699,16 +586,26 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 91px;
+    top: 70px;
     width: 204px;
 }
 
-.timeline .div-wrapper {
-    height: 170px;
-    left: 599px;
+.timeline .img-wrapper {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
+    height: 169px;
+    left: 0;
     position: absolute;
-    top: 619px;
-    width: 1160px;
+    top: 0;
+    width: 76px;
+}
+
+.timeline .overlap-4 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
+    height: 170px;
+    position: relative;
+    width: 1148px;
 }
 
 .timeline .element-km-3 {
@@ -720,24 +617,26 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 21px;
+    top: -12px;
     width: 139px;
 }
 
-.timeline .overlap-4 {
-    height: 170px;
-    left: 599px;
-    position: absolute;
-    top: 815px;
-    width: 1160px;
-}
-
-.timeline .group-11 {
-    height: 170px;
+.timeline .overlap-group-3 {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
+    height: 169px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 1160px;
+    width: 76px;
+}
+
+.timeline .overlap-5 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
+    height: 170px;
+    position: relative;
+    width: 1148px;
 }
 
 .timeline .element-KM-2 {
@@ -749,30 +648,53 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 92px;
+    top: 70px;
     white-space: nowrap;
     width: 131px;
 }
 
-.timeline .text-wrapper-19 {
-    color: #757373;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 24px;
-    font-weight: 700;
-    left: 775px;
-    letter-spacing: 0;
-    line-height: normal;
+.timeline .overlap-group-4 {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
+    height: 169px;
+    left: 0;
     position: absolute;
-    top: 3px;
+    top: 0;
+    width: 76px;
 }
 
-.image-text {
+.timeline .overlap-6 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
+    height: 170px;
+    position: relative;
+    width: 1148px;
+}
+
+.timeline .overlap-group-5 {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
+    height: 169px;
+    left: 0;
     position: absolute;
-    top: 65px;
-    left: 995px;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255); /* Set the text color */
-    font-size: 20px; /* Set the font size */
-    /* Add any additional styling as needed */
-    font-weight: bold;
-  }
+    top: 0;
+    width: 76px;
+}
+
+.timeline .overlap-7 {
+    background-image: url(./images/Rectangle3.png);
+    background-size: 100% 100%;
+    height: 170px;
+    position: relative;
+    width: 1148px;
+}
+
+.timeline .overlap-group-6 {
+    background-image: url(./images/rect196.png);
+    background-size: 100% 100%;
+    height: 169px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 76px;
+}
