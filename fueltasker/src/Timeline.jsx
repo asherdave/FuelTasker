@@ -16,7 +16,7 @@ import gaswhite from './images/gaswhite.png';
 import element from './images/element.png';
 import line12 from './images/Line12.png';
 import line14 from './images/Line14.png';
-import rect169 from './images/rectangle169.png';
+import group140 from './images/Group140.png';
 
 export const Timeline = () => {
     return (
@@ -63,9 +63,8 @@ export const Timeline = () => {
                         <img className="img-3" alt="Timeline" src={timeline} />
                     </div>
                 </div>
-                <img className="rectangle" alt="Rectangle" src="rectangle-98.svg" />
                 <div className="overlap-2">
-                    <img className="img-4" alt="Timeline" src="timeline-2.png" />
+                    <img className="img-4" alt="Timeline" src={timeline} />
                     <img className="rectangle-2" alt="Rectangle" src={rect99} />
                     <div className="timeline-wrapper">
                         <p className="p">
@@ -78,9 +77,9 @@ export const Timeline = () => {
                 <div className="frame">
                     <div className="overlap-group-wrapper">
                         <div className="overlap-group-2">
-                            <img className="group-10" alt="Group" src="group-140.png" />
-                            <img className="line" alt="Line" src="line-12.png" />
-                            <img className="line-2" alt="Line" src="line-14.png" />
+                            <img className="group-10" alt="Group" src={group140} />
+                            <img className="line" alt="Line" src={line12} />
+                            <img className="line-2" alt="Line" src={line14} />
                             <div className="text-wrapper-11">06.17.2023</div>
                             <p className="element-km">
                                 <span className="text-wrapper-12">4,882</span>
@@ -106,7 +105,7 @@ export const Timeline = () => {
                     </div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-3">
-                            <img className="group-10" alt="Group" src="group-140-2.png" />
+                            <img className="group-10" alt="Group" src={group140} />
                             <img className="line" alt="Line" src={line12} />
                             <img className="line-2" alt="Line" src={line14} />
                             <div className="text-wrapper-11">06.17.2023</div>
@@ -134,7 +133,7 @@ export const Timeline = () => {
                     </div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-4">
-                            <img className="group-10" alt="Group" src="group-140-3.png" />
+                            <img className="group-10" alt="Group" src={group140}/>
                             <img className="line" alt="Line" src={line12} />
                             <img className="line-2" alt="Line" src={line14} />
                             <div className="text-wrapper-11">06.17.2023</div>
@@ -162,7 +161,7 @@ export const Timeline = () => {
                     </div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-5">
-                            <img className="group-10" alt="Group" src="group-140-6.png" />
+                            <img className="group-10" alt="Group" src={group140} />
                             <img className="line" alt="Line" src={line12} />
                             <img className="line-2" alt="Line" src={line14} />
                             <div className="text-wrapper-11">06.17.2023</div>
@@ -190,7 +189,7 @@ export const Timeline = () => {
                     </div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-6">
-                            <img className="group-10" alt="Group" src="group-140-4.png" />
+                            <img className="group-10" alt="Group" src={group140} />
                             <img className="line" alt="Line" src={line12} />
                             <img className="line-2" alt="Line" src={line14} />
                             <div className="text-wrapper-11">06.17.2023</div>
@@ -218,7 +217,7 @@ export const Timeline = () => {
                     </div>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-7">
-                            <img className="group-10" alt="Group" src="group-140-5.png" />
+                            <img className="group-10" alt="Group" src={group140} />
                             <img className="line" alt="Line" src={line12} />
                             <img className="line-2" alt="Line" src={line14}/>
                             <div className="text-wrapper-11">06.17.2023</div>
