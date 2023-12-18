@@ -14,6 +14,8 @@ import rect99 from './images/rect99.png'
 import timeline2 from './images/timeline2.png'
 import rectangle3 from './images/Rectangle3.png'
 import gaswhite from './images/gaswhite.png'
+import line from './images/line.png'
+import line2 from './images/line2.png'
 
 export const Timeline = () => {
     return (
@@ -80,8 +82,8 @@ export const Timeline = () => {
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140.png" />
-                        <img className="line" alt="Line" src="line-12.png" />
-                        <img className="line-2" alt="Line" src="line-14.png" />
+                        <img className="line" alt="Line" src={line} />
+                        <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
                         <p className="element-km">
                             <span className="text-wrapper-12">4,882</span>
@@ -110,8 +112,8 @@ export const Timeline = () => {
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140-2.png" />
-                        <img className="line" alt="Line" src="line-12-2.png" />
-                        <img className="line-2" alt="Line" src="line-14-2.png" />
+                        <img className="line" alt="Line" src={line} />
+                        <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
                         <p className="element-km-2">
                             <span className="text-wrapper-12">4,526</span>
@@ -140,8 +142,8 @@ export const Timeline = () => {
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
                         <img className="group-10" alt="Group" src="group-140-3.png" />
-                        <img className="line" alt="Line" src="line-12-3.png" />
-                        <img className="line-2" alt="Line" src="line-14-3.png" />
+                        <img className="line" alt="Line" src={line} />
+                        <img className="line-2" alt="Line" src={line2} />
                         <div className="text-wrapper-11">06.17.2023</div>
                         <p className="element-km-3">
                             <span className="text-wrapper-12">4,212</span>
@@ -171,8 +173,8 @@ export const Timeline = () => {
                                 <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                             </div>
                             <img className="group-10" alt="Group" src="group-140-4.png" />
-                            <img className="line" alt="Line" src="line-12-4.png" />
-                            <img className="line-2" alt="Line" src="line-14-4.png" />
+                            <img className="line" alt="Line" src={line} />
+                            <img className="line-2" alt="Line" src={line2} />
                             <div className="text-wrapper-11">06.17.2023</div>
                             <p className="element-km-3">
                                 <span className="text-wrapper-12">3,912</span>
