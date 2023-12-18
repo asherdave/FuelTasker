@@ -18,7 +18,6 @@ export const GasPrices = () => {
     return (
         <div className="gas-prices">
             <div className="div">     
-                <img className="petron" alt="Petron" src={petron} />
                 <div className="overlap">
                     <p className="p">
                         <span className="text-wrapper">Gas </span>
@@ -163,6 +162,7 @@ export const GasPrices = () => {
                         </div>
                     </div>
                 </div>
+                <img className="petron" alt="Petron" src={petron} />
                 <img className="shell-logo-png" alt="Shell logo png" src={shell} />
                 <img className="seaoil-logo-removebg" alt="Seaoil logo removebg" src={seaoil} />
             </div>

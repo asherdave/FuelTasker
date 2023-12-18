@@ -43,15 +43,28 @@
 }
 
 .gas-prices .p {
+    height: 97px;
+    width: 417px;
+}
+
+.gas-prices .p {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
     font-weight: 700;
-    left: 158px;
+    left: 0;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    top: 20px;
+    position: fixed;
+    top: 0;
+}
+
+.gas-prices .p {
+    color: #000000;
+}
+
+.gas-prices .p {
+    color: #7a0202;
 }
 
 .gas-prices .text-wrapper {
@@ -719,6 +732,14 @@
     width: 438px;
 }
 
+.gas-prices .petron {
+    height: 250px;
+    left: 618px;
+    object-fit: cover;
+    position: absolute;
+    top: 249px;
+    width: 204px;
+}
 .gas-prices .shell-logo-png {
     height: 250px;
     left: 608px;
