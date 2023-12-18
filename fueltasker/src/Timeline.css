@@ -49,6 +49,12 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.timeline .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-2 {
@@ -96,20 +102,30 @@
 }
 
 .timeline .img {
-    height: 50px;
-    left: 0;
+    height: 49px;
+    left: 46px;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    width: 50px;
+    top: 8px;
+    width: 49px;
 }
 
 .timeline .group-3 {
     height: 40px;
-    left: 63px;
+    left: 20px;
     position: absolute;
     top: 256px;
-    width: 245px;
+    width: 224px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.timeline .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-4 {
@@ -117,29 +133,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .timeline .dash {
     height: 40px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .timeline .group-4 {
-    height: 48px;
-    left: 59px;
+    left: 23px;
     position: absolute;
-    top: 345px;
-    width: 240px;
+    top: 350px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.timeline .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-5 {
@@ -147,29 +171,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 16px;
     white-space: nowrap;
 }
 
 .timeline .gaspr {
     height: 48px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 48px;
 }
 
 .timeline .group-5 {
-    height: 50px;
-    left: 59px;
+    left: 23px;
     position: absolute;
-    top: 437px;
-    width: 310px;
+    top: 450px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.timeline .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .text-wrapper-6 {
@@ -177,11 +209,11 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 82px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 20px;
     white-space: nowrap;
 }
 
