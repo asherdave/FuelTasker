@@ -82,10 +82,10 @@
 
 .timeline .group-2 {
     height: 50px;
-    left: 120px;
+    left: 100px;
     position: absolute;
     top: 998px;
-    width: 188px;
+    width: 120px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
@@ -107,7 +107,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 17px;
     white-space: nowrap;
 }
 
