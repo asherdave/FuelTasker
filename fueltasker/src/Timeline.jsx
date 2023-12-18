@@ -83,7 +83,7 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <button className="group-10" alt="Group" src={rectangle169} />
                         <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
@@ -114,7 +114,7 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <button className="group-10" alt="Group" src={rectangle169} />
                         <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
@@ -145,7 +145,7 @@ export const Timeline = () => {
                         <div className="rectangle-wrapper">
                             <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                         </div>
-                        <img className="group-10" alt="Group" src={rectangle169} />
+                        <button className="group-10" alt="Group" src={rectangle169} />
                         <p className="image-text">Delete</p>
                         <img className="line" alt="Line" src={line} />
                         <img className="line-2" alt="Line" src={line2} />
@@ -177,7 +177,7 @@ export const Timeline = () => {
                             <div className="rectangle-wrapper">
                                 <img className="rectangle-3" alt="Rectangle" src={rectangle3} />
                             </div>
-                            <img className="group-10" alt="Group" src={rectangle169} />
+                            <button className="group-10" alt="Group" src={rectangle169} />
                             <p className="image-text">Delete</p>
                             <img className="line" alt="Line" src={line} />
                             <img className="line-2" alt="Line" src={line2} />

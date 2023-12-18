@@ -401,12 +401,24 @@
 }
 
 .timeline .group-10 {
+    background-color: #464646;
+    border-radius: 20px;
     height: 73px;
     left: 891px;
     mix-blend-mode: darken;
     position: absolute;
     top: 52px;
-    width: 208px;
+    width: 50px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 100px; /* Padding to provide space for background */
+}
+
+.timeline .group-10:hover {
+    background-color: #464646; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .timeline .line {
@@ -671,7 +683,7 @@
 .image-text {
     position: absolute;
     top: 65px;
-    left: 1000px;
+    left: 995px;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255); /* Set the text color */
     font-size: 20px; /* Set the font size */
