@@ -160,7 +160,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 120px;
+    left: 80px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -182,7 +182,7 @@
     left: 618px;
     object-fit: cover;
     position: absolute;
-    top: 799px;
+    top: 235px;
     width: 230px;
 }
 
@@ -794,6 +794,15 @@
     position: absolute;
     top: 18px;
     width: 438px;
+}
+
+.gas-prices .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
 }
 
 .gas-prices .shell-logo-png {
