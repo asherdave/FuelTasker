@@ -1,7 +1,6 @@
 import React from "react";
 import "./GasPrices.css";
 import sidelogo from './images/sidelogo.png';
-import fuelframe from './images/fuelframe.png';
 import profile from './images/profile.png';
 import logout from './images/logout.png';
 import dashboard from './images/dashboard.png';
@@ -36,10 +35,10 @@ export const GasPrices = () => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-4">Logout</div>
                         <img className="img" alt="Logout" src={logout} />
-                    </div>
+                    </button>
                     <button className="group-3">
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
@@ -48,26 +47,26 @@ export const GasPrices = () => {
                         <div className="text-wrapper-6">Gas Prices</div>
                         <img className="gaspr-2" alt="Gaspr" src={gasprice} />
                     </button>
-                    <div className="group-5">
+                    <button className="group-5">
                         <div className="text-wrapper-7">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
-                    </div>
-                    <div className="group-6">
+                    </button>
+                    <button className="group-6">
                         <div className="text-wrapper-8">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist}/>
-                    </div>
-                    <div className="group-7">
+                    </button>
+                    <button className="group-7">
                         <div className="text-wrapper-9">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
-                    </div>
-                    <div className="group-8">
+                    </button>
+                    <button className="group-8">
                         <div className="text-wrapper-6">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder}/>
-                    </div>
-                    <div className="group-9">
+                    </button>
+                    <button className="group-9">
                         <div className="text-wrapper-10">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
-                    </div>
+                    </button>
                 </div>
                 <div className="group-10">
                     <div className="text-wrapper-11">Diesel</div>
