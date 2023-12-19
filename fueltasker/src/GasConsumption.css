@@ -123,6 +123,15 @@
     width: 50px;
 }
 
+.gas-consumption .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
+}
+
 .gas-consumption .group-3 {
     height: 40px;
     left: 23px;
