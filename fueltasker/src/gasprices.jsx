@@ -1,7 +1,6 @@
 import React from "react";
 import "./GasPrices.css";
 import sidelogo from './images/sidelogo.png';
-import fuelframe from './images/fuelframe.png';
 import profile from './images/profile.png';
 import logout from './images/logout.png';
 import dashboard from './images/dashboard.png';
