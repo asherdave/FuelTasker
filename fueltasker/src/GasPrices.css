@@ -203,10 +203,20 @@
 
 .gas-prices .group-4 {
     height: 48px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 345px;
     width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.gas-prices .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .gas-prices .text-wrapper-6 {
@@ -214,20 +224,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .gas-prices .gaspr-2 {
     height: 48px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10px;
     width: 48px;
 }
 

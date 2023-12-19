@@ -44,10 +44,10 @@ export const GasPrices = () => {
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <div className="group-4">
+                    <button className="group-4">
                         <div className="text-wrapper-6">Gas Prices</div>
                         <img className="gaspr-2" alt="Gaspr" src={gasprice} />
-                    </div>
+                    </button>
                     <div className="group-5">
                         <div className="text-wrapper-7">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
