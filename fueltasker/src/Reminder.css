@@ -140,9 +140,9 @@
 
 .reminder .group-3 {
     height: 49px;
-    left: 23px;
+    left: 14px;
     position: absolute;
-    top: 750px;
+    top: 30px;
     width: 224px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
