@@ -106,6 +106,12 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.gas-prices .div-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .gas-prices .text-wrapper-3 {
@@ -169,6 +175,15 @@
     position: absolute;
     top: 9px;
     width: 50px;
+}
+
+.gas-prices .img-petron {
+    height: 230px;
+    left: 618px;
+    object-fit: cover;
+    position: absolute;
+    top: 799px;
+    width: 230px;
 }
 
 .gas-prices .group-3 {
