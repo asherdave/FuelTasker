@@ -30,43 +30,43 @@ export const MaintenanceData = () => {
                 <div className="overlap-group">
                     <div className="text-wrapper-2">John Doe</div>
                     <div className="overlap-group-wrapper">
-                        <div className="div-wrapper">
+                        <button className="div-wrapper">
                             <div className="text-wrapper-3">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-4">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
-                    </div>
-                    <div className="group-3">
+                    </button>
+                    <button className="group-3">
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
-                    </div>
-                    <div className="group-4">
+                    </button>
+                    <button className="group-4">
                         <div className="text-wrapper-6">Gas Prices</div>
-                        <img className="img-2" alt="Gaspr" src={gasprice} />
-                    </div>
-                    <div className="group-5">
+                        <img className="img-2-gaspr" alt="Gaspr" src={gasprice} />
+                    </button>
+                    <button className="group-5">
                         <div className="text-wrapper-7">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
-                    </div>
-                    <div className="group-6">
+                    </button>
+                    <button className="group-6">
                         <div className="text-wrapper-8">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist}/>
-                    </div>
-                    <div className="group-7">
+                    </button>
+                    <button className="group-7">
                         <div className="text-wrapper-9">Gas Consumption</div>
                         <img className="img-3" alt="Gascon" src={gascon} />
-                    </div>
-                    <div className="group-8">
+                    </button>
+                    <button className="group-8">
                         <div className="text-wrapper-6">Reminder</div>
                         <img className="img-3" alt="Reminder" src={reminder} />
-                    </div>
-                    <div className="group-9">
+                    </button>
+                    <button className="group-9">
                         <div className="text-wrapper-10">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline}/>
-                    </div>
+                    </button>
                 </div>
                 <div className="text-wrapper-11">Maintenance</div>
                 <div className="group-10">
@@ -77,18 +77,18 @@ export const MaintenanceData = () => {
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
                 </div>
-                <div className="group-wrapper">
+                <button className="group-wrapper">
                     <div className="group-11">
                         <div className="text-wrapper-15">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
-                </div>
-                <div className="group-12">
+                </button>
+                <button className="group-12">
                     <div className="group-13">
                         <div className="text-wrapper-16">Save</div>
                         <img className="img-2" alt="Save" src={savew1} />
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     );
