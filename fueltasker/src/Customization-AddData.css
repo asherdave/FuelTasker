@@ -90,7 +90,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 25px 50px; /* Padding to provide space for background */
+    padding: 8px 9px; /* Padding to provide space for background */
 }
 
 .customization-data .img-logout {
@@ -354,7 +354,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
+    padding: 11px 90px; /* Padding to provide space for background */
 }
 
 .customization-data .group-9:hover {
