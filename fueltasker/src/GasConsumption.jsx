@@ -49,18 +49,27 @@ export const GasConsumption = () => {
         navigate('/timeline'); 
     };
 
+    const handleViewProfileClick = () => {
+        navigate('/viewprofile'); 
+    };
+
+    const handleLogoutClick = () => {
+        navigate('/login'); // Replace '/login' with your login route path
+        console.log("Logout button clicked, redirecting to login");
+    };
+
     return (
         <div className="gas-consumption">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <button className="overlap-group" onClick={handleViewProfileClick}>
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2" onClick={handleLogoutClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
