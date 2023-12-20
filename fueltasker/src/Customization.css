@@ -479,7 +479,7 @@
     overflow: hidden;
     overflow-y: scroll;
     position: absolute;
-    top: 345px;
+    top: 341px;
     width: 716px;
 }
 
@@ -509,7 +509,12 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 10px; /* Padding to provide space for background */
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.customization .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .img-logout {
