@@ -84,7 +84,7 @@ export const GasConsumption = () => {
                 </div>
                 <div className="overlap-3">
                     <div className="group-10">
-                        <div className="gas-consumption-wrapper">
+                        <div className="gas-conxsumption-wrapper">
                             <p className="p">
                                 <span className="span">Gas </span>
                                 <span className="text-wrapper-16">
