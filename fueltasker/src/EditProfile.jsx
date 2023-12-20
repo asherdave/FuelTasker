@@ -17,6 +17,9 @@ import savew1 from './images/savew1.png';
 
 
 export const EditProfile = () => {
+    // Assuming userID is part of your component's state. Replace this with your actual userID source.
+    const [userID, setUserID] = useState('3');
+
     const [userData, setUserData] = useState({
         fname: '',
         lname: '',
@@ -24,16 +27,20 @@ export const EditProfile = () => {
         email: '',
         phoneNumber: ''
     });
-
     const handleInputChange = (e) => {
         setUserData({ ...userData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (!userID) {
+            console.error("UserID is required for updating profile.");
+            return;
+        }
+
         try {
-            const response = await fetch("http://localhost:8080/fueltasker/updateUser", {
-                method: 'POST',
+            const response = await fetch(`http://localhost:8080/fueltasker/updateUser?userID=${userID}`, {
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -43,10 +50,9 @@ export const EditProfile = () => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            // Handle success response, like showing a notification or redirecting
+            // Handle success response
         } catch (error) {
             console.error('Error updating data: ', error);
-            // Handle error, like showing an error message
         }
     };
 
