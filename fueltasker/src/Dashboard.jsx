@@ -25,6 +25,12 @@ export const Dashboard = () => {
         console.log("Logout button clicked, redirecting to login");
     };
 
+    const handleReminderClick = () => {
+        navigate('/reminder'); 
+    };
+
+    
+
     return (
         <div className="dashboard">
             <div className="div">
@@ -60,7 +66,7 @@ export const Dashboard = () => {
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-1" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8"onClick={handleReminderClick}>
                         <div className="text-wrapper-reminder">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder} />
                     </button>
