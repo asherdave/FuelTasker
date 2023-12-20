@@ -47,7 +47,8 @@
     border-radius: 80px;
     height: 50px;
     position: relative;
-    width: 158px; transition: all 0.3s ease; /* Smooth transition for hover effects */
+    width: 158px; 
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .monthly-expenses .overlap-group:hover {
@@ -78,11 +79,19 @@
 }
 
 .monthly-expenses .group-2 {
-    height: 50px;
-    left: 120px;
+    left: 100px;
     position: absolute;
-    top: 999px;
-    width: 188px;
+    top: 998px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-3 {
@@ -90,11 +99,11 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 77px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 16px;
     white-space: nowrap;
 }
 
@@ -316,10 +325,20 @@
 
 .monthly-expenses .group-9 {
     height: 46px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 812px;
     width: 209px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-9 {
@@ -327,20 +346,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 80px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 16px;
     white-space: nowrap;
 }
 
 .monthly-expenses .timeline {
     height: 46px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 46px;
 }
 
@@ -376,6 +395,15 @@
     position: absolute;
     top: 0;
     width: 80px;
+}
+
+.monthly-expenses .logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
 }
 
 .monthly-expenses .text-wrapper-10 {
