@@ -15,9 +15,15 @@ import tools from './images/tools.png';
 import gear from './images/gear.png';
 import car1 from './images/car1.png';
 import viewdetails from './images/viewdetails.png';
-
+import { useNavigate } from 'react-router-dom';
 
 export const MonthlyExpenses = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     return (
         <div className="monthly-expenses">
             <div className="div">
@@ -33,7 +39,7 @@ export const MonthlyExpenses = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
