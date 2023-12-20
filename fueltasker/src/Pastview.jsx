@@ -1,6 +1,5 @@
 import React from "react";
 import "./Pastview.css";
-
 import logout from './images/logout.png';
 import profile from './images/profile.png';
 import dashboard from './images/dashboard.png';
@@ -30,7 +29,7 @@ export const PastView = () => {
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <div className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout} />
                     </div>
                     <div className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
