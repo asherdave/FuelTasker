@@ -24,6 +24,10 @@ export const Reminder = () => {
         navigate("/upcomingview"); // Navigate to the upcoming page
     };
 
+    const handleDashboardClick = () => {
+        navigate("/dashboard"); // Navigate to the upcoming page
+    };
+
     return (
         <div className="reminder">
             <div className="div">
@@ -45,7 +49,7 @@ export const Reminder = () => {
                             <img className="img-2" alt="Reminder" src={reminder} />
                         </button>
                     </div>
-                    <button className="group-4">
+                    <button className="group-4" onClick={handleDashboardClick}>
                         <div className="text-wrapper-5">Dashboard</div>
                         <div className="dash-wrapper">
                             <img className="dash" alt="dash" src={dashboard} />

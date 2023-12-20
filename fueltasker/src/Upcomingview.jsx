@@ -13,8 +13,13 @@ import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png';
 import bell1 from './images/bell1.png';
 import trash from './images/trash.png';
+import { useNavigate } from 'react-router-dom';
 
 export const UpcomingView = () => {
+    const navigate = useNavigate();
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
     return (
         <div className="upcoming-view">
             <div className="div">
@@ -30,7 +35,7 @@ export const UpcomingView = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3" onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
