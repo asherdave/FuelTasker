@@ -20,6 +20,7 @@ export const Login = () => {
     const handleLogin = async (event) => {
         event.preventDefault(); // Prevent the default form submission behavior
 
+        
         // Check for empty fields
         if (!email.trim() || !password.trim()) {
             setErrorMessage("Please enter both email and password.");
