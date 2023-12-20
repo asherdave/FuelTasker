@@ -106,6 +106,12 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.gas-prices .div-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .gas-prices .text-wrapper-3 {
@@ -154,7 +160,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 120px;
+    left: 80px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -169,6 +175,15 @@
     position: absolute;
     top: 9px;
     width: 50px;
+}
+
+.gas-prices .img-petron {
+    height: 230px;
+    left: 618px;
+    object-fit: cover;
+    position: absolute;
+    top: 235px;
+    width: 230px;
 }
 
 .gas-prices .group-3 {
@@ -779,6 +794,15 @@
     position: absolute;
     top: 18px;
     width: 438px;
+}
+
+.gas-prices .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
 }
 
 .gas-prices .shell-logo-png {
