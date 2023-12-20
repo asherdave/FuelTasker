@@ -73,8 +73,10 @@ export const Maintenance = () => {
                 <div className="frame">
                     <div className="group-10">
                         <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
+                            <div className="overlap-g oup-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash}/>
+                            </button>
                                 <div className="text-wrapper-12">Power Steering</div>
                                 <div className="text-wrapper-13">15,000.00</div>
                                 <img className="element" alt="Element" src={gear} />
@@ -85,7 +87,9 @@ export const Maintenance = () => {
                     <div className="group-11">
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                            </button>
                                 <div className="text-wrapper-12">Change Oil</div>
                                 <div className="text-wrapper-13">2,000.00</div>
                                 <img className="element" alt="Element" src={gear} />
@@ -96,7 +100,9 @@ export const Maintenance = () => {
                     <div className="group-12">
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                            </button>
                                 <div className="text-wrapper-12">Coolant</div>
                                 <div className="text-wrapper-13">1,500.00</div>
                                 <img className="element" alt="Element" src={gear} />
@@ -107,7 +113,9 @@ export const Maintenance = () => {
                     <div className="group-13">
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                            </button>
                                 <div className="text-wrapper-12">Coolant</div>
                                 <div className="text-wrapper-13">1,500.00</div>
                                 <img className="element" alt="Element" src={gear} />
@@ -118,7 +126,9 @@ export const Maintenance = () => {
                     <div className="group-14">
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                            </button>
                                 <div className="text-wrapper-12">Coolant</div>
                                 <div className="text-wrapper-13">1,500.00</div>
                                 <img className="element" alt="Element" src={gear} />
