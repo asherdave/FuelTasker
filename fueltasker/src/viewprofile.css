@@ -599,15 +599,18 @@
 .view-profile .overlap-4 {
     background-color: #d9d9d9;
     border-radius: 20px;
+    font-family: "Inter-Bold", Helvetica;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 364px;
     width: 465px;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+    line-height: 63px;
 }
 
 .view-profile .text-wrapper-19 {
@@ -625,15 +628,18 @@
 .view-profile .overlap-5 {
     background-color: #d9d9d9;
     border-radius: 20px;
+    font-family: "Inter-Bold", Helvetica;
     height: 65px;
     left: 1268px;
     position: absolute;
     top: 454px;
     width: 465px;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+    line-height: 63px;
 }
 
 .view-profile .text-wrapper-20 {
@@ -660,6 +666,10 @@
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 63px;
+    font-family: "Inter-Bold", Helvetica;
 }
 
 .view-profile .text-wrapper-21 {
@@ -686,6 +696,10 @@
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 63px;
+    font-family: "Inter-Bold", Helvetica;
 }
 .view-profile .text-wrapper-22 {
     color: #000000;
@@ -711,6 +725,10 @@
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 63px;
+    font-family: "Inter-Bold", Helvetica;
 }
 
 .view-profile .text-wrapper-23 {

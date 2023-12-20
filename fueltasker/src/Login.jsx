@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Login.css";
 import registerImage from './images/register.png';
@@ -16,6 +16,25 @@ export const Login = () => {
     // State for error message
     const [errorMessage, setErrorMessage] = useState("");
 
+ // Function to handle Enter key press in the form
+ const handleEnterKeyPress = (event) => {
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Prevent the default Enter key behavior
+        handleLogin(event); // Trigger the login process
+    }
+};
+
+// Add event listener for Enter key press
+useEffect(() => {
+    window.addEventListener('keydown', handleEnterKeyPress);
+
+    // Clean up the event listener
+    return () => {
+        window.removeEventListener('keydown', handleEnterKeyPress);
+    };
+}, [email, password]); // Depend on email and password so the function gets updated values
+
+    
     // Function to handle user login
     const handleLogin = async (event) => {
         event.preventDefault(); // Prevent the default form submission behavior

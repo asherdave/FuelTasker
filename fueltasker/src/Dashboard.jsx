@@ -25,6 +25,11 @@ export const Dashboard = () => {
         console.log("Logout button clicked, redirecting to login");
     };
 
+    const handleviewprofileClick = () => {
+        navigate('/viewprofile'); // Replace '/login' with your login route path
+        console.log("redirect to viewprofile");
+    };
+
     const handleReminderClick = () => {
         navigate('/reminder'); 
     };
@@ -58,7 +63,7 @@ export const Dashboard = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <button className="overlap-group"onClick={handleviewprofileClick}>
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>

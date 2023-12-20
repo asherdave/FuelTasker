@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./EditProfile.css";
 import sidelogo from './images/sidelogo.png';
 import fuelframe from './images/fuelframe.png';
@@ -17,6 +17,40 @@ import savew1 from './images/savew1.png';
 
 
 export const EditProfile = () => {
+    const [userData, setUserData] = useState({
+        fname: '',
+        lname: '',
+        dateOfBirth: '',
+        email: '',
+        phoneNumber: ''
+    });
+
+    const handleInputChange = (e) => {
+        setUserData({ ...userData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await fetch("http://localhost:8080/fueltasker/updateUser", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(userData)
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            // Handle success response, like showing a notification or redirecting
+        } catch (error) {
+            console.error('Error updating data: ', error);
+            // Handle error, like showing an error message
+        }
+    };
+
+
     return (
         
         <div className="edit-profile">
@@ -85,28 +119,64 @@ export const EditProfile = () => {
                         <div className="text-wrapper-12">Upload Photo</div>
                     </button>
                 </div>
-                <div className="text-wrapper-13">First Name:</div>
-                <div className="text-wrapper-14">Last Name:</div>
-                <div className="text-wrapper-15">Date of Birth:</div>
-                <div className="text-wrapper-16">Email:</div>
-                <div className="text-wrapper-17">Contact Number:</div>
+                <form onSubmit={handleSubmit}>
+                    <div className="text-wrapper-13">First Name:</div>
+                    <input 
+                        className="rectangle" 
+                        type="text" 
+                        name="fname"
+                        value={userData.fname} 
+                        onChange={handleInputChange} 
+                    />
 
-                <input className="rectangle" type="text"/>
-                <input className="rectangle-2" type="text"/>
-                <input className="rectangle-3" type="text"/>
-                <input className="rectangle-4" type="text"/>
-                <input className="rectangle-5" type="text"/>
+                    <div className="text-wrapper-14">Last Name:</div>
+                    <input 
+                        className="rectangle-2" 
+                        type="text" 
+                        name="lname"
+                        value={userData.lname} 
+                        onChange={handleInputChange} 
+                    />
 
+                    <div className="text-wrapper-15">Date of Birth:</div>
+                    <input 
+                        className="rectangle-3" 
+                        type="text" 
+                        name="dateOfBirth"
+                        value={userData.dateOfBirth} 
+                        onChange={handleInputChange} 
+                    />
+
+                    <div className="text-wrapper-16">Email:</div>
+                    <input 
+                        className="rectangle-4" 
+                        type="text" 
+                        name="email"
+                        value={userData.email} 
+                        onChange={handleInputChange} 
+                    />
+
+                    <div className="text-wrapper-17">Contact Number:</div>
+                    <input 
+                        className="rectangle-5" 
+                        type="text" 
+                        name="phoneNumber"
+                        value={userData.phoneNumber} 
+                        onChange={handleInputChange} 
+                    />
+
+                
+                <button type="submit" className="group-11">
+                        <div className="group-12">
+                            <div className="text-wrapper-19">Save</div>
+                            <img className="img-save" alt="Save" src={savew1} />
+                        </div>
+                    </button>
+                </form>
                 <button className="group-wrapper">
                     <div className="group-10">
                         <div className="text-wrapper-18">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
-                    </div>
-                </button>
-                <button className="group-11">
-                    <div className="group-12">
-                        <div className="text-wrapper-19">Save</div>
-                        <img className="img-save" alt="Save" src={savew1} />
                     </div>
                 </button>
             </div>
