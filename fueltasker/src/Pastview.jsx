@@ -1,5 +1,6 @@
 import React from "react";
 import "./Pastview.css";
+
 import logout from './images/logout.png';
 import profile from './images/profile.png';
 import dashboard from './images/dashboard.png';
@@ -12,66 +13,53 @@ import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 import rect99 from './images/rect99.png';
 import check1 from './images/check1.png';
-import check2 from './images/check2.png';
-import check3 from './images/check3.png';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import trash from './images/trash.png';
+
 
 export const PastView = () => {
-    const navigate = useNavigate(); // Instantiate the navigate function
-
-    const handleUpcomingViewClick = () => {
-        navigate("/UpcomingView"); // Navigate to the upcoming reminder page
-    };
-
-    const handleReminderClick = () => {
-        navigate("/Reminder"); // Navigate to the upcoming reminder page
-    };
-
     return (
         <div className="past-view">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <div className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
-                        </button>
+                        </div>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <div className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img-logout" alt="Logout" src={logout} />
-                    </button>
-                    <button className="group-3">
+                        <img className="img" alt="Logout" src={logout} />
+                    </div>
+                    <div className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
-                        <div className="dash-wrapper">
-                            <img className="dash" alt="Dash" src={dashboard} />
-                        </div>
-                    </button>
-                    <button className="group-4">
+                        <img className="dash" alt="Dash" src={dashboard} />
+                    </div>
+                    <div className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice} />
-                    </button>
-                    <button className="group-5">
+                    </div>
+                    <div className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
-                    </button>
-                    <button className="group-6">
+                    </div>
+                    <div className="group-6">
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
-                    </button>
-                    <button className="group-7">
+                    </div>
+                    <div className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
-                    </button>
-                    <button className="group-8" onClick={handleReminderClick}>
+                    </div>
+                    <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
-                        <img className="img-2" alt="Reminder" src={reminder} />
-                    </button>
-                    <button className="group-9">
+                        <img className="img-2" alt="Reminder" src={reminder}/>
+                    </div>
+                    <div className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
-                    </button>
+                    </div>
                 </div>
                 <div className="overlap-2">
                     <img className="reminder" alt="Reminder" src={reminder} />
@@ -89,39 +77,62 @@ export const PastView = () => {
                     <span className="text-wrapper-11">Reminder</span>
                 </p>
                 <div className="overlap-3">
-                    <button className="rectangle-3" onClick={handleUpcomingViewClick}/>
-                    <div className="text-wrapper-12">UPCOMING</div>
+                    <div className="rectangle-3" />
                     <div className="overlap-wrapper">
-                        <button className="div-wrapper">
-                            <div className="text-wrapper-13">PAST</div>
-                        </button>
-                    </div>
-                </div>
-                <div className="overlap-group-wrapper">
-                    <div className="overlap-4">
-                        <img className="check1" alt="check1" src={check1} />
-                        <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
-                        <div className="text-wrapper-15">CHANGE OIL</div>
-                    </div>
-                </div>
-                <div className="group-10">
-                    <div className="overlap-4">
-                        <img className="check2" alt="check2" src={check2} />
-                        <div className="text-wrapper-16">2:00 PM 11/28/2023</div>
-                        <div className="text-wrapper-17">CHANGE OIL</div>
-                    </div>
-                </div>
-                <div className="group-11">
-                    <div className="overlap-5">
-                        <div className="ASDASF-wrapper">
-                            <img className="check3" alt="check3" src={check3} />
+                        <div className="div-wrapper">
+                            <div className="text-wrapper-12">UPCOMING</div>
                         </div>
-                        <div className="text-wrapper-18">2:00 PM 12/01/2023</div>
-                        <div className="text-wrapper-19">WASH CAR</div>
                     </div>
+                    <div className="text-wrapper-13">PAST</div>
                 </div>
-                <div className="group-12">
-                    <div className="overlap-5">    
+                <div className="frame">
+                    <div className="overlap-group-wrapper">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1}/>
+                            <img className="awe" alt="Awe" src={trash} />
+                        </div>
+                    </div>
+                    <div className="group-10">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1} />
+                            <img className="awe" alt="Awe" src={trash} />
+                        </div>
+                    </div>
+                    <div className="group-11">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1}/>
+                            <img className="awe" alt="Awe" src={trash}/>
+                        </div>
+                    </div>
+                    <div className="group-12">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1} />
+                            <img className="awe" alt="Awe" src= {trash}/>
+                        </div>
+                    </div>
+                    <div className="group-13">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1} />
+                            <img className="awe" alt="Awe" src={trash}/>
+                        </div>
+                    </div>
+                    <div className="group-14">
+                        <div className="overlap-group-2">
+                            <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
+                            <div className="text-wrapper-15">CHANGE OIL</div>
+                            <img className="check" alt="Check" src={check1} />
+                            <img className="awe" alt="Awe" src={trash} />
+                        </div>
                     </div>
                 </div>
             </div>
