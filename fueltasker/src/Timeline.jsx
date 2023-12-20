@@ -18,8 +18,15 @@ import line12 from './images/Line12.png';
 import line14 from './images/Line14.png';
 import group140 from './images/Group140.png';
 import timeline1 from './images/timeline1.png'
+import { useNavigate } from 'react-router-dom';
 
 export const Timeline = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     return (
         <div className="timeline">
             <div className="div">
@@ -35,7 +42,7 @@ export const Timeline = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>

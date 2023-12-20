@@ -12,8 +12,15 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import tools from './images/tools.png';
 import trash from './images/trash.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Customization = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     return (
         <div className="customization">
             <div className="div">
@@ -29,7 +36,7 @@ export const Customization = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard}/>
                     </button>
