@@ -458,6 +458,7 @@
 
 .reminder .group-10 {
     border: none;
+    background-color: transparent;
     border-radius: 10px;
     height: 261px;
     left: -145px;
@@ -499,9 +500,7 @@
 }
 
 .reminder .overlap-3 {
-    background-color: #ffd2d2;
     border: 2px solid;
-    border-color: #ff0000cc;
     border-radius: 20px;
     height: 380px;
     position: relative;
@@ -514,13 +513,11 @@
 }
 
 .reminder .overlap-3:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
+    background-color: #ff3c3ccc; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .reminder .div-wrapper {
-    background-color: #ffd2d2;
-    border-color: #ff0000cc;
     height: 380px;
     left: 600px;
     position: relative;
@@ -530,11 +527,11 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
+    padding: 8px 190px; /* Padding to provide space for background */
 }
 
 .reminder .div-wrapper:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
+    background-color: #ff3c3ccc; /* Change the background color on hover */
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
