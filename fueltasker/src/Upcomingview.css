@@ -325,7 +325,7 @@
 }
 
 .upcoming-view .group-9 {
-    left: 62px;
+    left: 23px;
     position: absolute;
     top: 811px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
@@ -345,17 +345,17 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 90px;
+    left: 125px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 25px;
     white-space: nowrap;
 }
 
 .upcoming-view .timeline {
-    height: 46px;
-    left: 17px;
+    height: 50px;
+    left: 50px;
     object-fit: cover;
     position: absolute;
     top: 14px;
