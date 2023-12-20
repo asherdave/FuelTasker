@@ -126,7 +126,7 @@ export const TodoListTask = () => {
                     </div>
                 </button>
                 <button className="div-wrapper">
-                    <div className="group-13">
+                    <div className="group-13"onClick={handleToDoListClick}>
                         <div className="text-wrapper-14">Save</div>
                         <img className="save" alt="Save" src={savew1} />
                     </div>
