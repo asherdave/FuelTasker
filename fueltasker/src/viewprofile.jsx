@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./viewprofile.css";
 import sidelogo from './images/sidelogo.png';
 import fuelframe from './images/fuelframe.png';
@@ -16,16 +16,35 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export const ViewProfile = () => {
     const navigate = useNavigate(); // Instantiate the navigate function
+    const [userData, setUserData] = useState({}); // State to hold user data
 
     const handleEditProfileClick = () => {
         navigate("/editprofile"); // Navigate to the edit profile page
     };
 
+    // Function to fetch user data
+    const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/fueltasker/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
+
     return (
         <div className="view-profile">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group">
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
@@ -99,11 +118,12 @@ export const ViewProfile = () => {
                 <div className="text-wrapper-17">Email:</div>
                 <div className="text-wrapper-18">Contact Number:</div>
 
-                <input className="overlap-4" type="text"/>
-                <input className="overlap-5" type="text"/>
-                <input className="overlap-6" type="text"/>
-                <input className="overlap-7" type="text"/>
-                <input className="overlap-8" type="text"/>
+                <div class="overlap-4">{userData.fName}</div>
+            <div class="overlap-5">{userData.lName}</div>
+            <div class="overlap-6">{userData.dateOfBirth}</div>
+            <div class="overlap-7">{userData.eMail}</div>
+            <div class="overlap-8">{userData.phonenumber}</div>
+
             </div>
         </div>
     );
