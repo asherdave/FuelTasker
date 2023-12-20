@@ -17,7 +17,7 @@ import { UpcomingView } from './Upcomingview.jsx';
 import { PastView } from './Pastview.jsx';
 import { Timeline } from './Timeline.jsx';
 import { GasConsumption } from './GasConsumption.jsx';
-import { GasConsumptionAdd } from './GasConsumption-AddData.jsx';
+import { AddData } from './GasConsumption-AddData.jsx';
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
           <Route path="/pastview" element={<PastView />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/gas-consumption" element={<GasConsumption />} />
-          <Route path="/add-data" element={<GasConsumptionAdd />} />
+          <Route path="/add-data" element={<AddData />} />
         </Routes>
       </div>
     </Router>

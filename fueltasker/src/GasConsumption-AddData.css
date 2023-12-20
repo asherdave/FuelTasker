@@ -1,4 +1,4 @@
-.gas-consumption-add {
+.add-data {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.gas-consumption-add .div {
+.add-data .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.gas-consumption-add .overlap {
+.add-data .overlap {
     background-color: #ff0000cc;
     height: 1080px;
     left: 0;
@@ -22,7 +22,7 @@
     width: 426px;
 }
 
-.gas-consumption-add .text-wrapper {
+.add-data .text-wrapper {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -35,7 +35,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .group {
+.add-data .group {
     height: 50px;
     left: 213px;
     position: absolute;
@@ -43,7 +43,7 @@
     width: 160px;
 }
 
-.gas-consumption-add .overlap-group {
+.add-data .overlap-group {
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
@@ -51,7 +51,7 @@
     width: 158px;
 }
 
-.gas-consumption-add .text-wrapper-2 {
+.add-data .text-wrapper-2 {
     color: #000000;
     font-family: "Inter-Light", Helvetica;
     font-size: 20px;
@@ -65,7 +65,7 @@
     width: 111px;
 }
 
-.gas-consumption-add .ellipse {
+.add-data .ellipse {
     height: 157px;
     left: 18px;
     object-fit: cover;
@@ -74,7 +74,7 @@
     width: 157px;
 }
 
-.gas-consumption-add .group-2 {
+.add-data .group-2 {
     height: 50px;
     left: 120px;
     position: absolute;
@@ -82,7 +82,7 @@
     width: 188px;
 }
 
-.gas-consumption-add .text-wrapper-3 {
+.add-data .text-wrapper-3 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -95,7 +95,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .img {
+.add-data .img {
     height: 50px;
     left: 0;
     object-fit: cover;
@@ -104,7 +104,7 @@
     width: 50px;
 }
 
-.gas-consumption-add .group-3 {
+.add-data .group-3 {
     height: 40px;
     left: 63px;
     position: absolute;
@@ -112,7 +112,7 @@
     width: 245px;
 }
 
-.gas-consumption-add .text-wrapper-4 {
+.add-data .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -125,7 +125,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .dash {
+.add-data .dash {
     height: 40px;
     left: 0;
     object-fit: cover;
@@ -134,7 +134,7 @@
     width: 50px;
 }
 
-.gas-consumption-add .group-4 {
+.add-data .group-4 {
     height: 48px;
     left: 59px;
     position: absolute;
@@ -142,7 +142,7 @@
     width: 240px;
 }
 
-.gas-consumption-add .text-wrapper-5 {
+.add-data .text-wrapper-5 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -155,7 +155,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .img-2 {
+.add-data .img-2 {
     height: 48px;
     left: 0;
     object-fit: cover;
@@ -164,7 +164,7 @@
     width: 48px;
 }
 
-.gas-consumption-add .group-5 {
+.add-data .group-5 {
     height: 50px;
     left: 59px;
     position: absolute;
@@ -172,7 +172,7 @@
     width: 310px;
 }
 
-.gas-consumption-add .text-wrapper-6 {
+.add-data .text-wrapper-6 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -185,7 +185,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .group-6 {
+.add-data .group-6 {
     height: 56px;
     left: 59px;
     position: absolute;
@@ -193,7 +193,7 @@
     width: 246px;
 }
 
-.gas-consumption-add .text-wrapper-7 {
+.add-data .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -206,7 +206,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .todolist {
+.add-data .todolist {
     height: 56px;
     left: 0;
     object-fit: cover;
@@ -215,7 +215,7 @@
     width: 56px;
 }
 
-.gas-consumption-add .group-7 {
+.add-data .group-7 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -223,7 +223,7 @@
     width: 302px;
 }
 
-.gas-consumption-add .text-wrapper-8 {
+.add-data .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -236,7 +236,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .img-3 {
+.add-data .img-3 {
     height: 49px;
     left: 0;
     object-fit: cover;
@@ -245,7 +245,7 @@
     width: 49px;
 }
 
-.gas-consumption-add .group-8 {
+.add-data .group-8 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -253,7 +253,7 @@
     width: 224px;
 }
 
-.gas-consumption-add .group-9 {
+.add-data .group-9 {
     height: 46px;
     left: 63px;
     position: absolute;
@@ -261,7 +261,7 @@
     width: 209px;
 }
 
-.gas-consumption-add .text-wrapper-9 {
+.add-data .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -274,7 +274,7 @@
     white-space: nowrap;
 }
 
-.gas-consumption-add .timeline {
+.add-data .timeline {
     height: 46px;
     left: 0;
     object-fit: cover;
@@ -283,7 +283,7 @@
     width: 46px;
 }
 
-.gas-consumption-add .overlap-2 {
+.add-data .overlap-2 {
     background-image: url(./images/rect99.png);
     background-size: 100% 100%;
     height: 140px;
@@ -293,44 +293,45 @@
     width: 1494px;
 }
 
-.gas-consumption-add .group-10 {
+.add-data .group-10 {
     height: 100px;
     left: 69px;
     position: absolute;
     top: 20px;
-    width: 843px;
+    width: 845px;
 }
 
-.gas-consumption-add .gas-consumption-wrapper {
-    height: 100px;
-    left: 124px;
-    position: absolute;
-    top: 0;
-    width: 721px;
-}
-
-.gas-consumption-add .gas-consumption {
+.add-data .gas-consumption {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
     font-weight: 700;
-    left: 0;
+    left: -140px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0;
+    top: -77px;
     width: 719px;
 }
 
-.gas-consumption-add .span {
+.add-data .span {
     color: #000000;
 }
 
-.gas-consumption-add .text-wrapper-10 {
+.add-data .text-wrapper-20 {
     color: #7a0202;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 350px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0px;
+    width: 719px;
 }
 
-.gas-consumption-add .gascon {
+.add-data .gascon {
     height: 90px;
     left: 0;
     object-fit: cover;
@@ -339,7 +340,7 @@
     width: 90px;
 }
 
-.gas-consumption-add .landscape {
+.add-data .landscape {
     height: 73px;
     left: 1079px;
     object-fit: cover;
@@ -348,7 +349,7 @@
     width: 339px;
 }
 
-.gas-consumption-add .overlap-wrapper {
+.add-data .overlap-wrapper {
     height: 81px;
     left: 845px;
     position: absolute;
@@ -356,7 +357,7 @@
     width: 658px;
 }
 
-.gas-consumption-add .div-wrapper {
+.add-data .div-wrapper {
     background-color: #ececec;
     border: 1px solid;
     border-color: #909090;
@@ -366,7 +367,7 @@
     width: 656px;
 }
 
-.gas-consumption-add .text-wrapper-11 {
+.add-data .text-wrapper-11 {
     color: #838383;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -375,11 +376,24 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 21px;
+    top: 25px;
     white-space: nowrap;
 }
 
-.gas-consumption-add .overlap-group-wrapper {
+.add-data .text-wrapper-110 {
+    color: #838383;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -5px;
+    white-space: nowrap;
+}
+
+.add-data .overlap-group-wrapper {
     height: 81px;
     left: 845px;
     position: absolute;
@@ -387,7 +401,7 @@
     width: 658px;
 }
 
-.gas-consumption-add .group-11 {
+.add-data .group-11 {
     height: 81px;
     left: 845px;
     position: absolute;
@@ -395,7 +409,7 @@
     width: 658px;
 }
 
-.gas-consumption-add .group-12 {
+.add-data .group-12 {
     height: 81px;
     left: 845px;
     position: absolute;
@@ -403,7 +417,7 @@
     width: 658px;
 }
 
-.gas-consumption-add .group-13 {
+.add-data .group-13 {
     height: 81px;
     left: 845px;
     position: absolute;
@@ -411,7 +425,7 @@
     width: 658px;
 }
 
-.gas-consumption-add .group-wrapper {
+.add-data .group-wrapper {
     background-color: #000000;
     border-radius: 20px;
     height: 72px;
@@ -421,7 +435,7 @@
     width: 250px;
 }
 
-.gas-consumption-add .group-14 {
+.add-data .group-14 {
     height: 47px;
     left: 45px;
     position: relative;
@@ -429,7 +443,7 @@
     width: 162px;
 }
 
-.gas-consumption-add .text-wrapper-12 {
+.add-data .text-wrapper-12 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -443,7 +457,7 @@
     width: 103px;
 }
 
-.gas-consumption-add .trash {
+.add-data .trash {
     height: 47px;
     left: 0;
     object-fit: cover;
@@ -452,7 +466,7 @@
     width: 47px;
 }
 
-.gas-consumption-add .group-15 {
+.add-data .group-15 {
     background-color: #890000;
     border-radius: 20px;
     height: 72px;
@@ -462,7 +476,7 @@
     width: 250px;
 }
 
-.gas-consumption-add .group-16 {
+.add-data .group-16 {
     height: 48px;
     left: 55px;
     position: relative;
@@ -470,7 +484,7 @@
     width: 142px;
 }
 
-.gas-consumption-add .text-wrapper-13 {
+.add-data .text-wrapper-13 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -484,7 +498,7 @@
     width: 73px;
 }
 
-.gas-consumption-add .fuel-data {
+.add-data .fuel-data {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
@@ -498,6 +512,6 @@
     width: 231px;
 }
 
-.gas-consumption-add .text-wrapper-14 {
+.add-data .text-wrapper-14 {
     color: #890000;
 }

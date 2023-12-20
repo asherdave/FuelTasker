@@ -13,9 +13,9 @@ import timeline from './images/timeline.png';
 import trashw1 from './images/trashw1.png';
 import savew1 from './images/savew1.png';
 
-export const GasConsumptionAdd = () => {
+export const AddData = () => {
     return (
-        <div className="gas-consumption-add">
+        <div className="add-data">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
@@ -24,7 +24,7 @@ export const GasConsumptionAdd = () => {
                             <div className="text-wrapper-2">View Profile</div>
                         </div>
                     </div>
-                    <img className="ellipse" alt="Ellipse" src={profile} />
+                    <img className="ellipse" alt="Ellipse" src={profile}/>
                     <div className="group-2">
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img" alt="Logout" src={logout} />
@@ -39,7 +39,7 @@ export const GasConsumptionAdd = () => {
                     </div>
                     <div className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
-                        <img className="img" alt="Monthly" src={monthly}/>
+                        <img className="img" alt="Monthly" src={monthly} />
                     </div>
                     <div className="group-6">
                         <div className="text-wrapper-7">To-Do-List</div>
@@ -51,7 +51,7 @@ export const GasConsumptionAdd = () => {
                     </div>
                     <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
-                        <img className="img-3" alt="Reminder" src={reminder} />
+                        <img className="img-3" alt="Reminder" src={reminder}/>
                     </div>
                     <div className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
@@ -60,14 +60,13 @@ export const GasConsumptionAdd = () => {
                 </div>
                 <div className="overlap-2">
                     <div className="group-10">
-                        <div className="gas-consumption-wrapper">
-                            <p className="gas-consumption">
-                                <span className="span">Gas </span>
-                                <span className="text-wrapper-10">
-                                    Consumption
-                                </span>
-                            </p>
-                        </div>
+                        <p className="gas-consumption">
+                            <span className="span">Gas </span>
+                            <span className="text-wrapper-20">
+                                Consumption
+                                <br />
+                            </span>
+                        </p>
                         <img className="gascon" alt="Gascon" src={gascon} />
                     </div>
                     <img className="landscape" alt="Landscape" src={sidelogo} />
@@ -89,7 +88,7 @@ export const GasConsumptionAdd = () => {
                 </div>
                 <div className="group-12">
                     <div className="div-wrapper">
-                        <p className="text-wrapper-11">Fuel Unit Price (per liter)</p>
+                        <p className="text-wrapper-110">Fuel Unit Price (per liter)</p>
                     </div>
                 </div>
                 <div className="group-13">
@@ -106,7 +105,7 @@ export const GasConsumptionAdd = () => {
                 <div className="group-15">
                     <div className="group-16">
                         <div className="text-wrapper-13">Save</div>
-                        <img className="img-2" alt="Save" src={savew1} />
+                        <img className="img-2" alt="Save" src={savew1}/>
                     </div>
                 </div>
                 <p className="fuel-data">
