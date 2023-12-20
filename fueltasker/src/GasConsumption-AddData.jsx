@@ -27,7 +27,7 @@ export const AddData = () => {
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout} />
                     </button>
                     <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
@@ -105,7 +105,7 @@ export const AddData = () => {
                 <div className="group-15">
                     <div className="group-16">
                         <div className="text-wrapper-13">Save</div>
-                        <img className="img-2" alt="Save" src={savew1}/>
+                        <img className="save" alt="Save" src={savew1}/>
                     </div>
                 </div>
                 <p className="fuel-data">
