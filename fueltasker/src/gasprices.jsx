@@ -22,6 +22,10 @@ export const GasPrices = () => {
         navigate('/dashboard'); 
     };
 
+    const handleGasPricesClick = () => {
+        navigate('/gasprices'); 
+    };
+
     const handleMonthlyClick = () => {
         navigate('/monthly-expenses'); 
     };
@@ -70,7 +74,7 @@ export const GasPrices = () => {
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <button className="group-4">
+                    <button className="group-4"onClick={handleGasPricesClick}>
                         <div className="text-wrapper-6">Gas Prices</div>
                         <img className="gaspr-2" alt="Gaspr" src={gasprice} />
                     </button>
