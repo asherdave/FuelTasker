@@ -48,7 +48,10 @@ export const Dashboard = () => {
     const handleTimelineClick = () => {
         navigate('/timeline'); 
     };
- 
+
+
+    
+
     return (
         <div className="dashboard">
             <div className="div">
