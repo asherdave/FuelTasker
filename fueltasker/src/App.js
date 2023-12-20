@@ -18,6 +18,8 @@ import { PastView } from './Pastview.jsx';
 import { Timeline } from './Timeline.jsx';
 import { GasConsumption } from './GasConsumption.jsx';
 import { AddData } from './GasConsumption-AddData.jsx';
+import { MonthlyExpenses } from './MonthlyExpenses.jsx';
+import { Carwash } from './Carwash.jsx';
 
 
 function App() {
@@ -42,6 +44,8 @@ function App() {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/gas-consumption" element={<GasConsumption />} />
           <Route path="/add-data" element={<AddData />} />
+          <Route path="/monthly-expenses" element={<MonthlyExpenses />} />
+          <Route path="/carwash" element={<Carwash />} />
         </Routes>
       </div>
     </Router>

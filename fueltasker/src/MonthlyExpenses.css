@@ -1,0 +1,623 @@
+.monthly-expenses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.monthly-expenses .div {
+    background-color: #ffffff;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.monthly-expenses .overlap {
+    background-color: #ff0000cc;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 426px;
+}
+
+.monthly-expenses .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 66px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .group {
+    height: 50px;
+    left: 213px;
+    position: absolute;
+    top: 136px;
+    width: 160px;
+}
+
+.monthly-expenses .overlap-group {
+    background-color: #ffffff;
+    border-radius: 80px;
+    height: 50px;
+    position: relative;
+    width: 158px;
+}
+
+.monthly-expenses .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.monthly-expenses .ellipse {
+    height: 157px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 48px;
+    width: 157px;
+}
+
+.monthly-expenses .group-2 {
+    height: 50px;
+    left: 120px;
+    position: absolute;
+    top: 999px;
+    width: 188px;
+}
+
+.monthly-expenses .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .img {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.monthly-expenses .group-3 {
+    height: 40px;
+    left: 63px;
+    position: absolute;
+    top: 257px;
+    width: 245px;
+}
+
+.monthly-expenses .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .dash {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.monthly-expenses .group-4 {
+    height: 48px;
+    left: 59px;
+    position: absolute;
+    top: 346px;
+    width: 240px;
+}
+
+.monthly-expenses .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .gaspr {
+    height: 48px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 48px;
+}
+
+.monthly-expenses .group-5 {
+    height: 50px;
+    left: 59px;
+    position: absolute;
+    top: 438px;
+    width: 310px;
+}
+
+.monthly-expenses .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .group-6 {
+    height: 56px;
+    left: 59px;
+    position: absolute;
+    top: 528px;
+    width: 246px;
+}
+
+.monthly-expenses .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .todolist {
+    height: 56px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.monthly-expenses .group-7 {
+    height: 49px;
+    left: 63px;
+    position: absolute;
+    top: 625px;
+    width: 302px;
+}
+
+.monthly-expenses .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .img-2 {
+    height: 49px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 49px;
+}
+
+.monthly-expenses .group-8 {
+    height: 49px;
+    left: 63px;
+    position: absolute;
+    top: 718px;
+    width: 224px;
+}
+
+.monthly-expenses .group-9 {
+    height: 46px;
+    left: 63px;
+    position: absolute;
+    top: 812px;
+    width: 209px;
+}
+
+.monthly-expenses .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+}
+
+.monthly-expenses .timeline {
+    height: 46px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 46px;
+}
+
+.monthly-expenses .overlap-wrapper {
+    height: 152px;
+    left: 501px;
+    position: absolute;
+    top: 204px;
+    width: 1002px;
+}
+
+.monthly-expenses .overlap-2 {
+    background-image: url(./images/rect128.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: -4px;
+    position: relative;
+    width: 1008px;
+}
+
+.monthly-expenses .group-10 {
+    height: 75px;
+    left: 91px;
+    position: absolute;
+    top: 40px;
+    width: 256px;
+}
+
+.monthly-expenses .element {
+    height: 75px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+
+.monthly-expenses .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 148px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 106px;
+}
+
+.monthly-expenses .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 745px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    white-space: nowrap;
+    width: 195px;
+}
+
+.monthly-expenses .overlap-group-wrapper {
+    height: 152px;
+    left: 501px;
+    position: absolute;
+    top: 390px;
+    width: 1004px;
+}
+
+.monthly-expenses .overlap-3 {
+    background-image: url(./images/rect128.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: -4px;
+    position: relative;
+    width: 1008px;
+}
+
+.monthly-expenses .car {
+    height: 75px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 39px;
+    width: 80px;
+}
+
+.monthly-expenses .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 747px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    white-space: nowrap;
+    width: 194px;
+}
+
+.monthly-expenses .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 239px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    white-space: nowrap;
+    width: 241px;
+}
+
+.monthly-expenses .div-wrapper {
+    height: 152px;
+    left: 501px;
+    position: absolute;
+    top: 576px;
+    width: 1004px;
+}
+
+.monthly-expenses .overlap-4 {
+    background-image: url(./images/rect128.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: -4px;
+    position: relative;
+    width: 1008px;
+}
+
+.monthly-expenses .untitled-design {
+    height: 75px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 33px;
+    width: 80px;
+}
+
+.monthly-expenses .text-wrapper-14 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 239px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    white-space: nowrap;
+    width: 363px;
+}
+
+.monthly-expenses .text-wrapper-15 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 34px;
+    font-weight: 700;
+    left: 730px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 58px;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.monthly-expenses .group-11 {
+    height: 152px;
+    left: 501px;
+    position: absolute;
+    top: 762px;
+    width: 1004px;
+}
+
+.monthly-expenses .overlap-5 {
+    background-image: url(./images/rect128.png);
+    background-size: 100% 100%;
+    height: 160px;
+    left: -4px;
+    position: relative;
+    width: 1008px;
+}
+
+.monthly-expenses .element-2 {
+    height: 75px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    width: 80px;
+}
+
+.monthly-expenses .text-wrapper-16 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 239px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 45px;
+    width: 320px;
+}
+
+.monthly-expenses .text-wrapper-17 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 697px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    white-space: nowrap;
+    width: 229px;
+}
+
+.monthly-expenses .group-12 {
+    height: 54px;
+    left: 1013px;
+    position: absolute;
+    top: 967px;
+    width: 492px;
+}
+
+.monthly-expenses .text-wrapper-18 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 195px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 293px;
+}
+
+.monthly-expenses .text-wrapper-19 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 176px;
+}
+
+.monthly-expenses .group-13 {
+    height: 81px;
+    left: 1553px;
+    position: absolute;
+    top: 802px;
+    width: 297px;
+}
+
+.monthly-expenses .group-14 {
+    height: 82px;
+    left: 1553px;
+    position: absolute;
+    top: 616px;
+    width: 297px;
+}
+
+.monthly-expenses .group-15 {
+    height: 82px;
+    left: 1553px;
+    position: absolute;
+    top: 429px;
+    width: 297px;
+}
+
+.monthly-expenses .overlap-6 {
+    background-image: url(./images/rect99.png);
+    background-size: 100% 100%;
+    height: 140px;
+    left: 426px;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.monthly-expenses .monthly-expenses-wrapper {
+    height: 100px;
+    left: 171px;
+    position: absolute;
+    top: 20px;
+    width: 728px;
+}
+
+.monthly-expenses .p {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -78px;
+    width: 726px;
+}
+
+.monthly-expenses .span {
+    color: #000000;
+}
+
+.monthly-expenses .text-wrapper-20 {
+    color: #7a0202;
+}
+
+.monthly-expenses .monthly {
+    height: 90px;
+    left: 49px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 90px;
+}
+
+.monthly-expenses .landscape {
+    height: 73px;
+    left: 1087px;
+    object-fit: cover;
+    position: absolute;
+    top: 34px;
+    width: 339px;
+}
