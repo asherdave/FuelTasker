@@ -56,6 +56,10 @@
     height: 50px;
     position: relative;
     width: 158px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+.todo-list-task .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-2 {
