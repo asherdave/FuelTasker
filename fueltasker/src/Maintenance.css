@@ -318,7 +318,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance .group-8:hover {
@@ -335,7 +335,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance .group-9:hover {
@@ -345,7 +345,7 @@
 
 .gas-prices .img-logout {
     height: 50px;
-    left: 5px;
+    left: 15px;
     object-fit: cover;
     position: absolute;
     top: 9px;
