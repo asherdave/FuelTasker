@@ -100,19 +100,29 @@
 
 .monthly-expenses .img {
     height: 50px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 9px;
     width: 50px;
 }
 
 .monthly-expenses .group-3 {
     height: 40px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 257px;
     width: 245px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-4 {
@@ -120,29 +130,39 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .monthly-expenses .dash {
     height: 40px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .monthly-expenses .group-4 {
     height: 48px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 346px;
     width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-5 {
@@ -150,29 +170,39 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 16px;
     white-space: nowrap;
 }
 
 .monthly-expenses .gaspr {
     height: 48px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    width: 48px;
+    top: 10px;
+    width: 48px;    
 }
 
 .monthly-expenses .group-5 {
     height: 50px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 438px;
     width: 310px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-6 {
@@ -180,20 +210,30 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 82px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .monthly-expenses .group-6 {
     height: 56px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 528px;
     width: 246px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-7 {
@@ -201,29 +241,39 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 85px;
+    left: 153px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 17px;
     white-space: nowrap;
 }
 
 .monthly-expenses .todolist {
     height: 56px;
-    left: 0;
+    left: 45px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 56px;
 }
 
 .monthly-expenses .group-7 {
     height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 625px;
     width: 302px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-8 {
@@ -231,29 +281,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 81px;
+    left: 125px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 9px;
+    top: 19px;
     white-space: nowrap;
 }
 
 .monthly-expenses .img-2 {
-    height: 49px;
-    left: 0;
+    left: 49px;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    width: 49px;
+    top: 10px;
 }
 
 .monthly-expenses .group-8 {
     height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 718px;
     width: 224px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.monthly-expenses .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .group-9 {
