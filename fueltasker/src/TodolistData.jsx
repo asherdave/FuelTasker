@@ -120,7 +120,7 @@ export const TodoListTask = () => {
                     <span className="text-wrapper-10">Task</span>
                 </p>
                 <button className="group-wrapper">
-                    <div className="group-12">
+                    <div className="group-12"onClick={handleToDoListClick}>
                         <div className="text-wrapper-13">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
