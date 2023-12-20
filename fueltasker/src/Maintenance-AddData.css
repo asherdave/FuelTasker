@@ -141,13 +141,18 @@
     height: 50px;
     left: 120px;
     position: absolute;
-    top: 998px;
+    top: 999px;
     width: 188px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */;
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 10px; /* Padding to provide space for background */
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.maintenance-data .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .maintenance-data .img-logout {
@@ -190,13 +195,13 @@
     height: 40px;
     left: 23px;
     position: absolute;
-    top: 256px;
-    width: 225px;
+    top: 257px;
+    width: 245px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 80px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-3:hover {
@@ -230,13 +235,13 @@
     height: 48px;
     left: 23px;
     position: absolute;
-    top: 345px;
+    top: 346px;
     width: 240px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 80px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-4:hover {
@@ -259,24 +264,33 @@
 
 .maintenance-data .img-2 {
     height: 48px;
+    left: -10px;
+    object-fit: cover;
+    position: absolute;
+    top: -10px;
+    width: 48px;
+}
+
+.maintenance-data .img-2-gaspr {
+    height: 48px;
     left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 10px;
     width: 48px;
 }
 
 .maintenance-data .group-5 {
-   height: 50px;
+    height: 50px;
     left: 23px;
     position: absolute;
-    top: 437px;
+    top: 438px;
     width: 310px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 35px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-5:hover {
@@ -301,13 +315,13 @@
     height: 56px;
     left: 23px;
     position: absolute;
-    top: 527px;
+    top: 528px;
     width: 246px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 70px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-6:hover {
@@ -332,7 +346,7 @@
     left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 9px;
     width: 56px;
 }
 
@@ -340,13 +354,13 @@
     height: 49px;
     left: 23px;
     position: absolute;
-    top: 624px;
+    top: 625px;
     width: 302px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 80px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-7:hover {
@@ -362,7 +376,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 25px;
     white-space: nowrap;
 }
 
@@ -379,13 +393,13 @@
     height: 49px;
     left: 23px;
     position: absolute;
-    top: 717px;
+    top: 718px;
     width: 224px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 80px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-8:hover {
@@ -397,12 +411,13 @@
     height: 46px;
     left: 23px;
     position: absolute;
-    top: 811px;
-    width: 209px;transition: all 0.3s ease; /* Smooth transition for hover effects */
+    top: 812px;
+    width: 209px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 80px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance-data .group-9:hover {
@@ -527,10 +542,15 @@
     background-color: #000000;
     border-radius: 20px;
     height: 72px;
-    left: 1221px;
+    left: 1222px;
     position: absolute;
-    top: 865px;
+    top: 907px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.maintenance-data .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .maintenance-data .group-11 {
@@ -550,7 +570,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: -4px;
     white-space: nowrap;
     width: 103px;
 }
@@ -560,7 +580,7 @@
     left: 0;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: -10px;
     width: 47px;
 }
 
@@ -570,8 +590,13 @@
     height: 72px;
     left: 875px;
     position: absolute;
-    top: 865px;
+    top: 907px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.maintenance-data .group-12:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .maintenance-data .group-13 {
@@ -591,7 +616,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 7px;
+    top: -1px;
     white-space: nowrap;
     width: 73px;
 }
