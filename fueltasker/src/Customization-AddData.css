@@ -540,6 +540,11 @@
     position: absolute;
     top: 865px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.customization-data .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization-data .group-11 {
@@ -581,6 +586,11 @@
     position: absolute;
     top: 865px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.customization-data .div-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization-data .group-12 {
