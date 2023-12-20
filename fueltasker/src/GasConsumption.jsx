@@ -16,8 +16,14 @@ import gaspump from './images/gaspump.png';
 import money from './images/money.png';
 import location from './images/location.png';
 import line from './images/line.png';
+import { useNavigate } from 'react-router-dom';
 
 export const GasConsumption = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
     return (
         <div className="gas-consumption">
             <div className="div">
@@ -33,7 +39,7 @@ export const GasConsumption = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
