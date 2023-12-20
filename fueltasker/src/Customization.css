@@ -89,7 +89,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 15px; /* Padding to provide space for background */
+    padding: 35px 100px; /* Padding to provide space for background */
 }
 
 .customization .group-2:hover {
@@ -129,7 +129,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 70px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-3:hover {
@@ -169,7 +169,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 70px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-4:hover {
@@ -209,7 +209,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 35px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-5:hover {
@@ -240,7 +240,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 8px 65px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-6:hover {
@@ -280,7 +280,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 40px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-7:hover {
@@ -320,7 +320,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-8:hover {
@@ -338,7 +338,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .customization .group-9:hover {
@@ -519,11 +519,6 @@
     position: absolute;
     top: 9px;
     width: 50px;
-}
-
-.customization .group-2:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .awe {
