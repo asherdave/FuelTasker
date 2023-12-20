@@ -22,6 +22,26 @@ export const GasPrices = () => {
         navigate('/dashboard'); 
     };
 
+    const handleMonthlyClick = () => {
+        navigate('/monthly-expenses'); 
+    };
+
+    const handleToDoListClick = () => {
+        navigate('/todolist'); 
+    };
+
+    const handleGasConsumptionClick = () => {
+        navigate('/gas-consumption'); 
+    };
+
+    const handleReminderClick = () => {
+        navigate('/reminder'); 
+    };
+
+    const handleTimelineClick = () => {
+        navigate('/timeline'); 
+    };
+
     return (
         <div className="gas-prices">
             <div className="div">
@@ -54,23 +74,23 @@ export const GasPrices = () => {
                         <div className="text-wrapper-6">Gas Prices</div>
                         <img className="gaspr-2" alt="Gaspr" src={gasprice} />
                     </button>
-                    <button className="group-5">
+                    <button className="group-5"onClick={handleMonthlyClick}>
                         <div className="text-wrapper-7">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
                     </button>
-                    <button className="group-6">
+                    <button className="group-6"onClick={handleToDoListClick}>
                         <div className="text-wrapper-8">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist}/>
                     </button>
-                    <button className="group-7">
+                    <button className="group-7"onClick={handleGasConsumptionClick}>
                         <div className="text-wrapper-9">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8"onClick={handleReminderClick}>
                         <div className="text-wrapper-6">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder}/>
                     </button>
-                    <button className="group-9">
+                    <button className="group-9"onClick={handleTimelineClick}>
                         <div className="text-wrapper-10">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
                     </button>
