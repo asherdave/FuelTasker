@@ -27,7 +27,7 @@ export const CustomizationData = () => {
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <div className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout} />
                     </div>
                     <div className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
@@ -51,7 +51,7 @@ export const CustomizationData = () => {
                     </div>
                     <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
-                        <img className="img-3" alt="Reminder" src={reminder} />
+                        <img className="img-bell" alt="Reminder" src={reminder} />
                     </div>
                     <div className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
@@ -86,7 +86,7 @@ export const CustomizationData = () => {
                 <div className="div-wrapper">
                     <div className="group-12">
                         <div className="text-wrapper-16">Save</div>
-                        <img className="img-2" alt="Save" src={savew1} />
+                        <img className="save" alt="Save" src={savew1} />
                     </div>
                 </div>
             </div>
