@@ -12,8 +12,15 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import trashw1 from './images/trashw1.png';
 import savew1 from './images/savew1.png';
+import { useNavigate } from 'react-router-dom';
 
 export const AddData = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     return (
         <div className="add-data">
             <div className="div">
@@ -29,7 +36,7 @@ export const AddData = () => {
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
