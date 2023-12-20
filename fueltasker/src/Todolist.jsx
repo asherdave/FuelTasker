@@ -45,6 +45,12 @@ export const ToDoList = () => {
         navigate('/login'); 
     };
 
+    const handleAddClick = () => {
+        navigate('/todolist-task'); 
+    };
+
+    
+
     return (
         <div className="to-do-list">
             <div className="div">
@@ -166,7 +172,7 @@ export const ToDoList = () => {
                         <span className="text-wrapper-12">Task</span>
                     </p>
                     <div className="overlap-wrapper">
-                        <div className="div-wrapper">
+                        <div className="div-wrapper"onClick={handleAddClick}>
                             <div className="text-wrapper-13">Add Task</div>
                         </div>
                     </div>
