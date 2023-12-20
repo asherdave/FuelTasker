@@ -17,6 +17,7 @@ import car1 from './images/car1.png';
 import viewdetails from './images/viewdetails.png';
 import { useNavigate } from 'react-router-dom';
 
+
 export const MonthlyExpenses = () => {
     const navigate = useNavigate();
 
@@ -42,6 +43,18 @@ export const MonthlyExpenses = () => {
 
     const handleTimelineClick = () => {
         navigate('/timeline'); 
+    };
+
+    const handleCarWashClick = () => {
+        navigate('/carwash'); 
+    };
+
+    const handleMaintenanceClick = () => {
+        navigate('/maintenance'); 
+    };
+
+    const handleCustomizationClick = () => {
+        navigate('/customization'); 
     };
 
 
@@ -123,9 +136,15 @@ export const MonthlyExpenses = () => {
                     <div className="text-wrapper-18">763,000.00</div>
                     <div className="text-wrapper-19">Total:</div>
                 </div>
+                <button class="button" onClick={handleMaintenanceClick}>
                 <img className="group-13" alt="Group" src={viewdetails} />
+                </button>
+                <button className="button" onClick={handleCustomizationClick}>
                 <img className="group-14" alt="Group" src={viewdetails} />
+                </button>
+                <button className="button" onClick={handleCarWashClick}>
                 <img className="group-15" alt="Group" src={viewdetails} />
+                </button>
                 <div className="overlap-6">
                     <div className="monthly-expenses-wrapper">
                         <p className="p">
