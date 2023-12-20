@@ -49,9 +49,6 @@ export const Dashboard = () => {
         navigate('/timeline'); 
     };
 
-
-    
-
     return (
         <div className="dashboard">
             <div className="div">
