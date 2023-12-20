@@ -52,7 +52,7 @@ export const Register = () => {
 
         console.log("Submitting user data:", userData);
         try {
-            const response = await axios.post('http://localhost:8080/user/insertUser', userData);
+            const response = await axios.post('http://localhost:8080/fueltasker/registerUser', userData);
             console.log("Response received:", response.data);
             navigate('/login');
         } catch (error) {

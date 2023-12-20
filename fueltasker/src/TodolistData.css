@@ -1,0 +1,494 @@
+.todo-list-task {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.todo-list-task .div {
+    background-color: #ffffff;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.todo-list-task .overlap {
+    background-color: #ff0000cc;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 426px;
+}
+
+.todo-list-task .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    white-space: nowrap;
+}
+
+.todo-list-task .group {
+    height: 50px;
+    left: 213px;
+    position: absolute;
+    top: 135px;
+    width: 160px;
+}
+
+.todo-list-task .overlap-group {
+    background-color: #ffffff;
+    border-radius: 80px;
+    height: 50px;
+    position: relative;
+    width: 158px;
+}
+
+.todo-list-task .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.todo-list-task .ellipse {
+    height: 157px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 157px;
+}
+
+.todo-list-task .group-2 {
+    height: 50px;
+    left: 120px;
+    position: absolute;
+    top: 998px;
+    width: 188px;
+}
+
+.todo-list-task .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+}
+
+.todo-list-task .img {
+    height: 50px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.todo-list-task .group-3 {
+    height: 40px;
+    left: 63px;
+    position: absolute;
+    top: 256px;
+    width: 245px;
+}
+
+.todo-list-task .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+}
+
+.todo-list-task .dash-wrapper {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.todo-list-task .dash {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.todo-list-task .group-4 {
+    height: 48px;
+    left: 59px;
+    position: absolute;
+    top: 345px;
+    width: 240px;
+}
+
+.todo-list-task .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+}
+
+.todo-list-task .img-2 {
+    height: 48px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 48px;
+}
+
+.todo-list-task .group-5 {
+    height: 50px;
+    left: 59px;
+    position: absolute;
+    top: 437px;
+    width: 310px;
+}
+
+.todo-list-task .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.todo-list-task .group-6 {
+    height: 56px;
+    left: 59px;
+    position: absolute;
+    top: 527px;
+    width: 246px;
+}
+
+.todo-list-task .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.todo-list-task .todolist {
+    height: 56px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.todo-list-task .group-7 {
+    height: 49px;
+    left: 63px;
+    position: absolute;
+    top: 624px;
+    width: 302px;
+}
+
+.todo-list-task .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+}
+
+.todo-list-task .img-3 {
+    height: 49px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 49px;
+}
+
+.todo-list-task .group-8 {
+    height: 49px;
+    left: 63px;
+    position: absolute;
+    top: 717px;
+    width: 224px;
+}
+
+.todo-list-task .group-9 {
+    height: 46px;
+    left: 63px;
+    position: absolute;
+    top: 811px;
+    width: 209px;
+}
+
+.todo-list-task .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+}
+
+.todo-list-task .timeline {
+    height: 46px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 46px;
+}
+
+.todo-list-task .overlap-2 {
+    background-image: url(./images/rect99.png);
+    background-size: 100% 100%;
+    height: 140px;
+    left: 426px;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.todo-list-task .to-do-list {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -55px;
+    white-space: nowrap;
+    width: 389px;
+}
+
+.todo-list-task .span {
+    color: #000000;
+}
+
+.todo-list-task .text-wrapper-10 {
+    color: #890000;
+}
+
+.todo-list-task .todolist-2 {
+    height: 90px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 90px;
+}
+
+.todo-list-task .landscape {
+    height: 80px;
+    left: 1099px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 339px;
+}
+
+.todo-list-task .group-10 {
+    height: 243px;
+    left: 873px;
+    position: absolute;
+    top: 527px;
+    width: 599px;
+}
+
+.todo-list-task .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 181px;
+}
+
+.todo-list-task .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 191px;
+    left: 0;
+    position: absolute;
+    top: 52px;
+    width: 597px;
+}
+
+.todo-list-task .group-11 {
+    height: 110px;
+    left: 873px;
+    position: absolute;
+    top: 371px;
+    width: 599px;
+}
+
+.todo-list-task .rectangle-2 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 62px;
+    left: 0;
+    position: absolute;
+    top: 48px;
+    width: 597px;
+}
+
+.todo-list-task .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 164px;
+}
+
+.todo-list-task .create-task {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 1020px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 234px;
+    white-space: nowrap;
+    width: 303px;
+}
+
+.todo-list-task .group-wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 72px;
+    left: 1220px;
+    position: absolute;
+    top: 850px;
+    width: 250px;
+}
+
+.todo-list-task .group-12 {
+    height: 47px;
+    left: 45px;
+    position: relative;
+    top: 13px;
+    width: 162px;
+}
+
+.todo-list-task .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 57px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+    width: 103px;
+}
+
+.todo-list-task .trash {
+    height: 47px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.todo-list-task .div-wrapper {
+    background-color: #890000;
+    border-radius: 20px;
+    height: 72px;
+    left: 873px;
+    position: absolute;
+    top: 850px;
+    width: 250px;
+}
+
+.todo-list-task .group-13 {
+    height: 48px;
+    left: 55px;
+    position: relative;
+    top: 12px;
+    width: 142px;
+}
+
+.todo-list-task .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 73px;
+}

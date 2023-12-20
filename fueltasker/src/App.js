@@ -25,6 +25,7 @@ import { Customization } from './Customization.jsx';
 import { Maintenance } from './Maintenance.jsx';
 import { MaintenanceData } from './Maintenance-AddData.jsx';
 import { CustomizationData } from './Customization-AddData.jsx';
+import { TodoListTask } from './TodolistData.jsx';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           <Route path="/maintenance" element={<Maintenance />} />
           <Route path="/maintenance-data" element={<MaintenanceData />} />
           <Route path="/customization-data" element={<CustomizationData />} />
+          <Route path="/todolist-task" element={<TodoListTask />} />
         </Routes>
       </div>
     </Router>
