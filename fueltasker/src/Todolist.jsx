@@ -49,14 +49,16 @@ export const ToDoList = () => {
         navigate('/todolist-task'); 
     };
 
-    
+    const handleViewClick = () => {
+        navigate('/viewprofile'); 
+    };
 
     return (
         <div className="to-do-list">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
-                    <div className="group">
+                    <div className="group"onClick={handleViewClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
