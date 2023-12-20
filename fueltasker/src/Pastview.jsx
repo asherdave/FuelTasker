@@ -90,7 +90,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1}/>
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src={trash} />
+                            </button>
                         </div>
                     </div>
                     <div className="group-10">
@@ -98,7 +100,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1} />
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src={trash} />
+                            </button>
                         </div>
                     </div>
                     <div className="group-11">
@@ -106,7 +110,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1}/>
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src={trash}/>
+                            </button>
                         </div>
                     </div>
                     <div className="group-12">
@@ -114,7 +120,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1} />
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src= {trash}/>
+                            </button>
                         </div>
                     </div>
                     <div className="group-13">
@@ -122,7 +130,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1} />
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src={trash}/>
+                            </button>
                         </div>
                     </div>
                     <div className="group-14">
@@ -130,7 +140,9 @@ export const PastView = () => {
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
                             <img className="check" alt="Check" src={check1} />
+                            <button class="button" onclick="handleButtonClick()">
                             <img className="awe" alt="Awe" src={trash} />
+                            </button>
                         </div>
                     </div>
                 </div>
