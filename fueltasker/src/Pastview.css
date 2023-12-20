@@ -338,7 +338,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
+    padding: 10px 85px; /* Padding to provide space for background */
 }
 
 .past-view .group-9:hover {
