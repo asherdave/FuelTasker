@@ -6,6 +6,13 @@
     width: 100%;
 }
 
+.todo-list-task .save {
+    left: -15px;
+    object-fit: cover;
+    position: absolute;
+    top: -10px;
+}
+
 .todo-list-task .div {
     background-color: #ffffff;
     height: 1080px;
@@ -78,8 +85,18 @@
     height: 50px;
     left: 120px;
     position: absolute;
-    top: 998px;
+    top: 999px;
     width: 188px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 100px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-3 {
@@ -91,25 +108,35 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 15px;
     white-space: nowrap;
 }
 
 .todo-list-task .img {
     height: 50px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .todo-list-task .group-3 {
     height: 40px;
-    left: 63px;
+    left: 23px;
     position: absolute;
-    top: 256px;
+    top: 257px;
     width: 245px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-4 {
@@ -117,11 +144,11 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 18px;
     white-space: nowrap;
 }
 
@@ -137,19 +164,29 @@
 
 .todo-list-task .dash {
     height: 40px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .todo-list-task .group-4 {
     height: 48px;
-    left: 59px;
+    left: 23px;
     position: absolute;
-    top: 345px;
+    top: 346px;
     width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-5 {
@@ -157,29 +194,48 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .todo-list-task .img-2 {
     height: 48px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 48px;
+}
+
+.todo-list-task .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
 }
 
 .todo-list-task .group-5 {
     height: 50px;
-    left: 59px;
+    left: 23px;
     position: absolute;
-    top: 437px;
+    top: 438px;
     width: 310px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-6 {
@@ -187,20 +243,30 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 82px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .todo-list-task .group-6 {
     height: 56px;
-    left: 59px;
+    left: 23px;
     position: absolute;
-    top: 527px;
+    top: 528px;
     width: 246px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-7 {
@@ -208,29 +274,39 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 85px;
+    left: 150x;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .todo-list-task .todolist {
     height: 56px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 56px;
 }
 
 .todo-list-task .group-7 {
     height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
-    top: 624px;
+    top: 625px;
     width: 302px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .text-wrapper-8 {
@@ -238,58 +314,77 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 81px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 9px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .todo-list-task .img-3 {
     height: 49px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 49px;
 }
 
 .todo-list-task .group-8 {
     height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
-    top: 717px;
+    top: 718px;
     width: 224px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.todo-list-task .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .group-9 {
     height: 46px;
-    left: 63px;
+    left: 23px;
     position: absolute;
-    top: 811px;
+    top: 812px;
     width: 209px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
+.todo-list-task .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
 .todo-list-task .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 80px;
+    left: 150px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 18px;
     white-space: nowrap;
 }
 
 .todo-list-task .timeline {
     height: 46px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 46px;
 }
 
@@ -428,6 +523,11 @@
     position: absolute;
     top: 850px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.todo-list-task .group-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .group-12 {
@@ -443,21 +543,21 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 57px;
+    left: 51px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 0px;
     white-space: nowrap;
     width: 103px;
 }
 
 .todo-list-task .trash {
     height: 47px;
-    left: 0;
+    left: -15px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: -10px;
     width: 47px;
 }
 
@@ -469,6 +569,11 @@
     position: absolute;
     top: 850px;
     width: 250px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.todo-list-task .div-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .todo-list-task .group-13 {
@@ -488,7 +593,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 7px;
+    top: 0px;
     white-space: nowrap;
     width: 73px;
 }
