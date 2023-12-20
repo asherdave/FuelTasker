@@ -13,8 +13,15 @@ import timeline from './images/timeline.png';
 import petron from './images/petron.png';
 import shell from './images/shell.png';
 import seaoil from './images/seaoil.png';
+import { useNavigate } from 'react-router-dom';
 
 export const GasPrices = () => {
+    const navigate = useNavigate();
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     return (
         <div className="gas-prices">
             <div className="div">
@@ -39,7 +46,7 @@ export const GasPrices = () => {
                         <div className="text-wrapper-4">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
-                    <button className="group-3">
+                    <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>

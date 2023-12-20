@@ -28,9 +28,7 @@ export const Dashboard = () => {
     const handleReminderClick = () => {
         navigate('/reminder'); 
     };
-
     
-
     return (
         <div className="dashboard">
             <div className="div">
