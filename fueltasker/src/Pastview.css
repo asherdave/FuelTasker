@@ -13,6 +13,13 @@
     width: 1920px;
 }
 
+.past-view .button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .past-view .overlap {
     background-color: #ff0000cc;
     height: 1080px;
@@ -90,7 +97,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 20px; /* Padding to provide space for background */
+    padding: 35px 100px; /* Padding to provide space for background */
 }
 
 .past-view .group-2:hover {
@@ -320,7 +327,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 77px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }   
 
 .past-view .group-8:hover {
@@ -338,7 +345,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .past-view .group-9:hover {

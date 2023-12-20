@@ -97,7 +97,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 10px; /* Padding to provide space for background */
+    padding: 35px 100px; /* Padding to provide space for background */
 }
 
 .maintenance .group-2:hover {
@@ -318,7 +318,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance .group-8:hover {
@@ -335,7 +335,7 @@
     border: none;
     background: transparent;
     border-radius: 30px;
-    padding: 10px 85px; /* Padding to provide space for background */
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
 .maintenance .group-9:hover {
@@ -343,9 +343,9 @@
     transform: scale(1.1); /* Increase the size more significantly */
 }
 
-.gas-prices .img-logout {
+.maintenance .img-logout {
     height: 50px;
-    left: 5px;
+    left: 15px;
     object-fit: cover;
     position: absolute;
     top: 9px;
