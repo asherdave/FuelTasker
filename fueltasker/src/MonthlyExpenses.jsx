@@ -45,6 +45,23 @@ export const MonthlyExpenses = () => {
         navigate('/timeline'); 
     };
 
+    const handleMaintenanceClick = () => {
+        navigate('/maintenance'); 
+    };
+
+    const handleCarWashClick = () => {
+        navigate('/carwash'); 
+    };
+
+    const handleCustomizationClick = () => {
+        navigate('/customization'); 
+    };
+
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
+
 
     return (
         <div className="monthly-expenses">
