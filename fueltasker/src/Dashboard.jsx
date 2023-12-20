@@ -54,6 +54,10 @@ export const Dashboard = () => {
         navigate('/timeline'); 
     };
 
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
 
     
 
@@ -68,7 +72,7 @@ export const Dashboard = () => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2"onClick={handleLogoutClick}>
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>

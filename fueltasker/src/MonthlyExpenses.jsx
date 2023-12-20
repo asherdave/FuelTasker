@@ -44,6 +44,10 @@ export const MonthlyExpenses = () => {
         navigate('/timeline'); 
     };
 
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
 
     return (
         <div className="monthly-expenses">
@@ -56,7 +60,7 @@ export const MonthlyExpenses = () => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="logout" alt="Logout" src={logout} />
                     </button>
