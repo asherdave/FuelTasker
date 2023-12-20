@@ -27,7 +27,7 @@ export const Customization = () => {
                     <img className="ellipse" alt="Ellipse" src={profile} />
                     <div className="group-2">
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout} />
                     </div>
                     <div className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
