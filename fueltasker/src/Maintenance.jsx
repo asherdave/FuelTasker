@@ -1,5 +1,6 @@
 import React from "react";
-import "./Carwash.css";
+import "./Maintenance.css";
+
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
 import logout from './images/logout.png';
@@ -10,12 +11,12 @@ import todolist from './images/todolist.png';
 import gascon from './images/gasconsumption.png';
 import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
-import car1 from './images/car1.png';
+import gear from './images/gear.png';
 import trash from './images/trash.png';
 
-export const Carwash = () => {
+export const Maintenance = () => {
     return (
-        <div className="carwash">
+        <div className="maintenance">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
@@ -35,7 +36,7 @@ export const Carwash = () => {
                     </div>
                     <div className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
-                        <img className="gaspr" alt="Gaspr" src={gasprice}/>
+                        <img className="gaspr" alt="Gaspr" src={gasprice} />
                     </div>
                     <div className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
@@ -51,7 +52,7 @@ export const Carwash = () => {
                     </div>
                     <div className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
-                        <img className="img-2" alt="Reminder" src={reminder} />
+                        <img className="img-2" alt="Reminder" src={reminder}/>
                     </div>
                     <div className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
@@ -66,69 +67,69 @@ export const Carwash = () => {
                         </p>
                     </div>
                     <img className="monthly" alt="Monthly" src={monthly} />
-                    <img className="landscape" alt="Landscape" src={sidelogo} />
+                    <img className="landscape" alt="Landscape" src={sidelogo}/>
                 </div>
-                <div className="text-wrapper-11">Car Wash</div>
-                <div className="overlap-wrapper">
-                    <div className="div-wrapper">
-                        <div className="text-wrapper-12">Add Data</div>
-                    </div>
-                </div>
+                <div className="text-wrapper-11">Maintenance</div>
                 <div className="frame">
                     <div className="group-10">
-                        <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
-                                <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-14">Full Detailing</div>
-                                <div className="text-wrapper-15">2000.00</div>
-                                <img className="car" alt="Car" src={car1} />
+                                <img className="awe" alt="Awe" src={trash}/>
+                                <div className="text-wrapper-12">Power Steering</div>
+                                <div className="text-wrapper-13">15,000.00</div>
+                                <img className="element" alt="Element" src={gear} />
                             </div>
                         </div>
+                        <div className="text-wrapper-14">NOVEMBER 16, 2023</div>
                     </div>
                     <div className="group-11">
-                        <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
                                 <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-14">Regular Wash</div>
-                                <div className="text-wrapper-15">350.00</div>
-                                <img className="car" alt="Car" src={car1} />
+                                <div className="text-wrapper-12">Change Oil</div>
+                                <div className="text-wrapper-13">2,000.00</div>
+                                <img className="element" alt="Element" src={gear} />
                             </div>
                         </div>
+                        <div className="text-wrapper-14">NOVEMBER 16, 2023</div>
                     </div>
                     <div className="group-12">
-                        <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
                                 <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-14">Regular Wash</div>
-                                <div className="text-wrapper-15">350.00</div>
-                                <img className="car" alt="Car" src={car1} />
+                                <div className="text-wrapper-12">Coolant</div>
+                                <div className="text-wrapper-13">1,500.00</div>
+                                <img className="element" alt="Element" src={gear} />
                             </div>
                         </div>
+                        <div className="text-wrapper-14">NOVEMBER 16, 2023</div>
                     </div>
                     <div className="group-13">
-                        <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
                                 <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-14">Steam Cleaning</div>
-                                <div className="text-wrapper-15">800.00</div>
-                                <img className="car" alt="Car" src={car1} />
+                                <div className="text-wrapper-12">Coolant</div>
+                                <div className="text-wrapper-13">1,500.00</div>
+                                <img className="element" alt="Element" src={gear} />
                             </div>
                         </div>
+                        <div className="text-wrapper-14">NOVEMBER 16, 2023</div>
                     </div>
                     <div className="group-14">
-                        <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
                                 <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-14">Steam Cleaning</div>
-                                <div className="text-wrapper-15">800.00</div>
-                                <img className="car" alt="Car" src={car1} />
+                                <div className="text-wrapper-12">Coolant</div>
+                                <div className="text-wrapper-13">1,500.00</div>
+                                <img className="element" alt="Element" src={gear} />
                             </div>
                         </div>
+                        <div className="text-wrapper-14">NOVEMBER 16, 2023</div>
+                    </div>
+                </div>
+                <div className="overlap-wrapper">
+                    <div className="div-wrapper">
+                        <div className="text-wrapper-15">Add Data</div>
                     </div>
                 </div>
             </div>

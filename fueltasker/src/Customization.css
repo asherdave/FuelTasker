@@ -1,4 +1,4 @@
-.carwash {
+.customization {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.carwash .div {
+.customization .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.carwash .overlap {
+.customization .overlap {
     background-color: #ff0000cc;
     height: 1080px;
     left: 0;
@@ -22,7 +22,7 @@
     width: 426px;
 }
 
-.carwash .text-wrapper {
+.customization .text-wrapper {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -35,7 +35,7 @@
     white-space: nowrap;
 }
 
-.carwash .group {
+.customization .group {
     height: 50px;
     left: 213px;
     position: absolute;
@@ -43,7 +43,7 @@
     width: 160px;
 }
 
-.carwash .overlap-group {
+.customization .overlap-group {
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
@@ -51,7 +51,7 @@
     width: 158px;
 }
 
-.carwash .text-wrapper-2 {
+.customization .text-wrapper-2 {
     color: #000000;
     font-family: "Inter-Light", Helvetica;
     font-size: 20px;
@@ -65,7 +65,7 @@
     width: 111px;
 }
 
-.carwash .ellipse {
+.customization .ellipse {
     height: 157px;
     left: 18px;
     object-fit: cover;
@@ -74,7 +74,7 @@
     width: 157px;
 }
 
-.carwash .group-2 {
+.customization .group-2 {
     height: 50px;
     left: 120px;
     position: absolute;
@@ -82,7 +82,7 @@
     width: 188px;
 }
 
-.carwash .text-wrapper-3 {
+.customization .text-wrapper-3 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -95,7 +95,7 @@
     white-space: nowrap;
 }
 
-.carwash .img {
+.customization .img {
     height: 50px;
     left: 0;
     object-fit: cover;
@@ -104,7 +104,7 @@
     width: 50px;
 }
 
-.carwash .group-3 {
+.customization .group-3 {
     height: 40px;
     left: 63px;
     position: absolute;
@@ -112,7 +112,7 @@
     width: 245px;
 }
 
-.carwash .text-wrapper-4 {
+.customization .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -125,7 +125,7 @@
     white-space: nowrap;
 }
 
-.carwash .dash {
+.customization .dash {
     height: 40px;
     left: 0;
     object-fit: cover;
@@ -134,7 +134,7 @@
     width: 50px;
 }
 
-.carwash .group-4 {
+.customization .group-4 {
     height: 48px;
     left: 59px;
     position: absolute;
@@ -142,7 +142,7 @@
     width: 240px;
 }
 
-.carwash .text-wrapper-5 {
+.customization .text-wrapper-5 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -155,7 +155,7 @@
     white-space: nowrap;
 }
 
-.carwash .gaspr {
+.customization .gaspr {
     height: 48px;
     left: 0;
     object-fit: cover;
@@ -164,7 +164,7 @@
     width: 48px;
 }
 
-.carwash .group-5 {
+.customization .group-5 {
     height: 50px;
     left: 59px;
     position: absolute;
@@ -172,7 +172,7 @@
     width: 310px;
 }
 
-.carwash .text-wrapper-6 {
+.customization .text-wrapper-6 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -185,7 +185,7 @@
     white-space: nowrap;
 }
 
-.carwash .group-6 {
+.customization .group-6 {
     height: 56px;
     left: 59px;
     position: absolute;
@@ -193,7 +193,7 @@
     width: 246px;
 }
 
-.carwash .text-wrapper-7 {
+.customization .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -206,7 +206,7 @@
     white-space: nowrap;
 }
 
-.carwash .todolist {
+.customization .todolist {
     height: 56px;
     left: 0;
     object-fit: cover;
@@ -215,7 +215,7 @@
     width: 56px;
 }
 
-.carwash .group-7 {
+.customization .group-7 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -223,7 +223,7 @@
     width: 302px;
 }
 
-.carwash .text-wrapper-8 {
+.customization .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -236,7 +236,7 @@
     white-space: nowrap;
 }
 
-.carwash .img-2 {
+.customization .img-2 {
     height: 49px;
     left: 0;
     object-fit: cover;
@@ -245,7 +245,7 @@
     width: 49px;
 }
 
-.carwash .group-8 {
+.customization .group-8 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -253,7 +253,7 @@
     width: 224px;
 }
 
-.carwash .group-9 {
+.customization .group-9 {
     height: 46px;
     left: 63px;
     position: absolute;
@@ -261,7 +261,7 @@
     width: 209px;
 }
 
-.carwash .text-wrapper-9 {
+.customization .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -274,7 +274,7 @@
     white-space: nowrap;
 }
 
-.carwash .timeline {
+.customization .timeline {
     height: 46px;
     left: 0;
     object-fit: cover;
@@ -283,7 +283,7 @@
     width: 46px;
 }
 
-.carwash .overlap-2 {
+.customization .overlap-2 {
     background-image: url(./images/rect99.png);
     background-size: 100% 100%;
     height: 140px;
@@ -293,7 +293,7 @@
     width: 1494px;
 }
 
-.carwash .monthly-expenses-wrapper {
+.customization .monthly-expenses-wrapper {
     height: 100px;
     left: 171px;
     position: absolute;
@@ -301,7 +301,7 @@
     width: 728px;
 }
 
-.carwash .monthly-expenses {
+.customization .monthly-expenses {
     color: transparent;
     font-family: "Inter-Bold", Helvetica;
     font-size: 80px;
@@ -314,15 +314,15 @@
     width: 726px;
 }
 
-.carwash .span {
+.customization .span {
     color: #000000;
 }
 
-.carwash .text-wrapper-110 {
+.customization .text-wrapper-110 {
     color: #7a0202;
 }
 
-.carwash .monthly {
+.customization .monthly {
     height: 90px;
     left: 49px;
     object-fit: cover;
@@ -331,7 +331,7 @@
     width: 90px;
 }
 
-.carwash .landscape {
+.customization .landscape {
     height: 73px;
     left: 1087px;
     object-fit: cover;
@@ -340,21 +340,21 @@
     width: 339px;
 }
 
-.carwash .text-wrapper-11 {
+.customization .text-wrapper-11 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
     font-weight: 700;
-    left: 1054px;
+    left: 992px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 229px;
+    top: 233px;
     white-space: nowrap;
-    width: 239px;
+    width: 362px;
 }
 
-.carwash .overlap-wrapper {
+.customization .overlap-wrapper {
     height: 61px;
     left: 1072px;
     position: absolute;
@@ -362,7 +362,7 @@
     width: 205px;
 }
 
-.carwash .div-wrapper {
+.customization .div-wrapper {
     background-color: #890000;
     border-radius: 80px;
     height: 61px;
@@ -370,7 +370,7 @@
     width: 203px;
 }
 
-.carwash .text-wrapper-12 {
+.customization .text-wrapper-12 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -383,37 +383,25 @@
     white-space: nowrap;
 }
 
-.carwash .frame {
+.customization .frame {
     height: 528px;
     left: 815px;
     overflow: hidden;
     overflow-y: scroll;
     position: absolute;
-    top: 341px;
+    top: 345px;
     width: 716px;
 }
 
-.carwash .group-10 {
+.customization .group-10 {
     height: 121px;
     left: 0;
     position: absolute;
-    top: 0;
+    top: 290px;
     width: 718px;
 }
 
-.carwash .text-wrapper-13 {
-    color: #7a0202;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 18px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-}
-
-.carwash .overlap-group-wrapper {
+.customization .overlap-group-wrapper {
     height: 86px;
     left: 0;
     position: absolute;
@@ -421,7 +409,7 @@
     width: 720px;
 }
 
-.carwash .overlap-group-2 {
+.customization .overlap-group-2 {
     background-color: #ff8e8e;
     border-radius: 30px;
     height: 86px;
@@ -429,7 +417,7 @@
     width: 716px;
 }
 
-.carwash .awe {
+.customization .awe {
     height: 52px;
     left: 620px;
     object-fit: cover;
@@ -438,20 +426,7 @@
     width: 53px;
 }
 
-.carwash .text-wrapper-14 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 25px;
-    font-weight: 700;
-    left: 148px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 28px;
-    white-space: nowrap;
-}
-
-.carwash .text-wrapper-15 {
+.customization .text-wrapper-13 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -464,7 +439,7 @@
     white-space: nowrap;
 }
 
-.carwash .car {
+.customization .untitled-design {
     height: 54px;
     left: 36px;
     object-fit: cover;
@@ -473,23 +448,32 @@
     width: 58px;
 }
 
-.carwash .group-11 {
-    height: 121px;
-    left: 0;
+.customization .text-wrapper-14 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 148px;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
-    top: 145px;
-    width: 718px;
+    top: 28px;
+    width: 166px;
 }
 
-.carwash .group-12 {
-    height: 121px;
+.customization .text-wrapper-15 {
+    color: #7a0202;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
     left: 0;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
-    top: 290px;
-    width: 718px;
+    top: 0;
 }
 
-.carwash .group-13 {
+.customization .group-11 {
     height: 121px;
     left: 0;
     position: absolute;
@@ -497,10 +481,52 @@
     width: 718px;
 }
 
-.carwash .group-14 {
+.customization .group-12 {
     height: 121px;
     left: 0;
     position: absolute;
     top: 580px;
     width: 718px;
+}
+
+.customization .group-13 {
+    height: 121px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 718px;
+}
+
+.customization .text-wrapper-16 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 148px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+    white-space: nowrap;
+}
+
+.customization .group-14 {
+    height: 121px;
+    left: 0;
+    position: absolute;
+    top: 145px;
+    width: 718px;
+}
+
+.customization .text-wrapper-17 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 148px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    width: 188px;
 }

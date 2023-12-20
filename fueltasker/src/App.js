@@ -20,7 +20,11 @@ import { GasConsumption } from './GasConsumption.jsx';
 import { AddData } from './GasConsumption-AddData.jsx';
 import { MonthlyExpenses } from './MonthlyExpenses.jsx';
 import { Carwash } from './Carwash.jsx';
-
+import { CarwashData } from './CarwashData.jsx';
+import { Customization } from './Customization.jsx';
+import { Maintenance } from './Maintenance.jsx';
+import { MaintenanceData } from './Maintenance-AddData.jsx';
+import { CustomizationData } from './Customization-AddData.jsx';
 
 function App() {
   return (
@@ -46,6 +50,11 @@ function App() {
           <Route path="/add-data" element={<AddData />} />
           <Route path="/monthly-expenses" element={<MonthlyExpenses />} />
           <Route path="/carwash" element={<Carwash />} />
+          <Route path="/carwash-data" element={<CarwashData />} />
+          <Route path="/customization" element={<Customization />} />
+          <Route path="/maintenance" element={<Maintenance />} />
+          <Route path="/maintenance-data" element={<MaintenanceData />} />
+          <Route path="/customization-data" element={<CustomizationData />} />
         </Routes>
       </div>
     </Router>

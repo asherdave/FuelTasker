@@ -1,4 +1,4 @@
-.carwash {
+.maintenance-data {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,71 @@
     width: 100%;
 }
 
-.carwash .div {
+.maintenance-data .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.carwash .overlap {
+.maintenance-data .overlap {
+    background-image: url(./images/rect99.png);
+    background-size: 100% 100%;
+    height: 139px;
+    left: 426px;
+    position: absolute;
+    top: 0;
+    width: 1494px;
+}
+
+.maintenance-data .group {
+    height: 100px;
+    left: 171px;
+    position: absolute;
+    top: 20px;
+    width: 728px;
+}
+
+.maintenance-data .monthly-expenses {
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 80px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -75px;
+    width: 726px;
+}
+
+.maintenance-data .text-wrapper1 {
+    color: #000000;
+}
+
+.maintenance-data .span {
+    color: #7a0202;
+}
+
+.maintenance-data .monthly {
+    height: 90px;
+    left: 49px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 90px;
+}
+
+.maintenance-data .landscape {
+    height: 73px;
+    left: 1087px;
+    object-fit: cover;
+    position: absolute;
+    top: 34px;
+    width: 339px;
+}
+
+.maintenance-data .overlap-group {
     background-color: #ff0000cc;
     height: 1080px;
     left: 0;
@@ -22,7 +79,7 @@
     width: 426px;
 }
 
-.carwash .text-wrapper {
+.maintenance-data .text-wrapper-2 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -35,7 +92,7 @@
     white-space: nowrap;
 }
 
-.carwash .group {
+.maintenance-data .overlap-group-wrapper {
     height: 50px;
     left: 213px;
     position: absolute;
@@ -43,7 +100,7 @@
     width: 160px;
 }
 
-.carwash .overlap-group {
+.maintenance-data .div-wrapper {
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
@@ -51,7 +108,7 @@
     width: 158px;
 }
 
-.carwash .text-wrapper-2 {
+.maintenance-data .text-wrapper-3 {
     color: #000000;
     font-family: "Inter-Light", Helvetica;
     font-size: 20px;
@@ -65,7 +122,7 @@
     width: 111px;
 }
 
-.carwash .ellipse {
+.maintenance-data .ellipse {
     height: 157px;
     left: 18px;
     object-fit: cover;
@@ -74,7 +131,7 @@
     width: 157px;
 }
 
-.carwash .group-2 {
+.maintenance-data .group-2 {
     height: 50px;
     left: 120px;
     position: absolute;
@@ -82,7 +139,7 @@
     width: 188px;
 }
 
-.carwash .text-wrapper-3 {
+.maintenance-data .text-wrapper-4 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -95,7 +152,7 @@
     white-space: nowrap;
 }
 
-.carwash .img {
+.maintenance-data .img {
     height: 50px;
     left: 0;
     object-fit: cover;
@@ -104,7 +161,7 @@
     width: 50px;
 }
 
-.carwash .group-3 {
+.maintenance-data .group-3 {
     height: 40px;
     left: 63px;
     position: absolute;
@@ -112,7 +169,7 @@
     width: 245px;
 }
 
-.carwash .text-wrapper-4 {
+.maintenance-data .text-wrapper-5 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -125,7 +182,7 @@
     white-space: nowrap;
 }
 
-.carwash .dash {
+.maintenance-data .dash {
     height: 40px;
     left: 0;
     object-fit: cover;
@@ -134,7 +191,7 @@
     width: 50px;
 }
 
-.carwash .group-4 {
+.maintenance-data .group-4 {
     height: 48px;
     left: 59px;
     position: absolute;
@@ -142,7 +199,7 @@
     width: 240px;
 }
 
-.carwash .text-wrapper-5 {
+.maintenance-data .text-wrapper-6 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -155,7 +212,7 @@
     white-space: nowrap;
 }
 
-.carwash .gaspr {
+.maintenance-data .img-2 {
     height: 48px;
     left: 0;
     object-fit: cover;
@@ -164,7 +221,7 @@
     width: 48px;
 }
 
-.carwash .group-5 {
+.maintenance-data .group-5 {
     height: 50px;
     left: 59px;
     position: absolute;
@@ -172,7 +229,7 @@
     width: 310px;
 }
 
-.carwash .text-wrapper-6 {
+.maintenance-data .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -185,7 +242,7 @@
     white-space: nowrap;
 }
 
-.carwash .group-6 {
+.maintenance-data .group-6 {
     height: 56px;
     left: 59px;
     position: absolute;
@@ -193,7 +250,7 @@
     width: 246px;
 }
 
-.carwash .text-wrapper-7 {
+.maintenance-data .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -206,7 +263,7 @@
     white-space: nowrap;
 }
 
-.carwash .todolist {
+.maintenance-data .todolist {
     height: 56px;
     left: 0;
     object-fit: cover;
@@ -215,7 +272,7 @@
     width: 56px;
 }
 
-.carwash .group-7 {
+.maintenance-data .group-7 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -223,7 +280,7 @@
     width: 302px;
 }
 
-.carwash .text-wrapper-8 {
+.maintenance-data .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
@@ -236,7 +293,7 @@
     white-space: nowrap;
 }
 
-.carwash .img-2 {
+.maintenance-data .img-3 {
     height: 49px;
     left: 0;
     object-fit: cover;
@@ -245,7 +302,7 @@
     width: 49px;
 }
 
-.carwash .group-8 {
+.maintenance-data .group-8 {
     height: 49px;
     left: 63px;
     position: absolute;
@@ -253,7 +310,7 @@
     width: 224px;
 }
 
-.carwash .group-9 {
+.maintenance-data .group-9 {
     height: 46px;
     left: 63px;
     position: absolute;
@@ -261,7 +318,7 @@
     width: 209px;
 }
 
-.carwash .text-wrapper-9 {
+.maintenance-data .text-wrapper-10 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
@@ -274,7 +331,7 @@
     white-space: nowrap;
 }
 
-.carwash .timeline {
+.maintenance-data .timeline {
     height: 46px;
     left: 0;
     object-fit: cover;
@@ -283,224 +340,166 @@
     width: 46px;
 }
 
-.carwash .overlap-2 {
-    background-image: url(./images/rect99.png);
-    background-size: 100% 100%;
-    height: 140px;
-    left: 426px;
-    position: absolute;
-    top: 0;
-    width: 1494px;
-}
-
-.carwash .monthly-expenses-wrapper {
-    height: 100px;
-    left: 171px;
-    position: absolute;
-    top: 20px;
-    width: 728px;
-}
-
-.carwash .monthly-expenses {
-    color: transparent;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 80px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -75px;
-    width: 726px;
-}
-
-.carwash .span {
-    color: #000000;
-}
-
-.carwash .text-wrapper-110 {
-    color: #7a0202;
-}
-
-.carwash .monthly {
-    height: 90px;
-    left: 49px;
-    object-fit: cover;
-    position: absolute;
-    top: 25px;
-    width: 90px;
-}
-
-.carwash .landscape {
-    height: 73px;
-    left: 1087px;
-    object-fit: cover;
-    position: absolute;
-    top: 34px;
-    width: 339px;
-}
-
-.carwash .text-wrapper-11 {
+.maintenance-data .text-wrapper-11 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
     font-weight: 700;
-    left: 1054px;
+    left: 1013px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 229px;
+    top: 256px;
     white-space: nowrap;
-    width: 239px;
+    width: 320px;
 }
 
-.carwash .overlap-wrapper {
-    height: 61px;
-    left: 1072px;
+.maintenance-data .group-10 {
+    height: 273px;
+    left: 868px;
     position: absolute;
-    top: 919px;
-    width: 205px;
+    top: 449px;
+    width: 617px;
 }
 
-.carwash .div-wrapper {
-    background-color: #890000;
-    border-radius: 80px;
-    height: 61px;
+.maintenance-data .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 75px;
+}
+
+.maintenance-data .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 119px;
+    width: 71px;
+}
+
+.maintenance-data .text-wrapper-14 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 223px;
+    width: 81px;
+}
+
+.maintenance-data .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 65px;
+    left: 114px;
+    position: absolute;
+    top: 0;
+    width: 497px;
+}
+
+.maintenance-data .rectangle-2 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 65px;
+    left: 112px;
+    position: absolute;
+    top: 104px;
+    width: 497px;
+}
+
+.maintenance-data .rectangle-3 {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 65px;
+    left: 112px;
+    position: absolute;
+    top: 208px;
+    width: 497px;
+}
+
+.maintenance-data .group-wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 72px;
+    left: 1221px;
+    position: absolute;
+    top: 865px;
+    width: 250px;
+}
+
+.maintenance-data .group-11 {
+    height: 47px;
+    left: 45px;
     position: relative;
-    width: 203px;
+    top: 13px;
+    width: 162px;
 }
 
-.carwash .text-wrapper-12 {
+.maintenance-data .text-wrapper-15 {
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 31px;
-    letter-spacing: 0.6px;
-    line-height: normal;
-    position: absolute;
-    top: 12px;
-    white-space: nowrap;
-}
-
-.carwash .frame {
-    height: 528px;
-    left: 815px;
-    overflow: hidden;
-    overflow-y: scroll;
-    position: absolute;
-    top: 341px;
-    width: 716px;
-}
-
-.carwash .group-10 {
-    height: 121px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 718px;
-}
-
-.carwash .text-wrapper-13 {
-    color: #7a0202;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 18px;
-    font-weight: 700;
-    left: 0;
+    left: 57px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0;
+    top: 6px;
+    white-space: nowrap;
+    width: 103px;
 }
 
-.carwash .overlap-group-wrapper {
-    height: 86px;
+.maintenance-data .trash {
+    height: 47px;
     left: 0;
+    object-fit: cover;
     position: absolute;
-    top: 35px;
-    width: 720px;
+    top: 0;
+    width: 47px;
 }
 
-.carwash .overlap-group-2 {
-    background-color: #ff8e8e;
-    border-radius: 30px;
-    height: 86px;
+.maintenance-data .group-12 {
+    background-color: #890000;
+    border-radius: 20px;
+    height: 72px;
+    left: 875px;
+    position: absolute;
+    top: 865px;
+    width: 250px;
+}
+
+.maintenance-data .group-13 {
+    height: 48px;
+    left: 55px;
     position: relative;
-    width: 716px;
+    top: 12px;
+    width: 142px;
 }
 
-.carwash .awe {
-    height: 52px;
-    left: 620px;
-    object-fit: cover;
-    position: absolute;
-    top: 17px;
-    width: 53px;
-}
-
-.carwash .text-wrapper-14 {
-    color: #000000;
+.maintenance-data .text-wrapper-16 {
+    color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
-    left: 148px;
+    left: 67px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 28px;
+    top: 7px;
     white-space: nowrap;
-}
-
-.carwash .text-wrapper-15 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 25px;
-    font-weight: 700;
-    left: 424px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 28px;
-    white-space: nowrap;
-}
-
-.carwash .car {
-    height: 54px;
-    left: 36px;
-    object-fit: cover;
-    position: absolute;
-    top: 16px;
-    width: 58px;
-}
-
-.carwash .group-11 {
-    height: 121px;
-    left: 0;
-    position: absolute;
-    top: 145px;
-    width: 718px;
-}
-
-.carwash .group-12 {
-    height: 121px;
-    left: 0;
-    position: absolute;
-    top: 290px;
-    width: 718px;
-}
-
-.carwash .group-13 {
-    height: 121px;
-    left: 0;
-    position: absolute;
-    top: 435px;
-    width: 718px;
-}
-
-.carwash .group-14 {
-    height: 121px;
-    left: 0;
-    position: absolute;
-    top: 580px;
-    width: 718px;
+    width: 73px;
 }
