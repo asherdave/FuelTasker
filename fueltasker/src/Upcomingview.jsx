@@ -21,43 +21,43 @@ export const UpcomingView = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <div className="overlap-group">
+                        <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
-                        </div>
+                        </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <div className="group-2">
+                    <button className="group-2">
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
-                    </div>
-                    <div className="group-3">
+                    </button>
+                    <button className="group-3">
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
-                    </div>
-                    <div className="group-4">
+                    </button>
+                    <button className="group-4">
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice} />
-                    </div>
-                    <div className="group-5">
+                    </button>
+                    <button className="group-5">
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
-                    </div>
-                    <div className="group-6">
+                    </button>
+                    <button className="group-6">
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
-                    </div>
-                    <div className="group-7">
+                    </button>
+                    <button className="group-7">
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
-                    </div>
-                    <div className="group-8">
+                    </button>
+                    <button className="group-8">
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder} />
-                    </div>
-                    <div className="group-9">
+                    </button>
+                    <button className="group-9">
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline}/>
-                    </div>
+                    </button>
                 </div>
                 <div className="overlap-2">
                     <img className="reminder" alt="Reminder" src={reminder} />
@@ -89,7 +89,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1} />
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash} />
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                     <div className="group-10">
@@ -97,7 +99,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1} />
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash} />
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                     <div className="group-11">
@@ -105,7 +109,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1} />
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash} />
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                     <div className="group-12">
@@ -113,7 +119,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1} />
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash} />
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                     <div className="group-13">
@@ -121,7 +129,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1}/>
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash}/>
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                     <div className="group-14">
@@ -129,7 +139,9 @@ export const UpcomingView = () => {
                             <img className="ASDASF" alt="Asdasf" src={bell1} />
                             <div className="text-wrapper-14">2:00 PM 11/25/2023</div>
                             <div className="text-wrapper-15">CHANGE OIL</div>
-                            <img className="awe" alt="Awe" src={trash} />
+                            <button class="button" onclick="handleButtonClick()">
+                                <img className="awe" alt="Awe" src={trash} />
+                             </button>
                         </div>
                     </div>
                 </div>
