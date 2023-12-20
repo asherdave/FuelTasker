@@ -528,6 +528,13 @@
     width: 716px;
 }
 
+.carwash .button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .carwash .awe {
     height: 52px;
     left: 620px;
@@ -535,8 +542,12 @@
     position: absolute;
     top: 17px;
     width: 53px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
+.carwash .awe:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
+}
 .carwash .text-wrapper-14 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;

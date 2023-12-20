@@ -79,7 +79,9 @@ export const Carwash = () => {
                         <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                             </button>   
                                 <div className="text-wrapper-14">Full Detailing</div>
                                 <div className="text-wrapper-15">2000.00</div>
                                 <img className="car" alt="Car" src={car1} />
@@ -90,7 +92,9 @@ export const Carwash = () => {
                         <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                             </button>
                                 <div className="text-wrapper-14">Regular Wash</div>
                                 <div className="text-wrapper-15">350.00</div>
                                 <img className="car" alt="Car" src={car1} />
@@ -101,7 +105,9 @@ export const Carwash = () => {
                         <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                             </button>
                                 <div className="text-wrapper-14">Regular Wash</div>
                                 <div className="text-wrapper-15">350.00</div>
                                 <img className="car" alt="Car" src={car1} />
@@ -112,7 +118,9 @@ export const Carwash = () => {
                         <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                             </button>
                                 <div className="text-wrapper-14">Steam Cleaning</div>
                                 <div className="text-wrapper-15">800.00</div>
                                 <img className="car" alt="Car" src={car1} />
@@ -123,7 +131,9 @@ export const Carwash = () => {
                         <div className="text-wrapper-13">NOVEMBER 16, 2023</div>
                         <div className="overlap-group-wrapper">
                             <div className="overlap-group-2">
+                            <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash} />
+                             </button>
                                 <div className="text-wrapper-14">Steam Cleaning</div>
                                 <div className="text-wrapper-15">800.00</div>
                                 <img className="car" alt="Car" src={car1} />
