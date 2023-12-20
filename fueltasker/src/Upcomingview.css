@@ -49,6 +49,11 @@
     height: 50px;
     position: relative;
     width: 158px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.upcoming-view .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-2 {
@@ -79,7 +84,17 @@
     left: 120px;
     position: absolute;
     top: 998px;
-    width: 188px;
+    width: 158px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 20px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-2:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-3 {
@@ -87,29 +102,46 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 77px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 16px;
     white-space: nowrap;
+}
+
+.upcoming-view .img-logout {
+    height: 50px;
+    left: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 50px;
 }
 
 .upcoming-view .img {
     height: 50px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .upcoming-view .group-3 {
-    height: 40px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 256px;
-    width: 245px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-3:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-4 {
@@ -117,29 +149,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 82px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 15px;
     white-space: nowrap;
 }
 
 .upcoming-view .dash {
     height: 40px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 50px;
 }
 
 .upcoming-view .group-4 {
-    height: 48px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 345px;
-    width: 240px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-4:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-5 {
@@ -147,29 +187,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 81px;
+    left: 125px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .upcoming-view .gaspr {
     height: 48px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 48px;
 }
 
 .upcoming-view .group-5 {
-    height: 50px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 437px;
-    width: 310px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-5:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-6 {
@@ -177,50 +225,65 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 82px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 25px;
     white-space: nowrap;
 }
 
 .upcoming-view .group-6 {
-    height: 56px;
-    left: 59px;
+    left: 23px;
     position: absolute;
     top: 527px;
-    width: 246px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
 }
 
+.upcoming-view .group-6:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
+}
 .upcoming-view .text-wrapper-7 {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 85px;
+    left: 120px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 10px;
+    top: 25px;
     white-space: nowrap;
 }
 
 .upcoming-view .todolist {
     height: 56px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 56px;
 }
 
 .upcoming-view .group-7 {
-    height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 624px;
-    width: 302px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-7:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-8 {
@@ -228,37 +291,53 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 81px;
+    left: 125px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 9px;
+    top: 15px;
     white-space: nowrap;
 }
 
 .upcoming-view .img-2 {
     height: 49px;
-    left: 0;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 49px;
 }
 
 .upcoming-view .group-8 {
-    height: 49px;
-    left: 63px;
+    left: 23px;
     position: absolute;
     top: 717px;
-    width: 224px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-8:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .group-9 {
-    height: 46px;
-    left: 63px;
+    left: 62px;
     position: absolute;
     top: 811px;
-    width: 209px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    padding: 35px 190px; /* Padding to provide space for background */
+}
+
+.upcoming-view .group-9:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .upcoming-view .text-wrapper-9 {
@@ -266,20 +345,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 80px;
+    left: 90px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 5px;
+    top: 20px;
     white-space: nowrap;
 }
 
 .upcoming-view .timeline {
     height: 46px;
-    left: 0;
+    left: 17px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 14px;
     width: 46px;
 }
 
@@ -453,14 +532,6 @@
     position: absolute;
     top: 0;
     width: 909px;
-}
-
-.upcoming-view .overlap-group-2 {
-    background-color: #c9000080;
-    border-radius: 30px;
-    height: 120px;
-    position: relative;
-    width: 905px;
 }
 
 .upcoming-view .ASDASF {
