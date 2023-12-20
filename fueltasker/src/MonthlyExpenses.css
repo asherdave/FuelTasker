@@ -47,7 +47,11 @@
     border-radius: 80px;
     height: 50px;
     position: relative;
-    width: 158px;
+    width: 158px; transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.monthly-expenses .overlap-group:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .text-wrapper-2 {
