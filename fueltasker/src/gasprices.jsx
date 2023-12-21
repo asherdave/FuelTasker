@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./GasPrices.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
-import logout from './images/logout.png';
+import logout12 from './images/logout.png';
 import dashboard from './images/dashboard.png';
 import gasprice from './images/gasprices.png';
 import monthly from './images/monthlyexpenses.png';
@@ -14,6 +14,7 @@ import petron from './images/petron.png';
 import shell from './images/shell.png';
 import seaoil from './images/seaoil.png';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from './AuthContext'; // Ensure the path is correct
 
 export const GasPrices = () => {
 
@@ -21,13 +22,14 @@ export const GasPrices = () => {
         document.title = 'Gas Prices';
       }, []);
 
+    const { logout } = useAuth(); // Use useAuth hook
     const navigate = useNavigate();
     const [userData, setUserData] = useState({}); // State to hold user data
 
     // Function to fetch user data
     const fetchUserData = async () => {
         try {
-            const response = await fetch("http://localhost:8080/fueltasker/getAllUsers");
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
             const users = await response.json();
             if (users.length > 0) {
                 setUserData(users[0]); // Assuming you want to display the first user's data
@@ -70,13 +72,15 @@ export const GasPrices = () => {
         navigate('/timeline'); 
     };
 
-    const handleLoginClick = () => {
-        navigate('/login'); 
-    };
-
     const handleViewClick = () => {
         navigate('/viewprofile'); 
     };
+
+    const handleLogout = () => {
+        logout(); // Update the authentication state to false
+        navigate('/login'); // Redirect to login page
+    };
+
 
 
     return (
@@ -99,9 +103,9 @@ export const GasPrices = () => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2"onClick={handleLoginClick}>
+                    <button className="group-2"onClick={handleLogout}>
                         <div className="text-wrapper-4">Logout</div>
-                        <img className="img-logout" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout12} />
                     </button>
                     <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-5">Dashboard</div>

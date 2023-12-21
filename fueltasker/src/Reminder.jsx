@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Reminder.css';
-import logout from './images/logout.png';
+import logout12 from './images/logout.png';
 import profile from './images/profile.png';
 import dashboard from './images/dashboard.png';
 import gasprice from './images/gasprices.png';
@@ -11,9 +11,12 @@ import reminder from './images/reminder.png';
 import timeline from './images/timeline.png';
 import landscape from './images/landscape.png';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useAuth } from './AuthContext'; // Ensure the path is correct
 
 
 export const Reminder = () => {
+
+    const { logout } = useAuth(); // Use useAuth hook
     const navigate = useNavigate();
     const [userData, setUserData] = useState({}); // State to hold user data
 
@@ -75,9 +78,9 @@ useEffect(() => {
         navigate('/viewprofile'); 
     };
 
-    const handleLogoutClick = () => {
-        navigate('/login'); // Replace '/login' with your login route path
-        console.log("Logout button clicked, redirecting to login");
+  const handleLogout = () => {
+        logout(); // Update the authentication state to false
+        navigate('/login'); // Redirect to login page
     };
 
     return (
@@ -91,9 +94,9 @@ useEffect(() => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2" onClick={handleLogoutClick}>
+                    <button className="group-2" onClick={handleLogout}>
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img-logout" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout12} />
                     </button>
                     <div className="group-wrapper" onClick={handleReminderClick}>
                         <button className="group-3">

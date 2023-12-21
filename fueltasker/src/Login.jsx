@@ -2,9 +2,10 @@ import React, { useState, useEffect  } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Login.css";
 import registerImage from './images/register.png';
-import login from './images/login1.png';
+import login12 from './images/login1.png';
 import sidelogo from './images/sidelogo.png';
 import fulllogo from './images/fulllogo.png';
+import { useAuth } from './AuthContext'; // Import useAuth
 
 export const Login = () => {
 
@@ -13,6 +14,7 @@ export const Login = () => {
       }, []);
 
     const navigate = useNavigate();
+    const { login } = useAuth(); // Use useAuth hook
 
     // State for user input fields
     const [email, setEmail] = useState("");
@@ -68,10 +70,9 @@ useEffect(() => {
             });
 
             if (user) {
-                // Credentials are correct
-                navigate('/dashboard');
+                login(); // Update authentication state
+                navigate('/dashboard'); // Navigate to dashboard
             } else {
-                // Credentials are incorrect
                 setErrorMessage("Incorrect email or password.");
             }
         } catch (error) {
@@ -102,7 +103,7 @@ useEffect(() => {
                     </button>
                     <div className="overlap-group-wrapper">
                         <div className="overlap-group">
-                            <img className="img" alt="Login" src={login} />
+                            <img className="img" alt="Login" src={login12} />
                             <div className="text-wrapper-4">Login</div>
                         </div>
                     </div>

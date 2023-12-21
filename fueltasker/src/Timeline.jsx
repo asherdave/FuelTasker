@@ -3,7 +3,7 @@ import "./Timeline.css";
 
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
-import logout from './images/logout.png';
+import logout12 from './images/logout.png';
 import dashboard from './images/dashboard.png';
 import gasprice from './images/gasprices.png';
 import monthly from './images/monthlyexpenses.png';
@@ -19,8 +19,11 @@ import line14 from './images/Line14.png';
 import group140 from './images/Group140.png';
 import timeline1 from './images/timeline1.png'
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from './AuthContext'; // Ensure the path is correct
 
 export const Timeline = () => {
+
+    const { logout } = useAuth(); // Use useAuth hook
     const navigate = useNavigate();
     const [userData, setUserData] = useState({}); // State to hold user data
 
@@ -75,9 +78,9 @@ export const Timeline = () => {
         navigate('/viewprofile'); 
     };
 
-    const handleLogoutClick = () => {
-        navigate('/login'); // Replace '/login' with your login route path
-        console.log("Logout button clicked, redirecting to login");
+    const handleLogout = () => {
+        logout(); // Update the authentication state to false
+        navigate('/login'); // Redirect to login page
     };
 
 
@@ -92,9 +95,9 @@ export const Timeline = () => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2" onClick={handleLogoutClick}>
+                    <button className="group-2" onClick={handleLogout}>
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="img-logout" alt="Logout" src={logout} />
+                        <img className="img-logout" alt="Logout" src={logout12} />
                     </button>
                     <button className="group-3" onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>

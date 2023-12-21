@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Homepage } from './Home.jsx';
-import { Login } from './Login.jsx'; // Make sure to import the Login component
+import { Login } from './Login.jsx';
 import { Register } from './Register.jsx';
 import { AboutUs } from './AboutUs.jsx';
 import { Dashboard } from './Dashboard.jsx';
@@ -29,47 +29,45 @@ import { TodoListTask } from './TodolistData.jsx';
 import { AuthProvider } from './AuthContext.js';
 import ProtectedRoute from './ProtectedRoute'; // Make sure to create this component
 
-
 function App() {
   return (
     <AuthProvider> {/* Wrap the entire Router with AuthProvider */}
-    <Router>
-      <div className="App">
-        <Routes>
+      <Router>
+        <div className="App">
+          <Routes>
 
-          {/* Public Routes */}
+            {/* Public Routes */}
+            <Route path="/" element={<Homepage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/aboutus" element={<AboutUs />} />
 
-          <Route path="/" element={<Homepage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-
-          {/* Protected Routes */}
-
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/viewprofile" element={<ViewProfile />} />
-          <Route path="/editprofile" element={<EditProfile />} />
-          <Route path="/changepassword" element={<ChangePassword />} />
-          <Route path="/reminder" element={<Reminder />} />
-          <Route path="/todolist" element={<ToDoList />} />
-          <Route path="/gasprices" element={<GasPrices />} />
-          <Route path="/createreminder" element={<CreateReminder />} />
-          <Route path="/upcomingview" element={<UpcomingView />} />
-          <Route path="/pastview" element={<PastView />} />
-          <Route path="/timeline" element={<Timeline />} />
-          <Route path="/gas-consumption" element={<GasConsumption />} />
-          <Route path="/add-data" element={<AddData />} />
-          <Route path="/monthly-expenses" element={<MonthlyExpenses />} />
-          <Route path="/carwash" element={<Carwash />} />
-          <Route path="/carwash-data" element={<CarwashData />} />
-          <Route path="/customization" element={<Customization />} />
-          <Route path="/maintenance" element={<Maintenance />} />
-          <Route path="/maintenance-data" element={<MaintenanceData />} />
-          <Route path="/customization-data" element={<CustomizationData />} />
-          <Route path="/todolist-task" element={<TodoListTask />} />
+            {/* Protected Routes */}
+            <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+            <Route path="/viewprofile" element={<ProtectedRoute><ViewProfile /></ProtectedRoute>} />
+            <Route path="/editprofile" element={<ProtectedRoute><EditProfile /></ProtectedRoute>} />
+            <Route path="/changepassword" element={<ProtectedRoute><ChangePassword /></ProtectedRoute>} />
+            <Route path="/reminder" element={<ProtectedRoute><Reminder /></ProtectedRoute>} />
+            <Route path="/todolist" element={<ProtectedRoute><ToDoList /></ProtectedRoute>} />
+            <Route path="/gasprices" element={<ProtectedRoute><GasPrices /></ProtectedRoute>} />
+            <Route path="/createreminder" element={<ProtectedRoute><CreateReminder /></ProtectedRoute>} />
+            <Route path="/upcomingview" element={<ProtectedRoute><UpcomingView /></ProtectedRoute>} />
+            <Route path="/pastview" element={<ProtectedRoute><PastView /></ProtectedRoute>} />
+            <Route path="/timeline" element={<ProtectedRoute><Timeline /></ProtectedRoute>} />
+            <Route path="/gas-consumption" element={<ProtectedRoute><GasConsumption /></ProtectedRoute>} />
+            <Route path="/add-data" element={<ProtectedRoute><AddData /></ProtectedRoute>} />
+            <Route path="/monthly-expenses" element={<ProtectedRoute><MonthlyExpenses /></ProtectedRoute>} />
+            <Route path="/carwash" element={<ProtectedRoute><Carwash /></ProtectedRoute>} />
+            <Route path="/carwash-data" element={<ProtectedRoute><CarwashData /></ProtectedRoute>} />
+            <Route path="/customization" element={<ProtectedRoute><Customization /></ProtectedRoute>} />
+            <Route path="/maintenance" element={<ProtectedRoute><Maintenance /></ProtectedRoute>} />
+            <Route path="/maintenance-data" element={<ProtectedRoute><MaintenanceData /></ProtectedRoute>} />
+            <Route path="/customization-data" element={<ProtectedRoute><CustomizationData /></ProtectedRoute>} />
+            <Route path="/todolist-task" element={<ProtectedRoute><TodoListTask /></ProtectedRoute>} />
+            
           </Routes>
-      </div>
-    </Router>
+        </div>
+      </Router>
     </AuthProvider>
   );
 }

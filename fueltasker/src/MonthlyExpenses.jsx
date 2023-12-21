@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./MonthlyExpenses.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
-import logout from './images/logout.png';
+import logout12 from './images/logout.png';
 import dashboard from './images/dashboard.png';
 import gasprice from './images/gasprices.png';
 import monthly from './images/monthlyexpenses.png';
@@ -16,10 +16,12 @@ import gear from './images/gear.png';
 import car1 from './images/car1.png';
 import viewdetails from './images/viewdetails.png';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from './AuthContext'; // Ensure the path is correct
 
 
 export const MonthlyExpenses = () => {
-    
+
+    const { logout } = useAuth(); // Use useAuth hook
     const navigate = useNavigate();
     const [userData, setUserData] = useState({}); // State to hold user data
 
@@ -81,10 +83,10 @@ useEffect(() => {
         navigate('/viewprofile'); 
     };
 
-    const handleLoginClick = () => {
-        navigate('/login'); 
+    const handleLogout = () => {
+        logout(); // Update the authentication state to false
+        navigate('/login'); // Redirect to login page
     };
-
     return (
         <div className="monthly-expenses">
             <div className="div">
@@ -96,9 +98,9 @@ useEffect(() => {
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2"onClick={handleLoginClick}>
+                    <button className="group-2"onClick={handleLogout}>
                         <div className="text-wrapper-3">Logout</div>
-                        <img className="logout" alt="Logout" src={logout} />
+                        <img className="logout" alt="Logout" src={logout12} />
                     </button>
                     <button className="group-3"onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
