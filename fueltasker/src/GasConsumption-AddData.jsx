@@ -15,33 +15,68 @@ import savew1 from './images/savew1.png';
 import { useNavigate } from 'react-router-dom';
 
 export const AddData = () => {
+    const navigate = useNavigate();
+    const [gasConsumptionData, setGasConsumptionData] = useState([]);
+    const [formData, setFormData] = useState({
+        date: "",
+        odometer: "",
+        fuelvolume: "",
+        fuelunitprice: "",
+        notes: ""
+    });
 
     useEffect(() => {
         document.title = 'Add Data';
       }, []);
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+    const handleFormSubmit = async (e) => {
+        e.preventDefault();
 
-    const navigate = useNavigate();
-    const [userData, setUserData] = useState({}); // State to hold user data
-
-    
-
-     // Function to fetch user data
-     const fetchUserData = async () => {
         try {
-            const response = await fetch("http://localhost:8080/fueltasker/getAllUsers");
-            const users = await response.json();
-            if (users.length > 0) {
-                setUserData(users[0]); // Assuming you want to display the first user's data
+            const response = await fetch("http://localhost:8080/fueltasker/addDataGasConsumption", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                // Successful response, you can redirect or perform any other actions
+                console.log("Data added successfully");
+                await fetchGasConsumptionData();
+                navigate("/gas-consumption");
+            } else {
+                // Handle error cases
+                console.error("Failed to add data");
             }
         } catch (error) {
-            console.error('Error fetching data: ', error);
+            console.error("Error adding data: ", error);
+        }
+    };
+    
+
+     // Function to fetch gas consumption data
+    const fetchGasConsumptionData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/fueltasker/getAllGasConsumption");
+            const gasData = await response.json();
+            setGasConsumptionData(gasData);
+        } catch (error) {
+            console.error('Error fetching gas consumption data: ', error);
         }
     };
 
     // useEffect to call fetchUserData when the component mounts
     useEffect(() => {
-        fetchUserData();
-    }, []);
+        fetchGasConsumptionData();
+      }, []);
 
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
@@ -84,7 +119,7 @@ export const AddData = () => {
         <div className="add-data">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">{userData.fName}</div>
+                    <div className="text-wrapper"></div>
                     <div className="group">
                         <button className="overlap-group" onClick={handleViewProfileClick}>
                             <div className="text-wrapper-2">View Profile</div>
@@ -140,26 +175,31 @@ export const AddData = () => {
                 <div className="overlap-wrapper">
                     <div className="div-wrapper">
                         <div className="text-wrapper-11">Refueling Date</div>
+                        <input type="text" id="date" name="refuelingDate" className="rectangle"/>
                     </div>
                 </div>
                 <div className="overlap-group-wrapper">
                     <div className="div-wrapper">
                         <div className="text-wrapper-11">Current Odometer</div>
+                        <input type="text" id="odometer" name="currentodometer" className="rectangle"/>
                     </div>
                 </div>
                 <div className="group-11">
                     <div className="div-wrapper">
                         <div className="text-wrapper-11">Fuel Volume (per liter)</div>
+                        <input type="text" id="fuelvolume" name="fuelvolume" className="rectangle"/>
                     </div>
                 </div>
                 <div className="group-12">
                     <div className="div-wrapper">
-                        <p className="text-wrapper-110">Fuel Unit Price (per liter)</p>
+                        <div className="text-wrapper-110">Fuel Unit Price (per liter)</div>
+                        <input type="text" id="fuelunitprice" name="fuelunitprice" className="rectangle"/>
                     </div>
                 </div>
                 <div className="group-13">
                     <div className="div-wrapper">
                         <div className="text-wrapper-11">Notes</div>
+                        <input type="text" id="notes" name="notes" className="rectangle"/>
                     </div>
                 </div>
                 <div className="group-wrapper" onClick={handleGasConsumptionClick}>
@@ -168,12 +208,12 @@ export const AddData = () => {
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
                 </div>
-                <div className="group-15" onClick={handleGasConsumptionClick}>
+                <button className="group-15" onClick={handleFormSubmit}>
                     <div className="group-16">
                         <div className="text-wrapper-13">Save</div>
                         <img className="save" alt="Save" src={savew1}/>
                     </div>
-                </div>
+                </button>
                 <p className="fuel-data">
                     <span className="span">Fuel </span>
                     <span className="text-wrapper-14">Data</span>
