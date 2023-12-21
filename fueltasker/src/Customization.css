@@ -452,6 +452,11 @@
     height: 61px;
     position: relative;
     width: 203px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.customization .div-wrapper:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-12 {
