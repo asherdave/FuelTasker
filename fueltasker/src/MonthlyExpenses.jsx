@@ -17,6 +17,7 @@ import car1 from './images/car1.png';
 import viewdetails from './images/viewdetails.png';
 import { useNavigate } from 'react-router-dom';
 
+
 export const MonthlyExpenses = () => {
     const navigate = useNavigate();
 
@@ -44,30 +45,39 @@ export const MonthlyExpenses = () => {
         navigate('/timeline'); 
     };
 
-    const Viewdetails1 = () => {
+    const handleMaintenanceClick = () => {
+        navigate('/maintenance'); 
+    };
+
+    const handleCarWashClick = () => {
         navigate('/carwash'); 
     };
 
-    const Viewdetails2 = () => {
+    const handleCustomizationClick = () => {
         navigate('/customization'); 
     };
 
-    const Viewdetails3 = () => {
-        navigate('/maintenance'); 
+    const handleLoginClick = () => {
+        navigate('/login'); 
     };
+
+    const handleViewClick = () => {
+        navigate('/viewprofile'); 
+    };
+
 
     return (
         <div className="monthly-expenses">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
-                    <div className="group">
+                    <div className="group"onClick={handleViewClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="logout" alt="Logout" src={logout} />
                     </button>
@@ -134,18 +144,9 @@ export const MonthlyExpenses = () => {
                     <div className="text-wrapper-18">763,000.00</div>
                     <div className="text-wrapper-19">Total:</div>
                 </div>
-
-                <button type="button" className="button-class-1" onClick={Viewdetails3}>
-                    <img className="group-13" alt="Group" src={viewdetails} />
-                </button>
-
-                <button type="button" className="button-class-2"onClick={Viewdetails2}>
-                    <img className="group-14" alt="Group" src={viewdetails} />
-                </button>
-
-                <button type="button" className="button-class-3"onClick={Viewdetails1}>
-                    <img className="group-15" alt="Group" src={viewdetails} />
-                </button>
+                <img className="group-13" alt="Group" src={viewdetails} />
+                <img className="group-14" alt="Group" src={viewdetails} />
+                <img className="group-15" alt="Group" src={viewdetails} />
                 <div className="overlap-6">
                     <div className="monthly-expenses-wrapper">
                         <p className="p">

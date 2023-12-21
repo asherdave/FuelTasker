@@ -21,6 +21,39 @@ export const MaintenanceData = () => {
         navigate('/dashboard'); 
     };
 
+    const handleGasPricesClick = () => {
+        navigate('/gasprices'); 
+    };
+
+    const handleMonthlyClick = () => {
+        navigate('/monthly-expenses'); 
+    };
+
+    const handleToDoListClick = () => {
+        navigate('/todolist'); 
+    };
+
+    const handleGasConsumptionClick = () => {
+        navigate('/gas-consumption'); 
+    };
+
+    const handleReminderClick = () => {
+        navigate('/reminder'); 
+    };
+
+    const handleTimelineClick = () => {
+        navigate('/timeline'); 
+    };
+
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
+    const handleViewClick = () => {
+        navigate('/viewprofile'); 
+    };
+
+
     return (
         <div className="maintenance-data">
             <div className="div">
@@ -36,13 +69,13 @@ export const MaintenanceData = () => {
                 </div>
                 <div className="overlap-group">
                     <div className="text-wrapper-2">John Doe</div>
-                    <div className="overlap-group-wrapper">
+                    <div className="overlap-group-wrapper"onClick={handleViewClick}>
                         <button className="div-wrapper">
                             <div className="text-wrapper-3">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-4">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
@@ -50,27 +83,27 @@ export const MaintenanceData = () => {
                         <div className="text-wrapper-5">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <button className="group-4">
+                    <button className="group-4"onClick={handleGasPricesClick}>
                         <div className="text-wrapper-6">Gas Prices</div>
                         <img className="img-2-gaspr" alt="Gaspr" src={gasprice} />
                     </button>
-                    <button className="group-5">
+                    <button className="group-5"onClick={handleMonthlyClick}>
                         <div className="text-wrapper-7">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
                     </button>
-                    <button className="group-6">
+                    <button className="group-6"onClick={handleToDoListClick}>
                         <div className="text-wrapper-8">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist}/>
                     </button>
-                    <button className="group-7">
+                    <button className="group-7"onClick={handleGasConsumptionClick}>
                         <div className="text-wrapper-9">Gas Consumption</div>
                         <img className="img-3" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8"onClick={handleReminderClick}>
                         <div className="text-wrapper-6">Reminder</div>
                         <img className="img-3" alt="Reminder" src={reminder} />
                     </button>
-                    <button className="group-9">
+                    <button className="group-9"onClick={handleTimelineClick}>
                         <div className="text-wrapper-10">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline}/>
                     </button>

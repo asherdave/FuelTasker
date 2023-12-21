@@ -41,18 +41,30 @@ export const ToDoList = () => {
         navigate('/timeline'); 
     };
 
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
+    const handleAddClick = () => {
+        navigate('/todolist-task'); 
+    };
+
+    const handleViewClick = () => {
+        navigate('/viewprofile'); 
+    };
+
     return (
         <div className="to-do-list">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
-                    <div className="group">
+                    <div className="group"onClick={handleViewClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
@@ -162,7 +174,7 @@ export const ToDoList = () => {
                         <span className="text-wrapper-12">Task</span>
                     </p>
                     <div className="overlap-wrapper">
-                        <div className="div-wrapper">
+                        <div className="div-wrapper"onClick={handleAddClick}>
                             <div className="text-wrapper-13">Add Task</div>
                         </div>
                     </div>

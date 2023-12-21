@@ -46,6 +46,15 @@ export const GasPrices = () => {
         navigate('/timeline'); 
     };
 
+    const handleLoginClick = () => {
+        navigate('/login'); 
+    };
+
+    const handleViewClick = () => {
+        navigate('/viewprofile'); 
+    };
+
+
     return (
         <div className="gas-prices">
             <div className="div">
@@ -60,13 +69,13 @@ export const GasPrices = () => {
                 </div>
                 <div className="overlap-group">
                     <div className="text-wrapper-2">John Doe</div>
-                    <div className="group">
+                    <div className="group"onClick={handleViewClick}>
                         <button className="div-wrapper">
                             <div className="text-wrapper-3">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2"onClick={handleLoginClick}>
                         <div className="text-wrapper-4">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
