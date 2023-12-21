@@ -53,6 +53,10 @@ export const Carwash = () => {
         navigate('/login'); 
     };
 
+    const handleCarWashClick = () => {
+        navigate('/carwash-data'); 
+    };
+
     return (
         <div className="carwash">
             <div className="div">
@@ -109,7 +113,7 @@ export const Carwash = () => {
                 </div>
                 <div className="text-wrapper-11">Car Wash</div>
                 <div className="overlap-wrapper">
-                    <button className="div-wrapper"onClick={handleMonthlyClick}>
+                    <button className="div-wrapper"onClick={handleCarWashClick}>
                         <div className="text-wrapper-12">Add Data</div>
                     </button>
                 </div>

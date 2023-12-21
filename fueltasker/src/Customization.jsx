@@ -21,18 +21,55 @@ export const Customization = () => {
         navigate('/dashboard'); 
     };
 
+    const handleGasPricesClick = () => {
+        navigate('/gasprices'); 
+    };
+
+    const handleMonthlyExpensesClick = () => {
+        navigate('/monthly-expenses'); 
+    };
+
+    const handleToDoListClick = () => {
+        navigate('/todolist'); 
+    };
+
+    const handleGasConsumptionClick = () => {
+        navigate('/gas-consumption'); 
+    };
+
+    const handleReminderClick = () => {
+        navigate('/reminder'); 
+    };
+
+    const handleTimelineClick = () => {
+        navigate('/timeline'); 
+    };
+
+    const handleViewProfileClick = () => {
+        navigate('/viewprofile'); 
+    };
+
+    const handleLogoutClick = () => {
+        navigate('/login'); // Replace '/login' with your login route path
+        console.log("Logout button clicked, redirecting to login");
+    };
+
+    const handleGasConDataClick = () => {
+        navigate('/add-data');
+    };
+
     return (
         <div className="customization">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
-                    <div className="group">
+                    <div className="group" onClick={handleViewProfileClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2" onClick={handleLogoutClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
@@ -40,27 +77,27 @@ export const Customization = () => {
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard}/>
                     </button>
-                    <button className="group-4">
+                    <button className="group-4" onClick={handleGasPricesClick}>
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice}/>
                     </button>
-                    <button className="group-5">
+                    <button className="group-5" onClick={handleMonthlyExpensesClick}>
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
                     </button>
-                    <button className="group-6">
+                    <button className="group-6" onClick={handleToDoListClick}>
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist}/>
                     </button>
-                    <button className="group-7">
+                    <button className="group-7" onClick={handleGasConsumptionClick}>
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8" onClick={handleReminderClick}>
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder}/>
                     </button>
-                    <button className="group-9">
+                    <button className="group-9" onClick={handleTimelineClick}>
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
                     </button>
@@ -76,7 +113,7 @@ export const Customization = () => {
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                 </div>
                 <div className="text-wrapper-11">Customization</div>
-                <div className="overlap-wrapper">
+                <div className="overlap-wrapper" onClick={handleGasConDataClick}>
                     <button className="div-wrapper">
                         <div className="text-wrapper-12">Add Data</div>
                     </button>
