@@ -532,6 +532,7 @@
     left: 0;
     position: absolute;
     top: 0;
+    border-radius: 30px;
     width: 909px;
 }
 
@@ -599,6 +600,7 @@
     left: 0;
     position: absolute;
     top: 136px;
+    border-radius: 30px;
     width: 909px;
 }
 
@@ -609,6 +611,7 @@
     position: absolute;
     top: 272px;
     width: 909px;
+    border-radius: 30px;
 }
 
 .upcoming-view .group-12 {
@@ -617,6 +620,7 @@
     left: 0;
     position: absolute;
     top: 408px;
+    border-radius: 30px;
     width: 909px;
 }
 
@@ -625,6 +629,7 @@
     height: 120px;
     left: 0;
     position: absolute;
+    border-radius: 30px;
     top: 544px;
     width: 909px;
 }
@@ -633,6 +638,7 @@
     background-color: #c9000080;
     height: 120px;
     left: 0;
+    border-radius: 30px;
     position: absolute;
     top: 680px;
     width: 909px;
