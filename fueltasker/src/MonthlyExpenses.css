@@ -48,6 +48,7 @@
     height: 50px;
     position: relative;
     width: 158px; 
+    border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
@@ -637,6 +638,11 @@
     position: absolute;
     top: 802px;
     width: 297px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.monthly-expenses .group-13:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .group-14 {
@@ -645,6 +651,11 @@
     position: absolute;
     top: 616px;
     width: 297px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.monthly-expenses .group-14:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .group-15 {
@@ -653,6 +664,11 @@
     position: absolute;
     top: 429px;
     width: 297px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.monthly-expenses .group-15:hover {
+    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .monthly-expenses .overlap-6 {

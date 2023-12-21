@@ -17,9 +17,6 @@ import savew1 from './images/savew1.png';
 
 
 export const EditProfile = () => {
-    // Assuming userID is part of your component's state. Replace this with your actual userID source.
-    const [userID, setUserID] = useState('3');
-
     const [userData, setUserData] = useState({
         fname: '',
         lname: '',
@@ -27,19 +24,36 @@ export const EditProfile = () => {
         email: '',
         phoneNumber: ''
     });
+
     const handleInputChange = (e) => {
         setUserData({ ...userData, [e.target.name]: e.target.value });
     };
 
+    const validateInputs = () => {
+        // Basic validation checks
+        const { fname, lname, dateOfBirth, email, phoneNumber } = userData;
+        if (!fname || !lname || !dateOfBirth || !email || !phoneNumber) {
+            console.error("All fields are required.");
+            return false;
+        }
+        return true;
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!userID) {
-            console.error("UserID is required for updating profile.");
+        if (!validateInputs()) {
+            return;
+        }
+        const email = userData.email;
+        if (!email) {
+            console.error("Email is required for updating profile.");
             return;
         }
 
+        console.log('Sending data:', JSON.stringify(userData));  // Log the data being sent
+        
         try {
-            const response = await fetch(`http://localhost:8080/fueltasker/updateUser?userID=${userID}`, {
+            const response = await fetch(`http://localhost:8080/fueltasker/updateUser?email=${email}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -55,7 +69,6 @@ export const EditProfile = () => {
             console.error('Error updating data: ', error);
         }
     };
-
 
     return (
         

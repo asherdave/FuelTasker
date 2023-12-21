@@ -44,6 +44,17 @@ export const MonthlyExpenses = () => {
         navigate('/timeline'); 
     };
 
+    const Viewdetails1 = () => {
+        navigate('/carwash'); 
+    };
+
+    const Viewdetails2 = () => {
+        navigate('/customization'); 
+    };
+
+    const Viewdetails3 = () => {
+        navigate('/maintenance'); 
+    };
 
     return (
         <div className="monthly-expenses">
@@ -123,9 +134,18 @@ export const MonthlyExpenses = () => {
                     <div className="text-wrapper-18">763,000.00</div>
                     <div className="text-wrapper-19">Total:</div>
                 </div>
-                <img className="group-13" alt="Group" src={viewdetails} />
-                <img className="group-14" alt="Group" src={viewdetails} />
-                <img className="group-15" alt="Group" src={viewdetails} />
+
+                <button type="button" className="button-class-1" onClick={Viewdetails3}>
+                    <img className="group-13" alt="Group" src={viewdetails} />
+                </button>
+
+                <button type="button" className="button-class-2"onClick={Viewdetails2}>
+                    <img className="group-14" alt="Group" src={viewdetails} />
+                </button>
+
+                <button type="button" className="button-class-3"onClick={Viewdetails1}>
+                    <img className="group-15" alt="Group" src={viewdetails} />
+                </button>
                 <div className="overlap-6">
                     <div className="monthly-expenses-wrapper">
                         <p className="p">
