@@ -551,7 +551,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0px;
+    top: -7px;
     white-space: nowrap;
     width: 103px;
 }
@@ -597,7 +597,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 0px;
+    top: -5px;
     white-space: nowrap;
     width: 73px;
 }

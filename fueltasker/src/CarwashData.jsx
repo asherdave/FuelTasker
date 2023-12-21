@@ -123,14 +123,14 @@ export const CarwashData = () => {
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
                 </div>
-                <button className="group-wrapper">
-                    <div className="group-11" onClick={handleCarWashClick}>
+                <button className="group-wrapper"onClick={handleCarWashClick}>
+                    <div className="group-11" >
                         <div className="text-wrapper-14">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
                 </button>
-                <button className="div-wrapper">
-                    <div className="group-12" onClick={handleCarWashClick}>
+                <button className="div-wrapper"onClick={handleCarWashClick}>
+                    <div className="group-12" >
                         <div className="text-wrapper-15">Save</div>
                         <img className="img-2" alt="Save" src={savew1} />
                     </div>

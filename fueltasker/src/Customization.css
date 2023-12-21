@@ -49,11 +49,6 @@
     height: 50px;
     position: relative;
     width: 158px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-
-.customization .overlap-group:hover {
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-2 {
@@ -85,16 +80,6 @@
     position: absolute;
     top: 999px;
     width: 188px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */;
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 100px; /* Padding to provide space for background */
-}
-
-.customization .group-2:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-3 {
@@ -106,35 +91,25 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 17px;
+    top: 5px;
     white-space: nowrap;
 }
 
 .customization .img {
     height: 50px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 50px;
 }
 
 .customization .group-3 {
     height: 40px;
-    left: 23px;
+    left: 63px;
     position: absolute;
     top: 257px;
     width: 245px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-3:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-4 {
@@ -142,39 +117,29 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 150px;
+    left: 82px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 3px;
     white-space: nowrap;
 }
 
 .customization .dash {
     height: 40px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 50px;
 }
 
 .customization .group-4 {
     height: 48px;
-    left: 23px;
+    left: 59px;
     position: absolute;
     top: 346px;
     width: 240px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-4:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-5 {
@@ -182,39 +147,29 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 150px;
+    left: 81px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 6px;
     white-space: nowrap;
 }
 
 .customization .gaspr {
     height: 48px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 48px;
 }
 
 .customization .group-5 {
     height: 50px;
-    left: 23px;
+    left: 59px;
     position: absolute;
     top: 438px;
     width: 310px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-5:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-6 {
@@ -222,30 +177,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 150px;
+    left: 82px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 10px;
     white-space: nowrap;
 }
 
 .customization .group-6 {
     height: 56px;
-    left: 23px;
+    left: 59px;
     position: absolute;
     top: 528px;
     width: 246px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-6:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-7 {
@@ -253,39 +198,29 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 150px;
+    left: 85px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 10px;
     white-space: nowrap;
 }
 
 .customization .todolist {
     height: 56px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 56px;
 }
 
 .customization .group-7 {
     height: 49px;
-    left: 23px;
+    left: 63px;
     position: absolute;
     top: 625px;
     width: 302px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-7:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-8 {
@@ -293,57 +228,37 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 700;
-    left: 150px;
+    left: 81px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 9px;
     white-space: nowrap;
 }
 
 .customization .img-2 {
     height: 49px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 49px;
 }
 
 .customization .group-8 {
     height: 49px;
-    left: 23px;
+    left: 63px;
     position: absolute;
     top: 718px;
     width: 224px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-8:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .group-9 {
     height: 46px;
-    left: 23px;
+    left: 63px;
     position: absolute;
     top: 812px;
     width: 209px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: none;
-    background: transparent;
-    border-radius: 30px;
-    padding: 35px 190px; /* Padding to provide space for background */
-}
-
-.customization .group-9:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-9 {
@@ -351,20 +266,20 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 150px;
+    left: 80px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 18px;
+    top: 5px;
     white-space: nowrap;
 }
 
 .customization .timeline {
     height: 46px;
-    left: 50px;
+    left: 0;
     object-fit: cover;
     position: absolute;
-    top: 14px;
+    top: 0;
     width: 46px;
 }
 
@@ -453,11 +368,6 @@
     height: 61px;
     position: relative;
     width: 203px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-
-.customization .div-wrapper:hover {
-    transform: scale(1.1); /* Increase the size more significantly */
 }
 
 .customization .text-wrapper-12 {
@@ -479,7 +389,7 @@
     overflow: hidden;
     overflow-y: scroll;
     position: absolute;
-    top: 341px;
+    top: 345px;
     width: 716px;
 }
 
@@ -500,30 +410,11 @@
 }
 
 .customization .overlap-group-2 {
-    height: 50px;
-    left: 120px;
-    position: absolute;
-    top: 999px;
-    width: 188px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */;
-    border: none;
-    background: transparent;
+    background-color: #ff8e8e;
     border-radius: 30px;
-    padding: 35px 100px; /* Padding to provide space for background */
-}
-
-.customization .group-2:hover {
-    background-color: #f0f0f0; /* Change the background color on hover */
-    transform: scale(1.1); /* Increase the size more significantly */
-}
-
-.customization .img-logout {
-    height: 50px;
-    left: 15px;
-    object-fit: cover;
-    position: absolute;
-    top: 9px;
-    width: 50px;
+    height: 86px;
+    position: relative;
+    width: 716px;
 }
 
 .customization .awe {

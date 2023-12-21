@@ -80,7 +80,7 @@ export const Maintenance = () => {
                 <div className="frame">
                     <div className="group-10">
                         <div className="overlap-group-wrapper">
-                            <div className="overlap-g oup-2">
+                            <div className="overlap-group-2">
                             <button class="button" onclick="handleButtonClick()">
                                 <img className="awe" alt="Awe" src={trash}/>
                             </button>

@@ -55,7 +55,7 @@ export const Customization = () => {
     };
 
     const handleGasConDataClick = () => {
-        navigate('/add-data');
+        navigate('/customization-data');
     };
 
     return (
