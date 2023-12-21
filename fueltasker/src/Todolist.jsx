@@ -14,12 +14,15 @@ import trash from './images/trash.png';
 import check from './images/check.png';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext'; // Ensure the path is correct
+import axios from 'axios';
+
 
 export const ToDoList = () => {
 
     const { logout } = useAuth(); // Use useAuth hook
     const navigate = useNavigate();
     const [userData, setUserData] = useState({}); // State to hold user data
+    const [tasks, setTasks] = useState([]); // State to hold tasks
 
 // Function to fetch user data
 const fetchUserData = async () => {
@@ -38,6 +41,20 @@ const fetchUserData = async () => {
 useEffect(() => {
     fetchUserData();
 }, []);
+
+useEffect(() => {
+    fetchTasks();
+}, []);
+
+const fetchTasks = async () => {
+    try {
+        const response = await axios.get('http://localhost:8080/todolist/getAllToDoLists');
+        setTasks(response.data); // Make sure response.data is the array of tasks
+    } catch (error) {
+        console.error('Error fetching tasks:', error);
+    }
+};
+
 
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
@@ -75,6 +92,16 @@ useEffect(() => {
     const handleViewClick = () => {
         navigate('/viewprofile'); 
     };
+
+        const handleDeleteTask = async (taskId) => {
+            try {
+                await axios.delete(`http://localhost:8080/todolist/deleteToDoList/${taskId}`);
+                setTasks(tasks.filter(task => task.todolistId !== taskId)); // Use todolistId for comparison
+            } catch (error) {
+                console.error('Error deleting task:', error);
+            }
+        };
+        
 
     return (
         <div className="to-do-list">
@@ -135,60 +162,7 @@ useEffect(() => {
                                 <div className="text-wrapper-11">Apply Tint</div>
                             </div>
                         </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">PMS</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">Change Sparkplug</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">Change Sparkplug</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">Change Sparkplug</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">Change Sparkplug</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <div className="text-wrapper-11">Change Sparkplug</div>
-                                <img className="awe" alt="Awe" src={trash} />
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="overlap-3">
@@ -201,59 +175,24 @@ useEffect(() => {
                             <div className="text-wrapper-13">Add Task</div>
                         </div>
                     </div>
-                    <div className="group-wrapper">
+                    
+                    {tasks.map(task => (
+                    <div key={task.todolistId} className="group-wrapper">
                         <div className="group-10">
                             <div className="group-11">
                                 <div className="overlap-group-3">
                                     <div className="div-2" />
-                                    <div className="text-wrapper-14">Change Oil</div>
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                </div>
-                            </div>
-                            <div className="group-12">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                    <div className="text-wrapper-14">Clean Air Filter</div>
-                                </div>
-                            </div>
-                            <div className="group-13">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <div className="text-wrapper-14">Refill Coolant</div>
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                </div>
-                            </div>
-                            <div className="group-14">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                    <div className="text-wrapper-14">Car Wash</div>
-                                </div>
-                            </div>
-                            <div className="group-15">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                    <div className="text-wrapper-14">Car Wash</div>
-                                </div>
-                            </div>
-                            <div className="group-16">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <img className="awe-2" alt="Awe" src={trash} />
-                                    <div className="text-wrapper-14">Car Wash</div>
-                                </div>
-                            </div>
-                            <div className="group-17">
-                                <div className="overlap-group-3">
-                                    <div className="div-2" />
-                                    <div className="text-wrapper-14">Check Tire Pressure</div>
-                                    <img className="awe-2" alt="Awe" src={trash} />
+                                    <div className="text-wrapper-14">{task.tname}</div>
+                                    <button className="delete-button" onClick={() => handleDeleteTask(task.todolistId)}>
+                                        <img className="awe-2" alt="Delete" src={trash} />
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                ))}
+                
+                
                 </div>
                 <div className="overlap-4">
                     <p className="p">

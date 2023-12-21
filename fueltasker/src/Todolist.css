@@ -589,7 +589,14 @@
     object-fit: cover;
     position: absolute;
     top: 17px;
+    background: transparent;
+    border: none;
     width: 47px;
+}
+
+.to-do-list .delete-button {
+    background: transparent;
+    border: none;
 }
 
 .to-do-list .group-12 {
@@ -607,6 +614,8 @@
     top: 309px;
     width: 617px;
 }
+
+
 
 .to-do-list .group-14 {
     height: 86px;

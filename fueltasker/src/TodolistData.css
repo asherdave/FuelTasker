@@ -54,6 +54,7 @@
     background-color: #ffffff;
     border-radius: 80px;
     height: 50px;
+    border: none;
     position: relative;
     width: 158px;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
@@ -278,7 +279,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 30px;
     font-weight: 700;
-    left: 150x;
+    left: 10x;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -468,9 +469,13 @@
     border-radius: 20px;
     height: 191px;
     left: 0;
+    border: none;
     position: absolute;
     top: 52px;
-    width: 597px;
+    width: 535px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
 }
 
 .todo-list-task .group-11 {
@@ -486,9 +491,13 @@
     border-radius: 20px;
     height: 62px;
     left: 0;
+    border: none;
+    font-size: 30px;
     position: absolute;
     top: 48px;
-    width: 597px;
+    width: 535px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .todo-list-task .text-wrapper-12 {

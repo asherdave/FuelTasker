@@ -100,19 +100,20 @@ const handleSubmit = async (e) => {
 
         if (response.status === 200) {
             console.log('Task created successfully');
+            // Clear the input fields
+            setTaskName('');
+            setDescription('');
+            // Navigate to the ToDoList page
+            navigate('/todolist'); 
         } else {
             console.log('Response status:', response.status);
         }
-        // Handle the response or refresh the list
-        setTaskName('');
-        setDescription('');
-        console.log('Task Name:', taskName);
-        console.log('Description:', description);
 
     } catch (error) {
         console.error('Error creating task: ', error);
     }
 };
+
 
 
 
