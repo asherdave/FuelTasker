@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./ChangePassword.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
@@ -16,6 +16,10 @@ import savew1 from './images/savew1.png';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export const ChangePassword = () => {
+
+    useEffect(() => {
+        document.title = 'Change Password';
+      }, []);
 
     const navigate = useNavigate(); // Instantiate the navigate function
 

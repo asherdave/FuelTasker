@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Dashboard.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
@@ -18,12 +18,32 @@ import { useNavigate } from 'react-router-dom';
 
 export const Dashboard = () => {
 
-    const navigate = useNavigate();
+    useEffect(() => {
+        document.title = 'Dashboard';
+      }, []);
 
-    const handleLogoutClick = () => {
-        navigate('/login'); // Replace '/login' with your login route path
-        console.log("Logout button clicked, redirecting to login");
+    const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
+
+    
+
+     // Function to fetch user data
+     const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
     };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
 
     const handleviewprofileClick = () => {
         navigate('/viewprofile'); // Replace '/login' with your login route path
@@ -65,7 +85,7 @@ export const Dashboard = () => {
         <div className="dashboard">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group">
                         <button className="overlap-group"onClick={handleviewprofileClick}>
                             <div className="text-wrapper-2">View Profile</div>
@@ -204,7 +224,7 @@ export const Dashboard = () => {
                 </div>
                 <p className="hi-welcome-john-doe">
                     <span className="span">Hello, Welcome </span>
-                    <span className="text-wrapper-10">John Doe</span>
+                    <span className="text-wrapper-10">{userData.fName}</span>
                     <span className="span">!</span>
                 </p>
             </div>

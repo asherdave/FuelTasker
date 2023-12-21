@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./GasPrices.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
@@ -16,7 +16,31 @@ import seaoil from './images/seaoil.png';
 import { useNavigate } from 'react-router-dom';
 
 export const GasPrices = () => {
+
+    useEffect(() => {
+        document.title = 'Gas Prices';
+      }, []);
+
     const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
+
+    // Function to fetch user data
+    const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/fueltasker/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
 
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
@@ -68,7 +92,7 @@ export const GasPrices = () => {
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                 </div>
                 <div className="overlap-group">
-                    <div className="text-wrapper-2">John Doe</div>
+                    <div className="text-wrapper-2">{userData.fName}</div>
                     <div className="group"onClick={handleViewClick}>
                         <button className="div-wrapper">
                             <div className="text-wrapper-3">View Profile</div>

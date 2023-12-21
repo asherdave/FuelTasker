@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import registerImage from './images/register.png'; // Adjust the path if necessary
 import login from './images/login1.png';
@@ -7,6 +7,11 @@ import logo from './images/logo.png';
 import { useNavigate } from 'react-router-dom';
 
 export const Homepage = () => {
+
+    useEffect(() => {
+        document.title = 'Home';
+      }, []);
+
     const navigate = useNavigate();
 
     const handleLoginClick = () => {
@@ -23,6 +28,7 @@ export const Homepage = () => {
         navigate('/aboutus');
         console.log("About Us button clicked");
     };
+    
 
     return (
         <div className="homepage">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Customization.css";
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
@@ -15,7 +15,33 @@ import trash from './images/trash.png';
 import { useNavigate } from 'react-router-dom';
 
 export const Customization = () => {
+
+    useEffect(() => {
+        document.title = 'Customization';
+      }, []);
+
     const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
+
+    
+
+     // Function to fetch user data
+     const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
 
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
@@ -62,7 +88,7 @@ export const Customization = () => {
         <div className="customization">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group" onClick={handleViewProfileClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>

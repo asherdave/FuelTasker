@@ -7,6 +7,11 @@ import sidelogo from './images/sidelogo.png';
 import fulllogo from './images/fulllogo.png';
 
 export const Login = () => {
+
+    useEffect(() => {
+        document.title = 'Login';
+      }, []);
+
     const navigate = useNavigate();
 
     // State for user input fields
@@ -48,7 +53,7 @@ useEffect(() => {
 
         try {
             // Fetch all users from the API
-            const response = await fetch("http://localhost:8080/fueltasker/getAllUsers");
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

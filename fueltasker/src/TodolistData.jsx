@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./TodolistData.css";
+import axios from 'axios';
 import sidelogo from './images/sidelogo.png';
 import profile from './images/profile.png';
 import logout from './images/logout.png';
@@ -16,6 +17,28 @@ import { useNavigate } from 'react-router-dom';
 
 export const TodoListTask = () => {
     const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
+    const [taskName, setTaskName] = useState('');
+    const [description, setDescription] = useState('');
+    
+
+     // Function to fetch user data
+     const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
 
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
@@ -53,11 +76,51 @@ export const TodoListTask = () => {
         navigate('/viewprofile'); 
     };
 
+// Function to handle task deletion
+const handleDeleteTask = async (todolistId) => {
+    try {
+        const response = await axios.delete(`http://localhost:8080/todolist//deleteToDoList/${todolistId}`);
+        // Handle the response or refresh the list
+    } catch (error) {
+        console.error('Error deleting task: ', error);
+    }
+};
+
+const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevents the default form submission behavior
+    if (!taskName || !description) {
+        console.error('Task Name and Description are required');
+        return; // Exit the function if validation fails
+    }
+    try {
+        const response = await axios.post('http://localhost:8080/todolist/insertToDoList', {
+            tname: taskName,
+            desc: description
+        });
+
+        if (response.status === 200) {
+            console.log('Task created successfully');
+        } else {
+            console.log('Response status:', response.status);
+        }
+        // Handle the response or refresh the list
+        setTaskName('');
+        setDescription('');
+        console.log('Task Name:', taskName);
+        console.log('Description:', description);
+
+    } catch (error) {
+        console.error('Error creating task: ', error);
+    }
+};
+
+
+
     return (
         <div className="todo-list-task">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group"onClick={handleViewClick}>
                         <button className="overlap-group">
                             <div className="text-wrapper-2">View Profile</div>
@@ -107,30 +170,33 @@ export const TodoListTask = () => {
                     <img className="todolist-2" alt="Todolist" src={todolist}/>
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                 </div>
+                <form onSubmit={handleSubmit} className="task-form">
                 <div className="group-10">
-                    <div className="text-wrapper-11">Description:</div>
-                    <div className="rectangle" />
-                </div>
-                <div className="group-11">
-                    <div className="rectangle-2" />
-                    <div className="text-wrapper-12">TaskName:</div>
-                </div>
+                <div className="text-wrapper-11">Description:</div>
+                <input type="text" className="rectangle" onChange={(e) => setDescription(e.target.value)} />
+            </div>
+            <div className="group-11">
+            <input type="text" className="rectangle-2" onChange={(e) => setTaskName(e.target.value)} />
+                <div className="text-wrapper-12">TaskName:</div>
+            </div>
+            </form>
                 <p className="create-task">
                     <span className="span">Create </span>
                     <span className="text-wrapper-10">Task</span>
                 </p>
-                <button className="group-wrapper">
-                    <div className="group-12"onClick={handleToDoListClick}>
-                        <div className="text-wrapper-13">Cancel</div>
-                        <img className="trash" alt="Trash" src={trashw1} />
-                    </div>
-                </button>
-                <button className="div-wrapper">
-                    <div className="group-13"onClick={handleToDoListClick}>
-                        <div className="text-wrapper-14">Save</div>
-                        <img className="save" alt="Save" src={savew1} />
-                    </div>
-                </button>
+                <button className="group-wrapper" onClick={handleToDoListClick}>
+    <div className="group-12">
+        <div className="text-wrapper-13">Cancel</div>
+        <img className="trash" alt="Trash" src={trashw1} />
+    </div>
+</button>
+<button className="div-wrapper" onClick={handleSubmit}>
+    <div className="group-13">
+        <div className="text-wrapper-14">Save</div>
+        <img className="save" alt="Save" src={savew1} />
+    </div>
+</button>
+
             </div>
         </div>
     );

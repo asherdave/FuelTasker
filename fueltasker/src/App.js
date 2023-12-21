@@ -26,16 +26,26 @@ import { Maintenance } from './Maintenance.jsx';
 import { MaintenanceData } from './Maintenance-AddData.jsx';
 import { CustomizationData } from './Customization-AddData.jsx';
 import { TodoListTask } from './TodolistData.jsx';
+import { AuthProvider } from './AuthContext.js';
+import ProtectedRoute from './ProtectedRoute'; // Make sure to create this component
+
 
 function App() {
   return (
+    <AuthProvider> {/* Wrap the entire Router with AuthProvider */}
     <Router>
       <div className="App">
         <Routes>
+
+          {/* Public Routes */}
+
           <Route path="/" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/aboutus" element={<AboutUs />} />
+
+          {/* Protected Routes */}
+
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/viewprofile" element={<ViewProfile />} />
           <Route path="/editprofile" element={<EditProfile />} />
@@ -57,9 +67,10 @@ function App() {
           <Route path="/maintenance-data" element={<MaintenanceData />} />
           <Route path="/customization-data" element={<CustomizationData />} />
           <Route path="/todolist-task" element={<TodoListTask />} />
-        </Routes>
+          </Routes>
       </div>
     </Router>
+    </AuthProvider>
   );
 }
 

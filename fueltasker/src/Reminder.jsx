@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import './Reminder.css';
 import logout from './images/logout.png';
 import profile from './images/profile.png';
@@ -14,7 +14,26 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 
 export const Reminder = () => {
-    const navigate = useNavigate(); // Instantiate the navigate function
+    const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
+
+// Function to fetch user data
+const fetchUserData = async () => {
+    try {
+        const response = await fetch("http://localhost:8080/user/getAllUsers");
+        const users = await response.json();
+        if (users.length > 0) {
+            setUserData(users[0]); // Assuming you want to display the first user's data
+        }
+    } catch (error) {
+        console.error('Error fetching data: ', error);
+    }
+};
+
+// useEffect to call fetchUserData when the component mounts
+useEffect(() => {
+    fetchUserData();
+}, []);
 
     const handleCreateReminderClick = () => {
         navigate("/CreateReminder"); // Navigate to the create reminder page
@@ -65,7 +84,7 @@ export const Reminder = () => {
         <div className="reminder">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group">
                         <button className="overlap-group" onClick={handleViewProfileClick}>
                             <div className="text-wrapper-2">View Profile</div>

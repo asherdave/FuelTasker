@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Register.css";
 import registerImage from './images/register.png';
 import login from './images/login1.png';
@@ -8,6 +8,12 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export const Register = () => {
+
+    useEffect(() => {
+        document.title = 'Register';
+      }, []);
+
+
     const navigate = useNavigate();
     const [userData, setUserData] = useState({
         fName: '',
@@ -52,7 +58,7 @@ export const Register = () => {
 
         console.log("Submitting user data:", userData);
         try {
-            const response = await axios.post('http://localhost:8080/fueltasker/registerUser', userData);
+            const response = await axios.post('http://localhost:8080/user/insertUser', userData);
             console.log("Response received:", response.data);
             navigate('/login');
         } catch (error) {

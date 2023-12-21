@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./AboutUs.css";
 import registerImage from './images/register.png';
 import login from './images/login1.png';
@@ -12,6 +12,10 @@ import emmarson from './images/emmarson.png';
 import { useNavigate } from 'react-router-dom';
 
 export const AboutUs = () => {
+
+    useEffect(() => {
+        document.title = 'About Us';
+      }, []);
 
     const navigate = useNavigate();
 

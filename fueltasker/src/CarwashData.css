@@ -49,6 +49,7 @@
     height: 50px;
     position: relative;
     width: 158px;
+    border: none;
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 

@@ -19,7 +19,31 @@ import { useNavigate } from 'react-router-dom';
 
 export const EditProfile = () => {
 
+    useEffect(() => {
+        document.title = 'Edit Profile';
+      }, []);
+
     const navigate = useNavigate();
+
+    
+
+     // Function to fetch user data
+     const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
 
     const handleLogoutClick = () => {
         navigate('/login'); // Replace '/login' with your login route path
@@ -117,7 +141,7 @@ export const EditProfile = () => {
         <div className="edit-profile">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group">
                         <button className="overlap-group" onClick={handleviewprofileClick}>
                             <div className="text-wrapper-2">View Profile</div>

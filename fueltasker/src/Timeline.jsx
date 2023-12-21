@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Timeline.css";
 
 import sidelogo from './images/sidelogo.png';
@@ -22,7 +22,27 @@ import { useNavigate } from 'react-router-dom';
 
 export const Timeline = () => {
     const navigate = useNavigate();
+    const [userData, setUserData] = useState({}); // State to hold user data
 
+    
+
+     // Function to fetch user data
+     const fetchUserData = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/user/getAllUsers");
+            const users = await response.json();
+            if (users.length > 0) {
+                setUserData(users[0]); // Assuming you want to display the first user's data
+            }
+        } catch (error) {
+            console.error('Error fetching data: ', error);
+        }
+    };
+
+    // useEffect to call fetchUserData when the component mounts
+    useEffect(() => {
+        fetchUserData();
+    }, []);
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
     };
@@ -65,7 +85,7 @@ export const Timeline = () => {
         <div className="timeline">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">John Doe</div>
+                    <div className="text-wrapper">{userData.fName}</div>
                     <div className="group">
                         <button className="overlap-group" onClick={handleViewProfileClick}>
                             <div className="text-wrapper-2">View Profile</div>
