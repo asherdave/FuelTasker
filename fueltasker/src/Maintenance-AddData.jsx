@@ -53,6 +53,10 @@ export const MaintenanceData = () => {
         navigate('/viewprofile'); 
     };
 
+    const handleMaintenanceClick = () => {
+        navigate('/maintenance'); 
+    };
+
 
     return (
         <div className="maintenance-data">
@@ -117,13 +121,13 @@ export const MaintenanceData = () => {
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
                 </div>
-                <button className="group-wrapper">
+                <button className="group-wrapper" onClick={handleMaintenanceClick}>
                     <div className="group-11">
                         <div className="text-wrapper-15">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
                 </button>
-                <button className="group-12">
+                <button className="group-12" onClick={handleMaintenanceClick}>
                     <div className="group-13">
                         <div className="text-wrapper-16">Save</div>
                         <img className="img-2" alt="Save" src={savew1} />
