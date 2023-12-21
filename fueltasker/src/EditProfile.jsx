@@ -14,9 +14,51 @@ import timeline from './images/timeline.png';
 import viewprofile from './images/viewprofile.png';
 import trashw1 from './images/trashw1.png';
 import savew1 from './images/savew1.png';
+import { useNavigate } from 'react-router-dom';
 
 
 export const EditProfile = () => {
+
+    const navigate = useNavigate();
+
+    const handleLogoutClick = () => {
+        navigate('/login'); // Replace '/login' with your login route path
+        console.log("Logout button clicked, redirecting to login");
+    };
+
+    const handleviewprofileClick = () => {
+        navigate('/viewprofile'); // Replace '/login' with your login route path
+        console.log("redirect to viewprofile");
+    };
+
+    const handleReminderClick = () => {
+        navigate('/reminder'); 
+    };
+
+    const handleGasPricesClick = () => {
+        navigate('/gasprices'); 
+    };
+
+    const handleMonthlyExpensesClick = () => {
+        navigate('/monthly-expenses'); 
+    };
+
+    const handleToDoListClick = () => {
+        navigate('/todolist'); 
+    };
+
+    const handleGasConsumptionClick = () => {
+        navigate('/gas-consumption'); 
+    };
+
+    const handleTimelineClick = () => {
+        navigate('/timeline'); 
+    };
+
+    const handleDashboardClick = () => {
+        navigate('/dashboard'); 
+    };
+
     const [userData, setUserData] = useState({
         fname: '',
         lname: '',
@@ -77,40 +119,40 @@ export const EditProfile = () => {
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <button className="overlap-group" onClick={handleviewprofileClick}>
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2" onClick={handleLogoutClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout}/>
                     </button>
-                    <button className="group-3">
+                    <button className="group-3" onClick={handleDashboardClick}>
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <button className="group-4">
+                    <button className="group-4"onClick={handleGasPricesClick}>
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="img-2" alt="Gaspr" src={gasprice} />
                     </button>
-                    <button className="group-5">
+                    <button className="group-5" onClick={handleMonthlyExpensesClick}>
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly}/>
                     </button>
-                    <button className="group-6">
+                    <button className="group-6" onClick={handleToDoListClick}>
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
                     </button>
-                    <button className="group-7">
+                    <button className="group-7" onClick={handleGasConsumptionClick}>
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon}/>
                     </button>
-                    <button className="group-8">
+                    <button className="group-8" onClick={handleReminderClick}>
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-3" alt="Reminder" src={reminder} />
                     </button>
-                    <button className="group-9">
+                    <button className="group-9" onClick={handleTimelineClick}>
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
                     </button>
@@ -186,13 +228,13 @@ export const EditProfile = () => {
 
                 
                 <button type="submit" className="group-11">
-                        <div className="group-12">
+                        <div className="group-12" onClick={handleviewprofileClick}>
                             <div className="text-wrapper-19">Save</div>
                             <img className="img-save" alt="Save" src={savew1} />
                         </div>
                     </button>
                 </form>
-                <button className="group-wrapper">
+                <button className="group-wrapper" onClick={handleviewprofileClick}>
                     <div className="group-10">
                         <div className="text-wrapper-18">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />

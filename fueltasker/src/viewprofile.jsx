@@ -51,7 +51,15 @@ export const ViewProfile = () => {
     };
 
     const handleLogoutClick = () => {
-        navigate("/logout"); // Navigate to the upcoming page
+        navigate("/login"); // Navigate to the upcoming page
+    };
+
+    const handleChangePassClick = () => {
+        navigate("/changepassword"); // Navigate to the upcoming page
+    };
+
+    const handleviewprofileClick = () => {
+        navigate("/viewprofile"); // Navigate to the upcoming page
     };
 
     // Function to fetch user data
@@ -76,9 +84,9 @@ export const ViewProfile = () => {
         <div className="view-profile">
             <div className="div">
                 <div className="overlap">
-                    <div className="text-wrapper">{userData.fName}</div>
+                    <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <button className="overlap-group" onClick={handleviewprofileClick}>
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
@@ -140,7 +148,7 @@ export const ViewProfile = () => {
                     </button>
                 </div>
                 <div className="group-10">
-                    <button className="div-wrapper">
+                    <button className="div-wrapper" onClick={handleChangePassClick}>
                         <div className="text-wrapper-13">Change Password</div>
                     </button>
                 </div>
