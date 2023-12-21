@@ -18,21 +18,64 @@ import { useNavigate } from 'react-router-dom';
 
 export const PastView = () => {
     const navigate = useNavigate();
+
     const handleDashboardClick = () => {
         navigate('/dashboard'); 
     };
+
+    const handlePastViewClick = () => {
+        navigate("/pastview"); // Navigate to the create reminder page
+    };
+
+    const handleUpcomingViewClick = () => {
+        navigate("/upcomingview"); // Navigate to the upcoming page
+    };
+
+    const handleGasPricesClick = () => {
+        navigate("/gasprices"); // Navigate to the upcoming page
+    };
+
+    const handleMonthlyExpensesClick = () => {
+        navigate("/monthly-expenses"); // Navigate to the upcoming page
+    };
+
+    const handleToDoListClick = () => {
+        navigate("/todolist"); // Navigate to the upcoming page
+    };
+
+    const handleGasConsumptionClick = () => {
+        navigate("/gas-consumption"); // Navigate to the upcoming page
+    };
+
+    const handleReminderClick = () => {
+        navigate("/reminder"); // Navigate to the upcoming page
+    };
+
+    const handleTimelineClick = () => {
+        navigate("/timeline"); // Navigate to the upcoming page
+    };
+
+    const handleViewProfileClick = () => {
+        navigate('/viewprofile'); 
+    };
+
+    const handleLogoutClick = () => {
+        navigate('/login'); // Replace '/login' with your login route path
+        console.log("Logout button clicked, redirecting to login");
+    };
+
     return (
         <div className="past-view">
             <div className="div">
                 <div className="overlap">
                     <div className="text-wrapper">John Doe</div>
                     <div className="group">
-                        <button className="overlap-group">
+                        <button className="overlap-group" onClick={handleViewProfileClick}>
                             <div className="text-wrapper-2">View Profile</div>
                         </button>
                     </div>
                     <img className="ellipse" alt="Ellipse" src={profile} />
-                    <button className="group-2">
+                    <button className="group-2" onClick={handleLogoutClick}>
                         <div className="text-wrapper-3">Logout</div>
                         <img className="img-logout" alt="Logout" src={logout} />
                     </button>
@@ -40,27 +83,27 @@ export const PastView = () => {
                         <div className="text-wrapper-4">Dashboard</div>
                         <img className="dash" alt="Dash" src={dashboard} />
                     </button>
-                    <button className="group-4">
+                    <button className="group-4" onClick={handleGasPricesClick}>
                         <div className="text-wrapper-5">Gas Prices</div>
                         <img className="gaspr" alt="Gaspr" src={gasprice} />
                     </button>
-                    <button className="group-5">
+                    <button className="group-5" onClick={handleMonthlyExpensesClick}>
                         <div className="text-wrapper-6">Monthly Expenses</div>
                         <img className="img" alt="Monthly" src={monthly} />
                     </button>
-                    <button className="group-6">
+                    <button className="group-6" onClick={handleToDoListClick}>
                         <div className="text-wrapper-7">To-Do-List</div>
                         <img className="todolist" alt="Todolist" src={todolist} />
                     </button>
-                    <button className="group-7">
+                    <button className="group-7" onClick={handleGasConsumptionClick}>
                         <div className="text-wrapper-8">Gas Consumption</div>
                         <img className="img-2" alt="Gascon" src={gascon} />
                     </button>
-                    <button className="group-8">
+                    <button className="group-8" onClick={handleReminderClick}>
                         <div className="text-wrapper-5">Reminder</div>
                         <img className="img-2" alt="Reminder" src={reminder}/>
                     </button>
-                    <button className="group-9">
+                    <button className="group-9" onClick={handleTimelineClick}>
                         <div className="text-wrapper-9">Timeline</div>
                         <img className="timeline" alt="Timeline" src={timeline} />
                     </button>
@@ -81,9 +124,9 @@ export const PastView = () => {
                     <span className="text-wrapper-11">Reminder</span>
                 </p>
                 <div className="overlap-3">
-                    <div className="rectangle-3" />
+                    <div className="rectangle-3" onClick={handlePastViewClick}/>
                     <div className="overlap-wrapper">
-                        <div className="div-wrapper">
+                        <div className="div-wrapper" onClick={handleUpcomingViewClick}>
                             <div className="text-wrapper-12">UPCOMING</div>
                         </div>
                     </div>
