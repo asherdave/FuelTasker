@@ -136,13 +136,13 @@ export const AddData = () => {
                         <div className="text-wrapper-11">Notes</div>
                     </div>
                 </div>
-                <div className="group-wrapper">
+                <div className="group-wrapper" onClick={handleGasConsumptionClick}>
                     <div className="group-14">
                         <div className="text-wrapper-12">Cancel</div>
                         <img className="trash" alt="Trash" src={trashw1} />
                     </div>
                 </div>
-                <div className="group-15">
+                <div className="group-15" onClick={handleGasConsumptionClick}>
                     <div className="group-16">
                         <div className="text-wrapper-13">Save</div>
                         <img className="save" alt="Save" src={savew1}/>

@@ -58,6 +58,10 @@ export const GasConsumption = () => {
         console.log("Logout button clicked, redirecting to login");
     };
 
+    const handleGasConDataClick = () => {
+        navigate('/add-data');
+    };
+
     return (
         <div className="gas-consumption">
             <div className="div">
@@ -191,7 +195,7 @@ export const GasConsumption = () => {
                         <img className="element-3" alt="Element" src={gaspump} />
                     </div>
                 </div>
-                <button className="overlap-5">
+                <button className="overlap-5" onClick={handleGasConDataClick}>
                     <div className="text-wrapper-add">Add Data</div>
                 </button>
             </div>
