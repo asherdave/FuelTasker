@@ -153,15 +153,6 @@ const fetchTasks = async () => {
                         <span className="text-wrapper-10"> Task</span>
                     </p>
                     <div className="frame">
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-2">
-                                <div className="div-2">
-                                    <img className="check" alt="Check" src={check} />
-                                </div>
-                                <img className="awe" alt="Awe" src={trash} />
-                                <div className="text-wrapper-11">Apply Tint</div>
-                            </div>
-                        </div>
                         
                     </div>
                 </div>
@@ -202,10 +193,6 @@ const fetchTasks = async () => {
                     <img className="todolist-2" alt="Todolist" src={todolist}/>
                     <img className="landscape" alt="Landscape" src={sidelogo} />
                 </div>
-                <p className="element-COMPLETE">
-                    <span className="text-wrapper-10">38% </span>
-                    <span className="span">COMPLETE</span>
-                </p>
             </div>
         </div>
     );
